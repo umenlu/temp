@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>升级生意参谋 让数据业务化更简单_企元</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">升级生意参谋 让数据业务化更简单</div>
+<div class="content1"><span style="font-family: 微软雅黑;"><span style="font-size: 16px;"><img alt="" src="/uploads/allimg/151215/1-1512151G2535Q.jpg" style="width: 690px; height: 406px;" /><br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.qynet.cc/">阿里巴巴</a>在推进业务数据化的同时，也在推进帮助商家实现数据业务化。</span></span><br />
+<br />
+<span style="font-family: 微软雅黑; font-size: 16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 阿里数据技术与产品部总监朋新宇表示，生意参谋能为商家解决痛点，看到、看懂、看清、看明白数据；增加爽点，这一秒就能看到前一秒的数据；追逐爆点，实现实时数据与可视化相结合。</span><br />
+<br />
+<span style="font-family: 微软雅黑;"><span style="font-size: 16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在产品层面，为解决众多的出口和产品给数据应用者带来的困扰，近年来，阿里巴巴数据团队不断对数据产品和工具进行整合和升级。两年前，大淘系的数据产品和工具多达38个，去年底缩减为15个，到今年年中进一步缩至9个。在整合升级的过程中，虽然精简了产品数量，但服务能力和范围却在迅速增加。商家端统一数据产品平台&mdash;&mdash;生意参谋也顺势而生。作为阿里巴巴重兵打造的首个商家统一数据平台，生意参谋平台面向全体商家，提供一站式、个性化、可定制的商务决策体验。据悉，淘宝天猫月成交金额30万以上的商家中，逾90%在使用生意参谋。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在技术层面，通过逻辑化的计算可以快速形成场景化的数据展示，数据可视化不断升级。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 以生意参谋为例，为了让数据更加简单直观，方便商家读懂和使用，2015年双11前，生意参谋推出&ldquo;数据作战室&rdquo;。对于分店众多、管理复杂的商家而言，通过数据作战室的多店概况屏，可系统查看30家分店铺的汇总销售数据以及销量排名TOP10的店铺，帮助管理层快速了解连锁分店的销售状况和业绩完成情况。同时，为了满足企业品牌宣传、鼓舞团队士气等多种应用场景，生意参谋不仅在PC端为商家提供服务，在无线端甚至TV端也同步提供服务。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.qynet.cc/">阿里巴巴</a>大数据团队的使命是提供全面优质的原数据服务、支持DIY的数据工具、一站式的数据产品等多种服务类型，让不同发展阶段、不同技术能力的商家都能在平台上找到合适的数据使用方式。</span></span> </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/news/info/183.html'>新浪直播间对话阿里YunOS事业部产品总监胡晓东</a> </li>
+
+        <li>下一篇：<a href='/news/info/185.html'>第二届世界互联网大会于16至18日在浙江乌镇举行</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/></p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

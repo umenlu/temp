@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>阿里巴巴涉足钢铁行业 加速钢铁电商发展_企元时代</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/html5.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/index.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/Services.css">
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href='http://www.qynet.cc'" class="logo" style=" width:170px;"><input type="image" src="http://www.qynet.cc/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc'" src="http://www.qynet.cc/images/01.jpg"/>
+			<a href="http://www.qynet.cc/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/about/'"  src="http://www.qynet.cc/images/02.jpg"/>
+			<a href="http://www.qynet.cc/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/services/'"  src="http://www.qynet.cc/images/04.jpg"/>
+			<a href="http://www.qynet.cc/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/case/'"  src="http://www.qynet.cc/images/05.jpg"/>
+			<a href="http://www.qynet.cc/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/news/'"  src="http://www.qynet.cc/images/03.jpg"/>
+			<a href="http://www.qynet.cc/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/muban/'"  src="http://www.qynet.cc/images/06.jpg"/>
+			<a href="http://www.qynet.cc/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/zhaopin/'"  src="http://www.qynet.cc/images/07.jpg" />
+			<a href="http://www.qynet.cc/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/contact/'"  src="http://www.qynet.cc/images/08.jpg"/>
+			<a href="http://www.qynet.cc/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="http://www.qynet.cc/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">阿里巴巴涉足钢铁行业 加速钢铁电商发展</div>
+<div class="content1"><span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-size:16px;">目前国内钢铁电商平台正处于发展初期，行业整体混乱，随着互联网巨头入局，钢铁电商的整合趋势或将加速。</span>互联网巨头阿里巴巴准备涉足正处低迷期的钢铁行业。五矿发展公司将联合<a href="http://www.qynet.cc/">阿里巴巴</a>等企业对旗下五矿电子商务有限公司（以下简称&ldquo;五矿电商&rdquo;）增资，成立钢铁交易B2B平台。这将促进钢铁行业成功转型电商，而且让钢铁市场越来越规范化，带动该行业整体发展。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 五矿发展拟联合阿里巴巴旗下的阿里创业投资有限公司及五矿电商员工激励平台北京海立云垂投资管理中心共同向五矿电商增资5.92亿元。增资完成后，五矿发展持有五矿电商46%股权，阿里创业投资有限公司持有44%股权，北京海立云垂投资管理中心持有10%。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 据了解，在经历了20年疯狂发展的黄金时期后，传统钢铁行业正面临产能过剩、需求疲软的困境。在当前&ldquo;互联网+&rdquo;的影响下，电商销售渠道成为钢铁企业谋求的新出路。资料显示，目前国内已经有超过200家钢铁电商平台，2014年全国钢铁电商平台线上钢材交易量占总交易量的10%，交易额突破了2000亿元。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 不可否认的是，虽然钢铁电商平台发展较快，但目前还没有找到真正的盈利模式，平台业绩普遍出现亏损，以五矿电商为例，2015年1-6月累计营收95.96万元，归属于母公司所有者的净利润为-1509.76万元；2014年累计实现营收为156.66万元，归属于母公司所有者的净利润为-757.19万元。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 面对这种情况，有业内人士指出，钢铁电商平台目前存在同质竞争、营销手段单一等诸多问题，随着像阿里巴巴这样的互联网巨头的介入，更多钢铁电商平台的市场份额会进一步被吞食，行业整合趋势将因此加快，阿里巴巴做B2B平台已经很成熟了，很多大集团采购都是通过阿里巴巴在线交易的，尤其非销品这几年做的也非常好，随着阿里巴巴和钢铁行业合作，会带动更多的源头厂家商家，像天津就是钢铁之乡，发展电商会给各地买家带来更多的优势货源。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 作为<a href="http://www.qynet.cc/">阿里巴巴天津诚信通渠道商企元时代</a>也有责任帮助本地钢铁行业成功转型电商，而且<a href="http://www.qynet.cc/">企元时代</a>还将提供免费优质的培训课程专门给钢铁企业量身制定符合行业发展的电商运营策略，让钢铁行业转型电商避免很多弯路。</span><br />
+ </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='http://www.qynet.cc/news/info/169.html'>马云“媒体帝国”下一目标“南华早报”</a> </li>
+
+        <li>下一篇：<a href='http://www.qynet.cc/news/info/171.html'>阿里双十二新玩法：买家也可以赚钱</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="http://www.qynet.cc/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="http://www.qynet.cc/images/j (1).png"/>
+                    <img src="http://www.qynet.cc/images/j (2).png"/>
+                    <img src="http://www.qynet.cc/images/j (3).png"/>
+                    <img src="http://www.qynet.cc/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

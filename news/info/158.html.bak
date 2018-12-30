@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>阿里“11.18大促”商家们的“双11”_企元时代</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/html5.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/index.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/Services.css">
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href='http://www.qynet.cc'" class="logo" style=" width:170px;"><input type="image" src="http://www.qynet.cc/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc'" src="http://www.qynet.cc/images/01.jpg"/>
+			<a href="http://www.qynet.cc/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/about/'"  src="http://www.qynet.cc/images/02.jpg"/>
+			<a href="http://www.qynet.cc/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/services/'"  src="http://www.qynet.cc/images/04.jpg"/>
+			<a href="http://www.qynet.cc/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/case/'"  src="http://www.qynet.cc/images/05.jpg"/>
+			<a href="http://www.qynet.cc/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/news/'"  src="http://www.qynet.cc/images/03.jpg"/>
+			<a href="http://www.qynet.cc/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/muban/'"  src="http://www.qynet.cc/images/06.jpg"/>
+			<a href="http://www.qynet.cc/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/zhaopin/'"  src="http://www.qynet.cc/images/07.jpg" />
+			<a href="http://www.qynet.cc/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/contact/'"  src="http://www.qynet.cc/images/08.jpg"/>
+			<a href="http://www.qynet.cc/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="http://www.qynet.cc/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">阿里“11.18大促”商家们的“双11”</div>
+<div class="content1"><span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果说天猫双11是消费者的狂欢，那阿里巴巴1688.com每年的11.18大促堪称商家端的双11。刚刚结束奋战的商家，利用短暂的间隙在1688进货囤货，为接下去的双12补充&ldquo;弹药&rdquo;。记者从阿里巴巴方面了解到，为了让商家进货安心、赚钱省心，此次&ldquo;11.18品质狂欢节&rdquo;推出了一系列活动，可谓亮点不断。<br />
+<br />
+<strong>品质保障商家无忧进货</strong><br />
+<br />
+　　1688平台于7月启动了实力商家项目，实力商家除了提供更多样化的商品，还为买家提供质量、发货、换货多种保障服务。与往年不同，此次大促主会场的商家均为实力商家，除了满足买家对源头、品质货源的要求，还能为买家提供多样特色的保障。同时，主会场实力商家提供的商品均经过第三方质检机构检测，买家可以在已质检商品的详情页面里查看质检报告，如果买家收到的商品质量与描述不一致，可发起投诉维权，保证进货无忧。<br />
+<br />
+<strong>溯源扫码源产地商品直供</strong><br />
+<br />
+　　此次1118大促亮点之一是产业带的加入，商丘、江门、株洲、天台、驻马店等五大源产地都推出了当地产业带的标杆商品，同时参加活动的商品均通过权威质检机构检测，产品包装上将粘贴的防伪溯源二维码，拿起手机轻松一扫，便可查看产品的源产地及质检信息。此外，参与扫码溯源的商家都已开通源产地品质保障服务，承诺买家购买的每一件产品都来自源产地且产品质量高于国标，实现品质保障。<br />
+<br />
+<strong>档口好货线上线下狂欢</strong><br />
+<br />
+　　据了解，&ldquo;11.18品质狂欢节&rdquo;还携手深圳南油丰滢世纪广场、东莞虎门大莹电商城、杭州中纺中心服装城、杭州杭派精品服装市场、杭州新杭派休闲服饰城等全国知名专业市场开启线上线下狂欢。这些专业市场将与1688云市场合作打造出&ldquo;线上&rdquo;实体市场，将线下真实档口货源同步到了线上。对于商家来讲，通过手机客户端开通阿里微店，就可以把货品和服务推荐给全国的线上、线下专业买家。对于买家来讲，除了可以用手机随时订到真实档口的一手货源之外，还可以在线下档口便捷拿货，如果用支付宝扫码支付还有红包优惠。<br />
+<br />
+<strong>进口货源引领消费升级</strong><br />
+<br />
+　　1688进口货源平台作为阿里巴巴在跨境领域的新抓手，一直在为各大跨境电商网站、进口商店提供优质保真的进口货源。此前10月举行的进口网交会上，联合国免检大米之一的老挝大米、日本百年豆腐坊出品的高端手工皂、韩国宫廷糕点之一的韩国坚果棒、日本人气商品PURU泪袋眼膜、法国波尔多AOC公爵府庄园干红等20余款产品被商家抢购一空。此次11.18大促，进口货源平台将强势推出180多个国家的20万多款商品，让错过进口网交会的商家不留遗憾。<br />
+<br />
+<strong>先卖货后给钱淘卖家囤货更轻松</strong><br />
+<br />
+　　双11货款没回笼，双12备货压力已至，数百万淘卖家面临销售旺季大的难题&mdash;&mdash;资金短缺。为解决这一问题，1688在大促前夕推出了全新金融产品&mdash;&mdash;信任付。信任付类似于针对个人消费者的&ldquo;花呗&rdquo;，是一款由网商银行提供担保的延期付款产品，支持1688平台先采购后付款，进货可享受延期30天的月结或延期90天的季结。1688方面介绍，淘卖家只需要在平台找到支持信任付的商品，选择信用担保交易，并选择信任付付款就可完成订单，只需到期日及时还款即可。据了解，该服务未来将向1688平台上的全部买家开放，届时先卖货后给钱，净赚几十万的事还真不是白日梦。</span> </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='http://www.qynet.cc/news/info/157.html'>从阿里9.4大促成功案例到如何备战1118大促</a> </li>
+
+        <li>下一篇：<a href='http://www.qynet.cc/news/info/160.html'>阿里巴巴布局村淘 要改变农村</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="http://www.qynet.cc/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="http://www.qynet.cc/images/j (1).png"/>
+                    <img src="http://www.qynet.cc/images/j (2).png"/>
+                    <img src="http://www.qynet.cc/images/j (3).png"/>
+                    <img src="http://www.qynet.cc/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

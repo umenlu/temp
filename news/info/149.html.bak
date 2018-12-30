@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>2015双十一开启 1个小时成交额破300亿_企元时代</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/html5.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/index.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/Services.css">
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href='http://www.qynet.cc'" class="logo" style=" width:170px;"><input type="image" src="http://www.qynet.cc/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc'" src="http://www.qynet.cc/images/01.jpg"/>
+			<a href="http://www.qynet.cc/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/about/'"  src="http://www.qynet.cc/images/02.jpg"/>
+			<a href="http://www.qynet.cc/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/services/'"  src="http://www.qynet.cc/images/04.jpg"/>
+			<a href="http://www.qynet.cc/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/case/'"  src="http://www.qynet.cc/images/05.jpg"/>
+			<a href="http://www.qynet.cc/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/news/'"  src="http://www.qynet.cc/images/03.jpg"/>
+			<a href="http://www.qynet.cc/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/muban/'"  src="http://www.qynet.cc/images/06.jpg"/>
+			<a href="http://www.qynet.cc/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/zhaopin/'"  src="http://www.qynet.cc/images/07.jpg" />
+			<a href="http://www.qynet.cc/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/contact/'"  src="http://www.qynet.cc/images/08.jpg"/>
+			<a href="http://www.qynet.cc/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="http://www.qynet.cc/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">2015双十一开启 1个小时成交额破300亿</div>
+<div class="content1"><span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2015年&ldquo;双十一&rdquo;是<a href="http://www.qynet.cc/">阿里巴巴</a>在美国上市后的第二个网购狂欢节。11日凌晨，&ldquo;双十一&rdquo;大战拉开帷幕。5分45秒内成交额超过50亿元，去年达到50亿元花费了14分钟。12分28秒，成交额突破100亿元大关，去年耗时为38分钟，前年耗时接近6小时。33分53秒，交易额超过200亿元。1小时13分59秒，交易额突破300亿元。其中，无线交易额是亮点。17分58秒，无线交易额超过100亿元。今年&ldquo;双十一&rdquo;开始的200亿元交易额中，无线交易额占比高达74%。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 阿里CEO张勇表示，&ldquo;双十一&ldquo;晚会带来数百万互动，未开场人流已经超过去年峰值。新增用户注册数是平时的20倍以上，形成多屏互动。31分钟完成190亿交易额，达到三年以前全天的量。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo;双十一&rdquo;开始后一个半小时，成交额就超过了去年美国&ldquo;黑色星期五&rdquo;和&ldquo;网络星期一&rdquo;两大盛宴的成交额合计，令海外人民颤抖。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 与网购买家形成鲜明对比的是资本市场的投资者。今年股票投资者对&ldquo;双十一&rdquo;表现得颇为谨慎，降价先降股价。截至周一，阿里巴巴股价已经连续第三天下跌，京东股价也两日连跌。美东时间周二早盘，阿里、京东再度下挫。阿里跌幅1.7%，跌破80美元；京东跌幅超过3%。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 不过此后，受&ldquo;双十一&rdquo;交易额强劲提振，阿里巴巴由跌转涨，京东股价也显著反弹。美国周二收盘时，阿里股价收涨0.06%，达到81.43美元。京东股价收跌1.95%，达到28.20美元。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2014年，阿里&ldquo;双十一&rdquo;全天交易额571亿元，其中移动端为243亿。摩根大通预计，今年&ldquo;双十一&rdquo;阿里巴巴商品交易额将达750~800亿元。如果以800亿元交易额计算，今年&ldquo;双十一&rdquo;阿里巴巴商品交易额同比增长40%，这低于2014年的63%增幅。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 两周前，<a href="http://www.qynet.cc/">阿里巴巴</a>公布了全面超预期的2015年三季度财报。利润、营收、阿里巴巴平台成交额（GMV）数据均表现强劲，天猫平台同比大增近千亿成交额。同时阿里移动端增长迅猛，成交额上升近三倍，移动端收入也大增183%。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo;双十一&rdquo;指每年11月11日，以往被称为光棍节。从2009年起，&ldquo;双十一&rdquo;有了新的含义，以天猫、京东为代表的大型电子商务网站利用这一天进行商业促销。近年来，&ldquo;双十一&rdquo;已成为万众瞩目的日子。</span> </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='http://www.qynet.cc/news/info/147.html'>阿里巴巴将成为未来商业的基础设施</a> </li>
+
+        <li>下一篇：<a href='http://www.qynet.cc/news/info/150.html'>一场晚会背后的阿里野心</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="http://www.qynet.cc/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="http://www.qynet.cc/images/j (1).png"/>
+                    <img src="http://www.qynet.cc/images/j (2).png"/>
+                    <img src="http://www.qynet.cc/images/j (3).png"/>
+                    <img src="http://www.qynet.cc/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

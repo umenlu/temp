@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>阿里巴巴运营那些事_企元时代</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/html5.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/index.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/Services.css">
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href='http://www.qynet.cc'" class="logo" style=" width:170px;"><input type="image" src="http://www.qynet.cc/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc'" src="http://www.qynet.cc/images/01.jpg"/>
+			<a href="http://www.qynet.cc/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/about/'"  src="http://www.qynet.cc/images/02.jpg"/>
+			<a href="http://www.qynet.cc/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/services/'"  src="http://www.qynet.cc/images/04.jpg"/>
+			<a href="http://www.qynet.cc/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/case/'"  src="http://www.qynet.cc/images/05.jpg"/>
+			<a href="http://www.qynet.cc/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/news/'"  src="http://www.qynet.cc/images/03.jpg"/>
+			<a href="http://www.qynet.cc/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/muban/'"  src="http://www.qynet.cc/images/06.jpg"/>
+			<a href="http://www.qynet.cc/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/zhaopin/'"  src="http://www.qynet.cc/images/07.jpg" />
+			<a href="http://www.qynet.cc/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/contact/'"  src="http://www.qynet.cc/images/08.jpg"/>
+			<a href="http://www.qynet.cc/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="http://www.qynet.cc/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">阿里巴巴运营那些事</div>
+<div class="content1"><span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 其实淘宝、<a href="http://www.qynet.cc/">阿里巴巴</a>运营方面的文章已经非常多了，而且同质化较为严重，可发现还是有很多朋友比较迷茫，这次我们综合一下，两个放到一起从自身问题下手，提出部分以前经常用的一些标准供大家仔细参考学习。<br />
+<br />
+<strong>一、网络中，淘宝、阿里巴巴商品价格设置的基本水准</strong><br />
+<br />
+　　淘宝价格设置：不要设置低价，心理价格为多数产品的中间价位，(中国人有种中庸心理，网页做的都居中，看看亚马逊-美国版)，具体的.99结尾的技巧就不用多讲了。<br />
+<br />
+　　阿里巴巴既然是做批发的，提前将价格设置为阶梯价，什么是阶梯价格呢?例如批发1-10个是一个价格，10-50个是一个价格，50-100个是一个价格，100-200个是一个价格，能够满足多种购买组合数量人的各种需求。组合的时候，还要看自己的商品包装是否能够恰到好处，比如有些商品3个一箱，5小箱装一大箱，我们设置价格的时候就要考虑清楚。<br />
+<br />
+　　价格一旦设置，尽量避免多次浮动和变动，除非做活动等等。<br />
+<br />
+<strong>二、发布类目出错问题(阿里诚信通用户需要注意)</strong><br />
+<br />
+　　发布商品类目不能出错，这个问题比较老生常谈，为什么呢，淘宝的可能少一些，但是阿里巴巴平台上估计有很多都有类目发错的现象，这个可以打开后台，去生意参谋里面的左侧，有个货菜单，去点开看看，(大致应该在这个里面可以找到，具体记不清了，谁有阿里付费账户，可以去看一下是不是)。<br />
+<br />
+　　类目出错，就直接相当于这个产品白发布了，根本见不到一点点的效果，因为在搜索某类产品的时候，你的产品根本不可能展示，所以，类目发布错误一切等于零。<br />
+<br />
+<strong>三、发布信息标题的基本技巧方法</strong><br />
+<br />
+　　前置修饰词 +一级关键词 +二级关键词 +三级关键词 +扩展关键词 +卖点描述 +其他<br />
+<br />
+　　这个是我以前经常用到的公式，具体要怎么套进去呢?<br />
+<br />
+　　具体可以搜索我之前写的《关于阿里巴巴、淘宝商品标题描写规范公式》，这里面有详细的介绍。<br />
+<br />
+　　解释：尽可能的将用户有可能搜索的重要的词放到标题中，如何找到这些词，首先可以自己亲自搜索淘宝，在淘宝搜索的顶部中间部位会有一些推荐的关键词，可以在平时搜索的时候，将这些词一个一个的复制到记事本里去掉链接格式之后，进行搜录起来，整理为关键词库，以备随时使用。<br />
+<br />
+　　另：一旦相关优质关键词进入搜索获得较好排名的情况下，尽量不要大动干戈的修改宝贝标题，只可适当增加，尽量避免完全修改。<br />
+<br />
+<strong>四、淘宝或者阿里巴巴商品图片美化</strong><br />
+<br />
+　　经常会碰到有人说高端大气上档次，我就有点生气，什么叫高端大气上档次?每个人的审美观不同，根本无法照顾到所有人，每个人看一眼都能提出不同的图片感官意见。<br />
+<br />
+　　所以，好的解决办法就是：商品清晰的展示出来，饱满、自然，而且大于750*750像素(具体看发布商品主图的时候要求提示)，不能有太多明显有碍观展的牛皮鲜补丁(服装类目的商家切记)。背景干净、整洁、清晰、不影响前面商品的欣赏为基础，第二张、第三张尽量上传上去，主要是为了弥补张无法展示的细节、角度观看部分。<br />
+<br />
+<strong>五、内容描述的完整性标准</strong><br />
+<br />
+　　能够让用户或者你的目标客户通过你的企业官方网站或者阿里巴巴商品描述或者淘宝商品详情描述中清楚直观的了解到你企业的所有产品相关内容信息从而不用再次通过打电话或者发传真或者旺旺聊天而直接下单或者通过银行转账购买成交的企业网站阿里巴巴商品描述淘宝详情页的网站就是好网站。<br />
+<br />
+　　1、商品名称、类型、属性、参数、价值、价格、优势、服务、使用教程、问题处理、售后处理、公司实力、信任度、购买心理特性、等等。。。。<br />
+<br />
+　　如果用户、或者客户看完你的描述还在提出商品一些其他担忧的问题，而你的描述中没有这个问题的解决方案，那么描述就判定为不完整。<br />
+<br />
+　　客户购买你商品的根本原因在于两方面：一个是有商品使用需求，另一个是信任需求，而不是所谓的价格需求，价格往往不是重要中的一环，例如：苹果手机越卖越贵，从没有说掉价的现象，而国内大多数都是卖着卖着开始拼价格，为何呢?究其根本原因就是无法使用户产生强有力的质量、售后、实力的多方面信任。<br />
+<br />
+<strong>六、店铺装修的简要说明</strong><br />
+<br />
+　　说实话，这个既重要也不重要，网店卖出去东西才算真事，其他的都是假事，为什么这么说呢?当用户通过搜索里找到你的商品的时候，大多数情况不是看你店铺装修的有多美丽，而是看你的商品描述的，对吧?<br />
+<br />
+　　所以，店铺首页装修多数情况下是在品牌推广、店铺整店推广、站外推广的情况下有一定用处，当然在淘宝平台、或者阿里巴巴平台下，客户一般情况下是不会关注太多这方面的。<br />
+<br />
+　</span> </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='http://www.qynet.cc/news/gongsi/100.html'>10个点子帮你玩转阿里巴巴</a> </li>
+
+        <li>下一篇：<a href='http://www.qynet.cc/news/gongsi/113.html'>阿里天津五金批发基地重装上线</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="http://www.qynet.cc/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="http://www.qynet.cc/images/j (1).png"/>
+                    <img src="http://www.qynet.cc/images/j (2).png"/>
+                    <img src="http://www.qynet.cc/images/j (3).png"/>
+                    <img src="http://www.qynet.cc/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>10个点子帮你玩转阿里巴巴_企元时代</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/html5.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/index.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/Services.css">
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href='http://www.qynet.cc'" class="logo" style=" width:170px;"><input type="image" src="http://www.qynet.cc/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc'" src="http://www.qynet.cc/images/01.jpg"/>
+			<a href="http://www.qynet.cc/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/about/'"  src="http://www.qynet.cc/images/02.jpg"/>
+			<a href="http://www.qynet.cc/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/services/'"  src="http://www.qynet.cc/images/04.jpg"/>
+			<a href="http://www.qynet.cc/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/case/'"  src="http://www.qynet.cc/images/05.jpg"/>
+			<a href="http://www.qynet.cc/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/news/'"  src="http://www.qynet.cc/images/03.jpg"/>
+			<a href="http://www.qynet.cc/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/muban/'"  src="http://www.qynet.cc/images/06.jpg"/>
+			<a href="http://www.qynet.cc/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/zhaopin/'"  src="http://www.qynet.cc/images/07.jpg" />
+			<a href="http://www.qynet.cc/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/contact/'"  src="http://www.qynet.cc/images/08.jpg"/>
+			<a href="http://www.qynet.cc/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="http://www.qynet.cc/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">10个点子帮你玩转阿里巴巴</div>
+<div class="content1">&nbsp; &nbsp;&nbsp; <span style="font-size:16px;">1.产品发布要有技巧:一个公司的产品橱窗设计往往是客户眼看到的,那些上传的产品一定要配有好的图片,一个好的包装图片也是能吸引人的地方,一个好的图片可以让大家对你的品牌或产品产生良好的兴趣，一个好的图片可以让大家对你的产品有一种想详细了解一下的欲望，一个好的图片可以让大家给你机会来推销你的产品！<br />
+<br />
+&nbsp;&nbsp;&nbsp; 2.公司排名靠前:每天不断重发信息,让自己的信息排名靠前;还有一种已经参加竞争,交费保持排名.<br />
+<br />
+&nbsp;&nbsp;&nbsp; 3.保持在线，经常找人聊天，经常使用贸易通的各项功能，提高自己的活跃度。活跃度越高，在行业中的排名就越在前。离线就像是关门的商店中，把客户拒之门外了。<br />
+<br />
+&nbsp;&nbsp;&nbsp; 4.我们要主动出击:上公司库去搜索合作对象，加好友或批量留言。<br />
+<br />
+&nbsp;&nbsp;&nbsp; 5.时间发现与你产品所关联的求购信息,与求购商及时联系,商机不等人,在那么多求购信息中总有适合你的.总有人会你合作的.不要对一两次的电话不成功而失去信心.在和客户沟通要及时，因为大家都有这样一种感觉，有些客户往往要东西比较急，要是你没时间和他联系的话，他的单可能就到别家去了！<br />
+<br />
+&nbsp;&nbsp;&nbsp; 6.分析客户:保持警惕，尽量多的查看对方的资料，以判断真假客户。<br />
+<br />
+&nbsp;&nbsp;&nbsp; 7.经常在论坛活动,提高个人知名度,你的知名度高啦,那么自然会有人关注你的产品,一举成名天下知,那时会有客户主动找上门的.图片签名可以让客户容易记得你!<br />
+<br />
+&nbsp;&nbsp;&nbsp; 8.对待每一个客户都要一样,让客户感到你公司的正规(因为一般公司网络都有专人负责),公司对客户的重视.耐心地回答咨询者的问题,而且在回复时一定要用客气与尊重的语气.这样的话，可以让大家感觉到你这个公司比较正规！<br />
+<br />
+&nbsp;&nbsp;&nbsp; 9.不管是论坛还是与网友聊天,一定要保持文明用语,保持在论坛的形象,因为你就是代表着公司,代表着品牌.还有旺旺里几天可以一次向每个群早上问好，出于礼貌和让人记得你。<br />
+<br />
+&nbsp;&nbsp; 10. 如果你没有一个专业团队来运营，可以选择可靠的代理商辅助运营，据说<a href="http://www.qynet.cc/">企元时代</a>不错，公司一直致力于阿里巴巴诚信通、网销宝、代运营等项目，业内口碑一直很好，不妨尝试和这样的公司合作，为您的电商事业保驾护航。</span><br />
+ </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='http://www.qynet.cc/news/gongsi/99.html'>怎样做好淘宝优站宝贝排名和优化</a> </li>
+
+        <li>下一篇：<a href='http://www.qynet.cc/news/gongsi/101.html'>阿里巴巴运营那些事</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="http://www.qynet.cc/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/></p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="http://www.qynet.cc/images/j (1).png"/>
+                    <img src="http://www.qynet.cc/images/j (2).png"/>
+                    <img src="http://www.qynet.cc/images/j (3).png"/>
+                    <img src="http://www.qynet.cc/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

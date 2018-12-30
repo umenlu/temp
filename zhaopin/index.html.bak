@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/zhaopin.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script type="text/javascript">
+$(function(){		
+	//设计案例切换
+	$('.title-list li').click(function(){
+		var liindex = $('.title-list li').index(this);
+		$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/zhao1.jpg"/></a>
+<!--内容-->
+<div class="zhao">
+    <div class="zhao_box">
+        <p class="p1">招聘职位</p>
+        <p class="p2">JOBS</p>
+        <p class="p3">天津企元时代科技有限公司</p>
+    </div>
+    
+    <div class="zhaopin">
+      <div class="title cf">
+        <ul class="title-list fr cf ">
+          <li style=" margin-left:320px;" class="on"><img src="/images/zhao_img1.png"/><span class="neme_1">商务经理<br><span class="neme_2">Business Manager</span></span></li>
+          <li><img src="/images/zhao_img2.png"/><span class="neme_1">招聘主管经理<br><span class="neme_2">Hiring manager</span></span></li>
+          <li style=" margin-right:320px;"><img src="/images/zhao_img3.png"/><span class="neme_1">人事行政主管<br><span class="neme_2">Personnel administration</span></span></li>
+          <li style=" margin-left:112px;"><img src="/images/zhao_img4.png"/><span class="neme_1">培训主管<br><span class="neme_2">Training Supervisor</span></span></li>
+          <li><img src="/images/zhao_img5.png"/><span class="neme_1">美工<br><span class="neme_2">Design</span></span></li>
+          <li><img src="/images/zhao_img6.png"/><span class="neme_1">运营<br><span class="neme_2">Operate</span></span></li>
+          <li><img src="/images/zhao_img7.png"/><span class="neme_1">续签客服<br><span class="neme_2">Customer service</span></span></li>
+          <li><img src="/images/zhao_img8.png"/><span class="neme_1">前台<br><span class="neme_2">Reception</span></span></li>
+          
+        </ul>
+      </div>
+      <div class="product-wrap">
+        <!--案例1-->
+        <div class="product show">
+         <ol>
+            <div>岗位要求：</div>
+            <li>1、根据公司每月销售计划，带领部门销售人员的完成制度的销售目标任务；</li>
+            <li>2、做好部门团队的培养储备工作，保持团队的稳定性，不断提升团队的综合素质；</li>
+            <li>3、不断提高团队的业务技巧，加强及完善部门培训，提升工作成效；</li>
+            <li>4、开发更多的市场领域，维护客户关系，建立稳定的客户资源；</li>
+            <li>5、针对公司既有客户制定销售策略及销售方案，进行客户开发和销售工作。</li>
+         </ol>
+         <ol>
+            <div>岗位描述：</div>
+            <li>1、大专及以上学历，三年以上销售相关工作经验，其中至少有两年以上销售管理经验；</li>
+            <li>2、有互联网行业及电话销售公司从业经验者；</li>
+            <li>3、具有良好的沟通技巧，团队合作能力，适应市场需求变化。</li>
+    
+         </ol>  
+         
+         <ol>
+            <div>有竞争力的薪酬体系：</div>
+            <li>1. 薪酬：只要您有能力，敢于挑战，您将在这里获得年薪过40万的收入；</li>
+            <li>2. 奖金：公司设立月度奖、季度奖、年度奖及评优奖等；同时进行年度评优；</li>
+            <li>3. 团队奖金：公司设立丰厚的团队奖金，组织丰富多彩的活动和集体旅游</li>
+            <li>4. 专业的岗前培训：入行培训，销售特训，定期拓展.</li>
+            <li>5、完善的福利保障制度：无责任底薪+ 电话补助+高提成+五险一金+奖金+带薪年假</li>
+            <li>6、明确的晋升途径及充分的发展空间 ：商务经理--高级商务经理-资深商务经理-商务总监-公司副总</li>
+    
+         </ol> 
+        </div>
+        <!--案例2-->
+        <div class="product">
+          <ol>
+            <div>岗位要求：</div>
+            <li>1、负责协助人事经理组织招聘工作，并负责招聘的初选及复试安排；</li>
+            <li>2、协助其他人事专员办理员工入职、离职、调岗的各项手续办理；</li>
+            <li>3、协助其他人事专办理办理员工劳动合同的签订工作；</li>
+            <li>4、负责编制全体职员的人事档案（含在职与离职员工）；不断完善和更新员工档案信息；</li>
+            <li>5、协助经理维护日常员工关系，提高员工满意度；</li>
+            <li>6、协助上级完成其他工作事项。</li>
+         </ol>
+         <ol>
+            <div>岗位要求：</div>
+            <li>1、大专以上学历，人力资源相关专业优先；</li>
+            <li>2、有从事过人事招聘及员工关系管理工作者优先；</li>
+            <li>3、沟通能力，承压能力，应变能力好，一年以上相关经验 </li>
+            <li>4、有互联网或销售行业优先。</li>
+    
+         </ol>  
+         
+         <ol>
+            <div>福利待遇：</div>
+            <li>1、五险一金+双休制度；</li>
+            <li>2、同行业同职位具竞争力之薪资，半年一次调薪机会；</li>
+            <li>3、享受各类奖金、津贴及优秀员工旅游机会；</li>
+            <li>4、劳动法规定的各类带薪假+公司司龄奖励年假；</li>
+            <li>5、广阔的晋升空间，良好的职业发展平台；</li>
+    
+         </ol> 
+         
+         <ol>
+            <div>我们的优势：</div>
+            <li>1.中国大互联网电子商务发展的平台1688.com</li>
+            <li>2.完善的培训机制。</li>
+            <li>3.有竞争的薪酬和福利。</li>
+            <li>4.体验每个员工的付出和成长的快乐，团队的凝聚力，归属感！</li>
+    
+         </ol>
+        </div>
+        <!--案例3-->
+        <div class="product">
+         <ol>
+            <div>人事方面：</div>
+            <li>1、在公司人力资源战略、政策和指引的框架下，建立并实施人力资源方针和行动计划，以支持公司达到预期经营目标；</li>
+            <li>2、负责组织起草、修改和完善人力资源相关管理制度和工作流程；</li>
+            <li>3、负责招聘、培训、薪酬、考核、员工关系等人力资源日常管理事宜；</li>
+            <li>4、负责组织编写各部门职位说明书；</li>
+            <li>5、定期进行人力资源数据分析，提交公司人力资源分析报告；</li>
+            <li>6、根据行业和公司发展状况，协助制定公司薪酬体系、激励体系并负责实施；</li>
+            <li>7、协助监督控制各部门绩效评价过程并不断完善绩效管理体系；</li>
+            <li>8、协助推动公司理念及企业文化的形成；</li>
+            <li>9、协助制定公司人力资源整体战略规划；</li>
+            <li>10、负责部门的日常事务管理工作，协助完成本部门员工工作考核、激励及部门资金的预算和控制等工作，</li>
+         </ol>
+         <ol>
+            <div>行政方面：</div>
+            <li>1、公司人工成本、行政费用的预算与管理；</li>
+            <li>2、制度流程建设、各类会议活动组织、办公环境管理、公司各类采购统筹、固定资产及车辆管理、公司仓储及礼品库管理；</li>
+            <li>3、行政管理体系搭建、办公区域租赁装修、行政采购体系搭建维护、大型年会及重要活动组织；</li>
+            <li>4、采购、管理公司固定资产与低值易耗品（非办公用品和日常用品）；</li>
+            <li>5、负责固定资产台账审核、组织固定资产盘点工作。</li>
+    
+         </ol>  
+         
+         <ol>
+            <div>任职资格：</div>
+            <li>1、人力资源、管理或相关专业本科及以上学历；</li>
+            <li>2、对现代企业人力资源管理模式有系统的了解；</li>
+            <li>3、对人力资源管理各个职能模块均有认识，能够指导各个职能模块的工作；</li>
+            <li>4、熟悉国家、地区及企业关于合同管理、薪金制度、用人机制、保险福利待遇、培训等方面的法律法规及政策；</li>
+            <li>5、2年以上HR工作经验，在六大模块具有实操经验；</li>
+            <li>6、心态积极，团队合作能力强，善于总结，能承受一定的工作压力；</li>
+            <li>7、具有互联网行业经验优先。</li>    
+         </ol> 
+         
+         <ol>
+            <div>有竞争力的薪酬体系：</div>
+            <li>1、完善的福利保障制度：五险+奖金+带薪年假+年底奖金</li>
+            <li>2、明确的晋升途径及充分的发展空间 </li>
+    
+         </ol>
+        </div>
+        <!--案例4-->
+        <div class="product">
+        <ol>
+            <div>岗位职责：</div>
+            <li>1、负责协助人事经理组织招聘工作，并负责招聘的初选及复试安排；</li>
+            <li>2、协助其他人事专员办理员工入职、离职、调岗的各项手续办理；</li>
+            <li>3、协助其他人事专办理办理员工劳动合同的签订工作；</li>
+            <li>4、负责编制全体职员的人事档案（含在职与离职员工）；不断完善和更新员工档案信息；</li>
+            <li>5、协助经理维护日常员工关系，提高员工满意度；</li>
+            <li>6、协助上级完成其他工作事项。</li>
+         </ol>
+         <ol>
+            <div>岗位要求：</div>
+            <li>1、大专以上学历，人力资源相关专业优先；</li>
+            <li>2、有从事过人事招聘及员工关系管理工作者优先；</li>
+            <li>3、沟通能力，承压能力，应变能力好，一年以上相关经验 </li>
+            <li>4、有互联网或销售行业优先。</li>
+    
+         </ol>  
+         
+         <ol>
+            <div>福利待遇：</div>
+            <li>1、五险一金+双休制度；</li>
+            <li>2、同行业同职位具竞争力之薪资，半年一次调薪机会；</li>
+            <li>3、享受各类奖金、津贴及优秀员工旅游机会；</li>
+            <li>4、劳动法规定的各类带薪假+公司司龄奖励年假；</li>
+            <li>5、广阔的晋升空间，良好的职业发展平台；</li> 
+         </ol> 
+         
+         <ol>
+            <div>我们的优势：</div>
+            <li>1、中国大互联网电子商务发展的平台1688.com</li>
+            <li>2、完善的培训机制。</li>
+            <li>3、有竞争的薪酬和福利。</li>
+            <li>4、体验每个员工的付出和成长的快乐，团队的凝聚力，归属感！</li>
+    
+         </ol>
+        </div>
+        <!--案例5-->
+        <div class="product">
+          <ol>
+            <div>职位要求：</div>
+            <li>1、美术设计或艺术类相关专业毕业，有思想、有创意、思维活跃、色彩感强、独到的审美修养；</li>
+            <li>2、基本功扎实，熟练掌握美工必须的软件及工作技能；精通PS，AI，DW等网页设计图形设计、图片编辑软件；</li>
+            <li>3、有淘宝、阿里巴巴、京东等店铺装修经验，可以独立设计店铺模板、切图；</li>
+            <li>4、语言沟通能力强，性格开朗，积极主动、诚信踏实、不怕吃苦的性格特质，愿与公司一起发展，虚心好学，能够很好的帮助客户并完成工作；</li>
+            <li>5、对设计工作理解到位，有非常清晰和成熟的设计思路和理念；</li>
+            <li>6、有2年以上设计经验优先，简历请附作品（必须有网页或平面设计作品）。</li>
+         </ol>
+         <ol>
+            <div>福利待遇：</div>
+            <li>1、双休制度；</li>
+            <li>2、同行业同职位具竞争力之薪资，半年一次调薪机会；</li>
+            <li>3、享受各类奖金、津贴及优秀员工旅游机会；</li>
+            <li>4、健全的保险；</li>
+            <li>5、劳动法规定的各类带薪假+公司司龄奖励年假；</li>
+            <li>6、广阔的晋升空间，良好的职业发展平台；</li>
+    
+         </ol>  
+         
+        </div>
+        <div class="product">
+          <ol>
+            <div>运营职责：</div>
+            <li>1、负责阿里巴巴旗下的1688、淘宝及天猫商城的运营工作，包括网店和商城的功能策划，在线宣传推广，活动策划，日常运营，领导并管理网店运营团队；</li>
+            <li>2、负责店铺的产品分析（商品定价、确定主推商品、分析销售情况）、产品销售（商品上架、商品销售、配合推广促销）、产品促销（策划活动方案、执行促销活动、协助促销宣传）、产品编辑、产品汇总建档；</li>
+            <li>3、及时收集反馈信息，定期针对推广效果进行跟踪评估，对数据进行分析，定期提交数据报表，提出分析意见；</li>
+            <li>4、带领公司阿里巴巴团队完成公司下达的目标，负责目标的分解、落实； </li>
+            <li>5、公司阿里巴巴团队的日常管理工作及下属员工的管理、指导、培训和评估； </li>
+            <li>6、定期或不定期与客户沟通，具备良好的沟通能力。有至少一年的淘宝、天猫、阿里巴巴等运营实战经验；</li>
+            <li>7、熟悉阿里巴巴所有旗下网站的营销规则和各种营销工具的使用，有淘宝网店铺、商城运营推广经验，有团队管理经验者优先； </li>
+            <li>8、熟悉淘宝TP 运营环境、淘宝交易规则、淘宝推广，淘宝站内广告资源；</li>
+            <li>9、学习能力强沟通表达能力和组织协调能力较好，有团队合作精神，抗压能力强，能长期稳定工作；</li>
+            <li>10、具有较强的数据分析能力，能分析各种店铺统计软件的数据； </li>
+            <li>11、领导和组织团队完成公司下达的任务，擅长店务管理和员工培养，能激发员工的主动性和热情。</li>
+         </ol>
+         <ol>
+            <div>工作职责：</div>
+            <li>1、负责阿里巴巴的诚信通客户店铺首页设计、宝贝详情页设计，产品图片的美化、编辑、制作、管理工作；</li>
+            <li>2、配合其他部门进行网站的修改和维护，并适时提出建议和解决办法；</li>
+            <li>3、与客户进行创意沟通，确认设计并得到认可，组织反馈意见；</li>
+            <li>4、知识面广，具有敏锐的市场洞察力，极强的执行力和组织协调能力,和专业设计能力；</li>
+            <li>5、理解产品内涵，擅用视觉营销的方式和方法表达产品卖点和服务特色，起到良好的广告宣传效果，增加点击率浏览量；</li>
+            <li>6、完成领导安排的公司VI及平面设计工作。</li>
+    
+         </ol> 
+        </div>
+        <div class="product">
+         <ol>
+            <div>任职要求：</div>
+            <li>1. 专科以上学历，专业不限，23岁-27岁之间；</li>
+            <li>2. 为人踏实，具备较强的沟通、应变、学习能力；</li>
+            <li>3. 热爱互联网行业、愿意在互联网行业一直发展</li>
+            <li>4. 有过互联网销售或者客服工作经验者优先</li>
+         </ol>
+         <ol>
+            <div>工作职责：</div>
+            <li>1.一对多责任制客户服务机制；</li>
+            <li>2.熟练操作业务流程，耐心解答客户疑问；</li>
+            <li>3.负责指导客户使用阿里网站后台，辅助其优化产品界面，符合较高营销标准。</li>
+            <li>4.根据客户情况进行定期回访，有计划的提升客户二次消费及续费。</li>
+    
+         </ol>
+        </div>
+        <div class="product">
+           <ol>
+            <div>岗位职责：</div>
+            <li>1、及时、准确接听/转接电话，如需要，记录留言并及时转达；</li>
+            <li>2、接待来访客人并及时准确通知被访人员； </li>
+            <li>3、收发公司邮件、报刊、传真和物品，并做好登记管理以及转递工作； </li>
+            <li>4、负责办公用品的申领，发放；</li>
+            <li>5、负责前台区域的环境维护，保证设备安全及正常运转（包括复印机、打印机等）；</li>
+            <li>6、完成上级主管交办的其它工作</li>
+         </ol>
+         <ol>
+            <div>任职资格：</div>
+            <li>1、女，形象好，气质佳，声音甜美，身高163以上，年龄18—26岁；</li>
+            <li>2、大专及以上学历；</li>
+            <li>3、较强的服务意识，熟练使用电脑办公软件；</li>
+            <li>4、具备良好的协调能力、沟通能力，负有责任心，性格活泼开朗，具有亲和力；</li>
+            <li>5、普通话准确流利； </li>
+            <li>6、具备一定商务礼仪知识；</li>
+            <li>公司有完善的晋级制度，会给员工提供良好的个人发展空间.</li>
+    
+         </ol>
+        </div>
+        <img style=" margin:0 auto; display:block; margin-top:30px; margin-bottom:20px;" src="/images/hu.png"/>
+      </div>
+      
+    </div>
+
+
+</div>
+
+<!--外调底部-->
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

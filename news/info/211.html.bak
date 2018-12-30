@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>阿里巴巴通过互联网在推动实体经济发展_企元</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">阿里巴巴通过互联网在推动实体经济发展</div>
+<div class="content1"><span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2015年，<a href="http://www.qynet.cc/">阿里巴巴</a>再一次以912亿元人民币的销售额，刷新了自己以往的双11销售纪录。这个数字比去年增长了60%。而这其中的68％是由移动设备所贡献。<br />
+<img alt="" src="/uploads/allimg/151224/1-1512241149321L.png" style="width: 440px; height: 348px;" /><br />
+　　放眼全球，也没有谁能打败这个在6年前才被造出来的购物节。<br />
+<br />
+　　根据comscore数据公司的分析结果，今年阿里巴巴双11的销售额比去年美国从感恩节开始连续5日的网购旺季的销售额还高一倍多。<br />
+<br />
+　　传统网购消费主力之外的电商消费需求被进一步挖掘。<br />
+<br />
+　　双11中，中国三四线城市及以下区域的消费者达到50％。而首次加入的农村淘宝，消费数据突破2亿元。<br />
+<br />
+　　马云在双11当晚对外表示，&ldquo;双11显示了中国的强大内需，<a href="http://www.qynet.cc/">阿里巴巴</a>希望成为激发、唤醒、引领中国内需的一个小小的发动机。&rdquo;<br />
+<br />
+　　事实上，以阿里为代表的电商，已经构成了中国经济的新引擎。<br />
+<br />
+　　12月16日下午，马云在向国家主席习近平介绍阿里巴巴时提到，阿里巴巴平台上的850万活跃卖家已服务全球3.86亿消费者，同时已经创造1000万个直接就业、352万个间接就业。此外，阿里巴巴还有望在明年初成交额突破3万亿元/年，超越沃尔玛全球的成交额。<br />
+<br />
+　　他同时提到，未来阿里巴巴将持续推动农村电商的发展，用电商消除贫困，激发农村真正的变革；创造E-WTO全球贸易规则，实现72小时货通全球；引领DT时代，为赋能新实体经济方面做出自身应有的贡献。<br />
+<br />
+　　新实体经济成为马云近期的高频词语。<br />
+<br />
+　　他在双11当天提出，双11并不是电商的盛宴，真正开香槟的是制造商。网络企业不生产产品，但会与制造厂商一起利用新技术来诞生销售奇迹，这是一种新实体经济、新经济的崛起。<br />
+<br />
+　　阿里巴巴已经在通过互联网推动实体经济的发展。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.qynet.cc/">阿里巴巴</a>提供的数据显示，目前在广东、浙江、福建、江苏等传统外贸大省的产业带中，共有114个产业带加入到&ldquo;中国质造&rdquo;计划。<br />
+<br />
+　　这个计划的目的是帮助此前长期处于外向型经济模式的沿海制造企业，通过电商平台直接面向国内消费者，打开内销新通路。<br />
+<br />
+　　&ldquo;今天的中国有将近一半的人在互联网上，中国是&lsquo;互联网上的国家&rsquo;。这一轮信息和技术革命，过去20年是互联网技术发展，未来30年是互联网和传统经济结合，共同打造适应未来的经济，通过技术创新、模式创新，形成新型实体经济，这是巨大机会。&rdquo;马云在第二届世界互联网大会上如是说。<br />
+<br />
+　　而对于外界一直对阿里假货的质疑，在闭幕演讲上，马云也做了辩白：&ldquo;技术和思想的变革一定会引来各种各样的不满和混乱，今天我在中国也一样，有人说卖假货的马云，有人说是颠覆者的马云，破坏者的马云，我并不在乎，跟30年前改革家受到的压力和指责，跟现在反腐倡廉所受到的阻力和指责，我们这些算什么？但是我们今天必须要明白一个问题，社会的进步是谁也阻挡不了的。&rdquo;</span> </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/news/info/210.html'>阿里巴巴CEO张勇为淘宝“网红经济”代言</a> </li>
+
+        <li>下一篇：<a href='/news/info/212.html'>阿里巴巴蚂蚁金服CEO彭蕾：不能成为女汉子</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

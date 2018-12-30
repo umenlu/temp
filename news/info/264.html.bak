@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>阿里诚信通和新浪微博将实现深度合作_企元</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">阿里诚信通和新浪微博将实现深度合作</div>
+<div class="content1"><span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 今日，<a href="http://www.qynet.cc/">阿里巴巴</a>B2B事业群在其主办的&ldquo;全球B2B生态峰会&rdquo;上宣布，与国内著名社交网络服务平台新浪微博深度合作，向广大中小企业输出诚信体系&ldquo;诚信通&rdquo;，帮助其更加便捷有效地实现交易变现。<br />
+<img alt="" src="/uploads/allimg/160113/1-160113133Q42I.jpg" style="width: 450px; height: 298px;" /><br />
+　　&ldquo;诚信通&rdquo;是阿里巴巴B2B事业群针对中小企业推出的会员制网上贸易服务，旨在为中小企业打造诚信标准。自2002年3月推出以来，该服务已有近14年的经验积淀，累计认证企业超过100万家。<br />
+<br />
+　　此次合作，阿里巴巴将为征信良好的诚信通会员开通认证微博，同时打通阿里巴巴与新浪微博资源，实现商家在1688发布的商品信息在新浪微博同步。<br />
+<br />
+　　阿里巴巴B2B事业群1688销售服务总经理杨猛表示，<a href="http://www.qynet.cc/">阿里巴巴</a>将基于这些B类企业用户在诚信通数据库内的企业基本情况、金融行为、日常运营等信用信息，为这些企业申请快捷开通认证企业账号。同时，在阿里巴巴与新浪微博互通的交互页面上，企业还可以将一些商品信息同步在新浪微博上露出并营销。据介绍，双方合作后，百万会员企业不仅可输出诚信通的标识、认证、信用，增强企业实力展现，并且借助新浪微博的品牌塑造和价值传播，获得百亿级的巨大曝光量。<br />
+<br />
+　　如何实现&ldquo;诚信=商机&rdquo;，诚信通一直在探索。杨猛说，&ldquo;1688的商家有着海量的源头好货，新浪微博上有着海量的活跃用户，希望通过合作打开双方通路，让微博用户能够直接采购到一手货源，让1688商家更便捷地实现交易变现。&rdquo;<br />
+<br />
+　　此外，此次合作的各类资源中，还包括了新浪微博上的广大网红。借助新浪微博上网红的知名度，1688平台的货源和运营规则可以得到推广，同时借鉴网红丰富的运营经验，1688平台诸多中小电商企业将获得更多的学习机会。<br />
+<br />
+　　业内人士分析，目前国内的B类企业征信信息库尚处于初级发展阶段，大部分仅停留在工商资料信息层面。然而，诚信通经过多年的发展，已建成目前国内基于交易大数据的百万级企业征信体系。该体系的建立，将帮助阿里巴巴集团向B类企业提供更多基于征信体系的生态服务。<br />
+<br />
+　　未来，诚信通将全面打通搜索、社交、LBS、阿里云等各类应用体系，帮助征信良好的企业搭建多维度的产品价值体系。&ldquo;在互联网大数据时代，我们愿意为诚信企业做更多的推广，实现诚信=商机&rdquo;。杨猛说。<br />
+<br />
+　　此次合作是诚信通向广大中小企业和社会生态输出征信体系的初步探索。据透露，<a href="http://www.qynet.cc/">阿里巴巴</a>B2B正在推进和高德地图的合作。届时，企业在微博上不仅能看到&ldquo;诚信通&rdquo;标识，点击后还能获得高德地图上精确标注的企业真实地理位置，方便企业客户查找，可谓吃了一颗&ldquo;定心丸&rdquo;。</span> </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/news/info/263.html'>在农村小店 也能买到进口商品</a> </li>
+
+        <li>下一篇：<a href='/news/info/265.html'>阿里巴巴将打造中小企业的数据库</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

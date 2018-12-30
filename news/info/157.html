@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>从阿里9.4大促成功案例到如何备战1118大促_企元时代</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/html5.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/index.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/Services.css">
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href='http://www.qynet.cc'" class="logo" style=" width:170px;"><input type="image" src="http://www.qynet.cc/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc'" src="http://www.qynet.cc/images/01.jpg"/>
+			<a href="http://www.qynet.cc/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/about/'"  src="http://www.qynet.cc/images/02.jpg"/>
+			<a href="http://www.qynet.cc/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/services/'"  src="http://www.qynet.cc/images/04.jpg"/>
+			<a href="http://www.qynet.cc/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/case/'"  src="http://www.qynet.cc/images/05.jpg"/>
+			<a href="http://www.qynet.cc/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/news/'"  src="http://www.qynet.cc/images/03.jpg"/>
+			<a href="http://www.qynet.cc/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/muban/'"  src="http://www.qynet.cc/images/06.jpg"/>
+			<a href="http://www.qynet.cc/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/zhaopin/'"  src="http://www.qynet.cc/images/07.jpg" />
+			<a href="http://www.qynet.cc/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/contact/'"  src="http://www.qynet.cc/images/08.jpg"/>
+			<a href="http://www.qynet.cc/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="http://www.qynet.cc/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">从阿里9.4大促成功案例到如何备战1118大促</div>
+<div class="content1"><span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 看好汽车行业每年几千万巨大销量带动的汽车用品消费市场，我放弃年薪20万，从某世界500强企业毅然辞职。带着几个朋友的信任，2013年3月注册了公司，为了一个丰满的理想，开始了骨感的创业历程。历尽4个月人间冷暖，面对员工大幅度流动，顶着巨大的经营费用，在7月份，正式走进网商新兵营84期学习，在陈智慧老师和多位小二的关怀和耐心指导下，我在7月份花了1个星期完成了<a href="http://www.qynet.cc/">阿里巴巴</a>基础学习。两个月，我是如何达到5A，9.4当天交易额怎么破60万？今天我跟大家分享下我自己是怎么做的，不足之处请大家纠正。日交易60万，这是需要一个过程的，如何线上线下结合起来推广，在9.4当天借势爆发。马上11.18日大促了，希望能给商家们一些帮助。<br />
+<br />
+<strong>一、前期积累：线上线下相结合</strong><br />
+<br />
+1、线下：如何找对产品，准确定位。<br />
+<br />
+　　做生意不能空手套白狼，阿里巴巴是非常透明的采购平台，产品没有竞争力，再大的支持也很难获得顾客的青睐。依靠义乌庞大的商品优势，我们选择了汽车摆件这个细分市场作为主打，根据汽车摆件下分的树脂摆件、太阳能摆件、弹簧摆件、香水摆件等分别挑选热卖产品。然后逐一在阿里巴巴搜索厂商和发布询价信息，就近选择供应商，保证产品价格优势和产品质量，由于没有搜索人气，价格是大的杀伤力，我们把大部分产品价格为超低利润报价。当然，价格只是一种特殊情况下采用的方式，它不是永远的思路。<br />
+<br />
+2、线上：多做活动，提高人气。<br />
+<br />
+　　新店铺大的难处就是没人进店，没访客量就谈不上成交，在阿里各位老师的指导下报名了一分钱拿样、行业礼品采购等活动，做了四五个产品，每个产品都有3-5个拿样订单，加上阿里巴巴新店扶持流量，一个月时间交易等级达到了2A，并逐步有了一些自然搜索量。早就听老师说9月4日备货节是积累客户千载难逢的机会，如果能上分会场自然是天赐良机了，所以很早开始就关注了。<br />
+<br />
+3、 发动线下，推动线上，快速提升人气<br />
+<br />
+　　很多和我一样的商家原来是做实体批发的，刚开始做阿里巴巴怎么把原来的优势推动线上，借力快速提升店铺人气，我想这是很多朋友感兴趣的。我介绍一下我的操作思路：<br />
+<br />
+　　A）邀请老客户线上下单。阿里巴巴是一个系统，利用好了可以提高我们的效率。我安排电话专员，打电话给老客户，让他们以后尽量在网上下单，一则节约时间，二则不容易出错。有的客户他们看到价格比自己的采购价实惠，后来不用催了。价格有特殊性的可以设置vip价，客户管理非常方便，不用再翻账本看谁的价格是多少。<br />
+<br />
+　　B）线上线下互动营销。由于很多老客户网上下单了，我的内勤事情也少了，我安排他在百度地图搜集江西、福建、湖北等中部省份的汽修店、美容店、洗车行等客户。在百度搜索框输入&ldquo;汽车&rdquo;、&ldquo;汽车美容&rdquo;、&ldquo;汽车装潢&lsquo;、&rdquo;汽车维修&ldquo;等关键词，搜索目标客户联系方式。电话专员给他们打电话告知有一分钱拿样，让他们到我阿里巴巴一分钱拿样，白给的东西人潜意识肯定都会看看。这样既不会觉得我们推销比较反感，也可以初步让新客户了解我们阿里巴巴店铺和我们的优质产品，有的逐渐也会前来采购其他货品。<br />
+<br />
+　　这个过程比较辛苦，我们内部称这个方式叫&ldquo;电话扫荡&ldquo;。目前我们扫荡完的也就是部分城市，工作还需要继续开张，这是个持久战。<br />
+<br />
+　　PS: 一定体现卖家的店铺名称，买家购买的宝贝，简明、扼要一条说完，加标点符号控制在70字以内。<br />
+<br />
+　　经过团队半个月时间努力，销量很快突破十万，交易级别在备货节报名前两天达到了3A准入级别。基本条件达到，但名额有限，公司实力尚弱，当时对进入行业分会场还有点担心！<br />
+<br />
+<strong>二、全力备战大促</strong><br />
+<br />
+1、确定自己的客户群体和主推产品，立下军令状，不给自己留退路<br />
+<br />
+　　报名获得通过之后，我收到通知加入大促群，看到同样的商家有几百个，怎么脱颖而出，获得小二们的认可？除了埋头苦干，还需要有好的思路，没有思路就没有出路。<br />
+<br />
+　　A）产品组合定位。考虑到小商品小二审批商家展示位置都是经过准确计算的，毕竟有备货节目标在头顶上，阿里巴巴也不是咱家开的，凭啥让咱上分会场&mdash;&mdash;销量为王。经过我多日苦思冥想，我们阿里巴巴定位以卡通摆件产品为主，畅销产品吸尘器为辅，再培育新款貔貅挂件。<br />
+<br />
+　　B）客户群和价格定位。以2件起批量吸引中小卖家，避开客户抢夺的激烈竞争。定价以行业龙头为标杆，保证定价不高于他们同种商品的标价。<br />
+<br />
+　　C）立下军令状。和备货节小二沟通之后，小二很支持我的思路，并让我立军令状，问我们公司活动期间能做到多少。我看完奖励页面后，发现完成20万都是个问题，该怎么办？如果20万不到肯定不能脱颖而出，头痛了！<br />
+<br />
+2、分解目标，通过优惠策略吸引老客户，做到不打无准备之仗<br />
+<br />
+　　我内心暗想虽然只有20万的水平，如果能达到50万的话，机会是不是会大一些。于是让电话专员给之前积累三四十个老客户打电话，向他们传达以下促销信息，勾起他们欲望。<br />
+<br />
+　　①阶梯折扣。除了<a href="http://www.qynet.cc/">阿里巴巴</a>的折扣外，1万以下打98折，1-5万打96折，5万以上95折，折扣都以返利抵充下次货款。<br />
+<br />
+　　②满包邮。老客户无论是远的还是近的，反正当日下单，保证送到家，物流到地方，让三轮车送到客户那里也是我承担，做到服务到家。<br />
+<br />
+　　过了两天，在这么多促销诱惑下，他们都给我报了采购订单数目，统计一下也只能做到35万，差距还是很大的。但是凡是都必须赌一把，我给活动小二报上去50万目标。8月26日，活动小二通知我上了分会场，汽车行业只有20家供应商，汽车内饰更是只有4家，另外三家都是义乌老牌龙头企业，公司整个团队激动的眼泪哗哗。<br />
+<br />
+　　任务计划还有15万的缺口，随机订单都是不可预知的，如何提高访客量，才能达到计划成交额？<br />
+<br />
+3、借助晒首单、整点晒单活动拉升流量<br />
+<br />
+　　仔细解读备货节规则后，发现备货节有一个晒首单和整点晒单的活动，如果能抢到，几个小时的推广支持也是非常可观的，这对完成目标有决定性意义，所以必须积极应对。<br />
+<br />
+　　根据统计的老客户订单，预计5万以上的订单，我亲自逐一联系，和他们商量准点晒单的问题，无商不奸，给点实惠点的奖励加上良好的合作关系，有四五个客户都答应配合，这给我吃了个定心丸，每个晒单我都是双保险，邀请两个老顾客配合晒单。<br />
+<br />
+　　活动期间细节就不在这啰嗦了，在这里汇报一下结果。很遗憾晒首单没有抢到，客户那边掉链子了。12点和下午6点晒单我们都抢到了，到晚上流量上升比较大，很轻松完成了任务，9月4日当天交易额近60万，数据没有及时截屏，无法现场呈现了。<br />
+<br />
+　　这次备货节给我的启示：思路先行，行者无疆。没有良好的思路，就不可能有好的结果，也不可能获得老师和阿里小二的支持信任，给我们公司插上成长的翅膀。我们公司的路还很长，目标离得还很远，这次小小的结果只是个曙光，照耀我们前行的方向。感谢支持我们的老师和阿里小二，特别感谢我的战友们！</span> </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='http://www.qynet.cc/news/info/156.html'>阿里CEO张勇向全体员工发出公开信总结双11</a> </li>
+
+        <li>下一篇：<a href='http://www.qynet.cc/news/info/158.html'>阿里“11.18大促”商家们的“双11”</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="http://www.qynet.cc/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/></p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="http://www.qynet.cc/images/j (1).png"/>
+                    <img src="http://www.qynet.cc/images/j (2).png"/>
+                    <img src="http://www.qynet.cc/images/j (3).png"/>
+                    <img src="http://www.qynet.cc/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

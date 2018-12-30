@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>DT时代 你中有我 我中有你_企元</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">DT时代 你中有我 我中有你</div>
+<div class="content1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; <span style="font-size:16px;">如今马云成了空中飞人，天出现在英国，隔天到了法国，第三天又出现在了国内某省&hellip;&hellip;，伴随着阿里飞速成长而忙碌。</span>
+<p>
+	<span style="font-size:16px;">　　你也可以看到，<a href="http://www.qynet.cc/">阿里巴巴</a>全现金收购了优酷土豆所有股份，与苏宁&ldquo;结了婚&rdquo;，举办了史上热闹的云栖大会，&ldquo;双11&rdquo;成交了912亿元&hellip;&hellip;每一件事的背后，都会搭上&ldquo;马云&rdquo;二字。而他自己如何看待这一年的阿里以及这一年的中国互联网业？在第二届世界互联网大会召开之前，让我们听听马云怎么说。</span></p>
+<p>
+	<span style="font-size:16px;">　　<strong>谈阿里&mdash;&mdash;</strong></span></p>
+<p>
+	<span style="font-size:16px;"><strong>　　&ldquo;全球化&rdquo;元年</strong></span></p>
+<p>
+	<span style="font-size:16px;"><strong>　　农村淘宝加速推进</strong></span></p>
+<p>
+	<span style="font-size:16px;">　　中小企业就像沙滩上一颗颗石子，1999年阿里巴巴成立时，我们相信通过互联网能把小石子黏起来成为栋梁，比大石头的威力更大。那时，中国的电商刚刚起步。</span></p>
+<p>
+	<span style="font-size:16px;">　　今天，中国有了全球大的电商平台，全球强的支付平台，正在形成全球大也智能的社会化物流配送体系，以及支撑一个个&ldquo;双11&rdquo;洪峰的隐形冠军&mdash;&mdash;云计算技术体系。</span></p>
+<p>
+	<span style="font-size:16px;">　　我们希望更多的消费者和创业者可以基于这些技术和平台获益。比如，帮助全世界的中小企业获得参与全球市场竞争的机会，建立一个属于中小企业的 &ldquo;EWTO&rdquo;。我们相信自由贸易是让人们跨平台交流、互相理解的好工具。贸易不是关于交换货品，贸易有关文化、激情、创新和创造。</span></p>
+<p>
+	<span style="font-size:16px;">　　2015年是阿里巴巴的&ldquo;全球化&rdquo;元年，也是阿里巴巴农村战略进一步实践的一年。农村淘宝站点让农民享受电子商务带来的便利，物质生活将来不输 城里人；农产品返城，带动了农村及偏远地区经济的发展，越来越多年轻人愿意返乡创业。<a href="http://www.qynet.cc/">阿里巴巴</a>的&ldquo;全球化&rdquo;希望把互联网给中国商业带来的变化带到全世界。 我们希望在未来10年至15年服务全世界20亿消费者，为1000万家企业提供健康发展平台。</span></p>
+<p>
+	<span style="font-size:16px;">　　云计算与大数据技术，将是支撑阿里巴巴的愿景实现的核心秘密。我们相信，未来30年是互联网和传统经济结合，通过技术创新和模式创新，共同打造适应未来的经济。</span></p>
+<p>
+	<span style="font-size:16px;">　　我们希望让那些分布在七大洲五大洋的&ldquo;小石子&rdquo;连接起来，诞生无数新型企业和无数创意、创新、创造，成为改革全球经济的积极力量。电子商务是阿 里巴巴发展的步，我们的整体战略是为未来打造一个开放、透明、协同的商业基础设施平台，一个基于新技术和新商业文明建立的经济生态系统，一个人类社会 从没有过的新经济体。</span></p>
+<p>
+	<span style="font-size:16px;">　　<strong>谈互联网产业&mdash;&mdash;</strong></span></p>
+<p>
+	<span style="font-size:16px;"><strong>　　中国某些领域</strong></span></p>
+<p>
+	<span style="font-size:16px;"><strong>　　已走在世界前列</strong></span></p>
+<p>
+	<span style="font-size:16px;">　　工业时代中国没有领先，PC时代中国没有领先，互联网时代中国有了全新的发展机遇。</span></p>
+<p>
+	<span style="font-size:16px;">　　今年的&ldquo;双11&rdquo;狂欢节，我们网购交易的支付峰值是8.59万笔/秒，是去年&ldquo;双11&rdquo;峰值3.85万笔/秒的2.23倍。之所以能成为全球强支付平台，是因为中国的互联网电商产业规模全球，用户数全球，交易量全球，我们的技术是跟实际需求协同发展的。</span></p>
+<p>
+	<span style="font-size:16px;">　　在互联网经济中，中国在某些领域已经走在世界前列，接下来是要用自己的能力，去服务全球更多消费者。</span></p>
+<p>
+	<span style="font-size:16px;">　　这几年我在网上看到多的话题就是BAT把中国所有的创新、创意、创业的机会拿掉了。这让我想起了二十年前，我怪比尔&middot;盖茨，我怪IBM，我认 为这些公司把我们的机会都拿走了，但是事实上是这二十年来，无数的创新涌现。我相信BAT依旧会继续发展，但是互联网创业者依然有无数的机会赢。而用互联 网大数据，服务于产业升级和消费升级，里面有无数机会。</span></p>
+<p>
+	<span style="font-size:16px;">　　30年前的改革开放，造就了中国经济的发展奇迹。我觉得&ldquo;互联网＋&rdquo;&ldquo;一带一路&rdquo;&ldquo;双创&rdquo;等，背后渗透的思想是利用新技术、激发企业活力，开放市场，是对改革开放思想的继承和发扬，一定会给市场和企业带来许多新机遇。</span></p>
+<p>
+	<span style="font-size:16px;">　　<strong>谈大趋势&mdash;&mdash;</strong></span></p>
+<p>
+	<span style="font-size:16px;"><strong>　　人类迎来DT时代</strong></span></p>
+<p>
+	<span style="font-size:16px;">　　中国已经是一个计算机大国，有一天我们会成为计算大国。</span></p>
+<p>
+	<span style="font-size:16px;">　　未来，计算能力会成为生产资料，像水、电和石油一样的公共资源。人类在拥有石油这种新能源之前，从来没有想象过可以踏上月球的土地；人类在拥有计算能力这种新能源之前，同样无法想象人类的思考能力能够企及到何种程度。</span></p>
+<p>
+	<span style="font-size:16px;">　　DT(数据技术)时代，强大的计算能力终释放的是人类的大脑。因为思考能力从技术层面的解放，人类会迎来&ldquo;第三次世界大战&rdquo;&mdash;&mdash;人类向疾病、 贫穷和环境恶化这些问题发起的战争。因为人类获得了新的武器，有了新的能力&mdash;&mdash;当贫困的角落都有一台手机与世界相连时，我们相信人类战胜贫穷的可能性大 大增加。</span></p>
+<p>
+	<span style="font-size:16px;">　　思考能力的解放同样会改变企业的生存方式。小企业将获得和大企业一样的机会，创新和创造会成为企业成功与否的决定性因素。</span></p>
+<p>
+	<span style="font-size:16px;">　　思考能力的解放同样会改变政府的服务方式。未来政府部门的监管和治理离不开大数据；政府在招商引资时，需要考虑的基础设施不只是&ldquo;三通一平&rdquo;，恐怕是有没有计算能力、有没有存储能力、有没有数据金融服务能力。</span></p>
+<p>
+	<span style="font-size:16px;">　　我相信，DT时代会更公平、更透明、更开放。因为DT时代的思想，是你中有我，我中有你，DT时代把所有人联结在一起，密不可分。DT时代的思 想，是利他思想。只有让别人比你强大，让你的员工、客户、合作伙伴比你强大，只有别人强大了，你才能更强大。所以我相信，DT时代会比现在更美妙，不是因 为人和机器的关系变了，而是因为人和人的关系变了。</span></p>
+<p>
+	<span style="font-size:16px;">　　<strong>谈期待&mdash;&mdash;</strong></span></p>
+<p>
+	<span style="font-size:16px;"><strong>　　互联网发展</strong></span></p>
+<p>
+	<span style="font-size:16px;"><strong>　　也是我们每个人的事</strong></span></p>
+<p>
+	<span style="font-size:16px;">　　乌镇世界互联网大会让我想起瑞士雪山小镇达沃斯的&ldquo;世界经济论坛&rdquo;。现在我们在乌镇讨论互联网经济，讨论全球治理，期待互联网经济能够成为促进中国乃至世界，本轮经济结构调整中的积极力量、核心引擎；经济发展的同时，也逐渐恢复一个洁净的环境。</span></p>
+<p>
+	<span style="font-size:16px;">　　12月5日<a href="http://www.qynet.cc/">阿里巴巴</a>马云在巴黎参加联合国气候变化大会时，听说杭州下了鹅毛大雪！艳羡同时我也感慨，今天我错过了可以看别人拍雪景，100年，500年后，也许我们的子孙后代要翻&ldquo;古人&rdquo;微博才知道杭州的雪有多美！</span></p>
+<p>
+	<span style="font-size:16px;">　　气候变化，环境保护不应该是别人的讨论，而跟我们每个人有关。同样，互联网、经济发展不仅是那些发言嘉宾的事情，而是我们每个人的事情。</span></p>
+ </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/news/info/181.html'>阿里将和亚洲大展会主办方博闻公司合作</a> </li>
+
+        <li>下一篇：<a href='/news/info/183.html'>新浪直播间对话阿里YunOS事业部产品总监胡晓东</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/></p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>APEC峰会：奥巴马对话马云_企元时代</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/html5.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/index.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/Services.css">
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href='http://www.qynet.cc'" class="logo" style=" width:170px;"><input type="image" src="http://www.qynet.cc/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc'" src="http://www.qynet.cc/images/01.jpg"/>
+			<a href="http://www.qynet.cc/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/about/'"  src="http://www.qynet.cc/images/02.jpg"/>
+			<a href="http://www.qynet.cc/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/services/'"  src="http://www.qynet.cc/images/04.jpg"/>
+			<a href="http://www.qynet.cc/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/case/'"  src="http://www.qynet.cc/images/05.jpg"/>
+			<a href="http://www.qynet.cc/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/news/'"  src="http://www.qynet.cc/images/03.jpg"/>
+			<a href="http://www.qynet.cc/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/muban/'"  src="http://www.qynet.cc/images/06.jpg"/>
+			<a href="http://www.qynet.cc/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/zhaopin/'"  src="http://www.qynet.cc/images/07.jpg" />
+			<a href="http://www.qynet.cc/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/contact/'"  src="http://www.qynet.cc/images/08.jpg"/>
+			<a href="http://www.qynet.cc/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="http://www.qynet.cc/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">APEC峰会：奥巴马对话马云</div>
+<div class="content1"><span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 昨日，美国总统奥巴马邀请中国企业家<a href="http://www.qynet.cc/">阿里巴巴</a>集团董事局主席马云在APEC会议上就气候变化，环境保护和创业精神进行讨论，奥巴马一连向马云提了5个问题。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 马云在对话中表示，面对环境保护等问题，现在仍然担忧，那就太晚了，我们要行动，一起努力。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 菲律宾德拉萨大学的工程学教授爱莎也参与了讨论，爱莎看到菲律宾群岛大部份居民没有电力供应，依靠蜡烛和煤油灯照明，研发出一款盐水LED灯，只需要一杯水和两茶匙盐，就可以让LED灯照明八小时。<br />
+<br />
+<br />
+<strong>奥巴马：</strong>让我邀请Jack上台。他是我的偶像。大家都知道jack是企业家，不过可能你们不知道他还热衷气候变化的应对，参与清洁能源。Jack，谈谈你为什么对环保这么有激情？<br />
+<br />
+<strong>马云：</strong>这不是激情，这是担忧和关切。我12岁的时候，在家乡一个湖里游泳，我没想到水那深，那一次差一点淹死。五年前我回到那个地方，整个湖水居然已经干了！二十年前，没有那么多癌症；现在，身边越来越多的人得癌症。如果我们干得这么努力，后把所有的钱给了医院，这是一场灾难。从2010年起，阿里巴巴每年把收益的千分之三用于公益。这些钱能做的事很有限，但是重要的是用来唤醒。气候变化，食物，水，都是需要解决的问题。我们一直认为，哪里有抱怨，哪里有机会。我们发现这是一个巨大的机会。这也是为什么后来比尔盖茨邀请我一起做清洁能源的项目，我想这是一个很棒的想法。我们可以做点什么。跟十五年前相比，我们公司很大，跟十五年后相比，也许今天公司的规模很小，但是如果不解决好水，空气的问题，没人可以生存，不管你的企业是大是小。<br />
+<br />
+<br />
+<strong>奥巴马：</strong>马云介绍了他的方法；爱莎，谈谈你的盐水亮灯项目，你的经验，你从中学到了什么？<br />
+<br />
+<strong>爱莎：</strong>我和哥哥，建立了salt这个公司。我们想用海水解决偏远地区的照明。你知道，在菲律宾，15-20%的人住在岛上，他们没有接入电网。他们用煤油灯，你们都知道煤油灯不安全又污染。我们就想，为什么不给人们提供更安全，更高效的照明办法？我们想到了一种用海水来发电的装置。<br />
+<br />
+<br />
+<strong>奥巴马：</strong>太棒了。听说这个装置每天可以提供8小时照明，价格只要20美元？<br />
+<br />
+<strong>爱莎：</strong>是的。非常便宜。<br />
+<br />
+<br />
+<strong>奥巴马：</strong>我想这是完美的例子。年轻的企业家，用技术来应对问题。在亚洲，非洲，人们可以用这个照明，用它给手机充电。。。。。。然后在阿里巴巴上买东西。从Jack那买东西。。。。。。Jack，我想问你的是，我们可以做什么，更多的去支持这些年轻的企业家。让他们成功？<br />
+<br />
+<strong>马云：</strong>政府只要减税就可以了。<br />
+<br />
+（下面一片掌声。。。。。。）<br />
+<br />
+<strong>奥巴巴：</strong>Jack，你看下面的ceo们都欢呼了。<br />
+<br />
+<br />
+<strong>马云：</strong>关于阿里平台，我现在有五个babies，电商，支付，阿里云，物流，农村。<br />
+<br />
+<strong>奥巴马：</strong>是吗，你什么时候生的孩子？<br />
+<br />
+（下面一片笑声。）<br />
+<br />
+<strong>马云：</strong><a href="http://www.qynet.cc/">阿里巴巴</a>是平台，我们不卖任何东西，我们是给小企业赋能，让他们成功。关于大企业如何帮助象爱莎这样的年轻人成功，我想我有一个很好的例子。在中国有一个app叫货车帮，你知道长途货车出发的时候都是满载，回来往往是空车，这是很大的浪费。我们就是通过阿里云的技术，帮他们解决空车问题。现在一年这个app帮助中国的货车节省100亿人民币的油费。我觉得，创新总是在你公司的外面，我们看到好的创新，会兴奋，我们会投资，或者技术支持，或者用各种办法去推动。<br />
+<br />
+<br />
+<strong>奥巴马：</strong>爱莎你的挑战是什么？你们下面的可以继续看手机。<br />
+<br />
+<strong>爱莎：</strong>我们做了很多努力，有时为了教人们用我们的装置，我们要走6个小时爬山。我们已经得到了很多资助和支持，不过我们仍然需要很多funding。我们在融资。<br />
+<br />
+备注：爱莎说这话的时候，奥巴马太调皮了，拿眼睛看着爱莎，一直拿手指着马云。奥巴马：是的，我今天来就是要撮合他们俩。<br />
+<br />
+（听众大笑。）<br />
+<br />
+<br />
+<strong>奥巴马：</strong>，我相信政府还有很多事情可以做，特别是在很多环保项目的开始阶段；第二，今天在座的都不缺预算，政府应该做那些企业很难去做的，比如去支持一些基础项目。后，我想问马云，在中国，是不是企业家都跟你这样，认为环保是一件非常紧急的事，把环保放在了足够重要的位置？<br />
+<br />
+<strong>马云：</strong>中国当然非常想解决这个问题。你知道北京的雾霾，我刚刚从北京回来，嗓子不舒服。我们联合了45名企业家，一起出钱，做一个叫桃花源的事情。<br />
+<br />
+我觉得现在去计较谁对谁错已经太晚，不管是你的错，我的错，现在的问题是我们一起合作来解决问题。我们要想一想怎么一起做得更有效。政府，企业，科学家， 公益机构，媒体，应该联合起来。科学家知道怎么正确的做事，企业家知道怎么高效的做事，政府负责监管，公益机构和媒体负责唤醒理念。中美之间也应该合作。我在纽约布兰登买了公园，我不是买一片森林，是买你们的经验，30年代美国是怎么解决当然的污染问题的，我想把技术，把know-how带回来。这对中国会有用。<br />
+<br />
+<strong>爱莎：</strong>关于政府的支持，你不能依赖政府，你要做好你自己的部分。让人们拥有电，拥有照明，这是基本的权利。<br />
+<br />
+<strong>奥巴马：</strong>我希望我们的孩子，孙子，下一代不要在面临这些问题。爱莎你的装备，其它还可以给手机充电对吗？如果人们有这个，可以给手机充电，然后用手机电子商务。</span> </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='http://www.qynet.cc/news/info/160.html'>阿里巴巴布局村淘 要改变农村</a> </li>
+
+        <li>下一篇：<a href='http://www.qynet.cc/news/info/162.html'>捷渡携手阿里巴巴推出全屏智能后视镜</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="http://www.qynet.cc/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/></p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="http://www.qynet.cc/images/j (1).png"/>
+                    <img src="http://www.qynet.cc/images/j (2).png"/>
+                    <img src="http://www.qynet.cc/images/j (3).png"/>
+                    <img src="http://www.qynet.cc/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

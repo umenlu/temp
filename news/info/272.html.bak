@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>宁波阿里大数据云基地落户慈溪_企元</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">宁波阿里大数据云基地落户慈溪</div>
+<div class="content1"><p>
+	<span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 去年4月，朋友圈火的一张图，就是<a href="http://www.qynet.cc/">阿里巴巴</a>董事局主席马云带着一群企业家朋友出现在奉化。当时很多人都好奇：马云来宁波做什么？业界人士猜测，阿里要在宁波有大动作。</span></p>
+<p>
+	<span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 昨天，等候多时的谜底终于解开。阿里云的总裁胡晓明带着杭州数梦工场的负责人来到慈溪，揭开了阿里巴巴和宁波市政府框架协议下在2016年落地的个合作项目&mdash;&mdash;宁波大数据云基地签约仪式。</span></p>
+<p>
+	<strong><span style="font-size:16px;">大数据云基地是什么？</span></strong></p>
+<p>
+	<span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 宁波大数据云基地，特许经营期限为25年，项目计划前5年总投资20亿。而且，这还是全国首个特许经营的大数据云基地。</span></p>
+<p>
+	<span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 云基地的负责人告诉记者，基地的目标是要建设一个以政务云、企业云、民生云集结大数据服务为重点，立足慈溪、覆盖宁波、面向华东的一个区域性、综合性的大数据平台。</span></p>
+<p>
+	<span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 以前的企业，生产前都要新建一个IT机房。因为生产需要，后续机房要不断增加，这就会给企业新添找场地、加成本等各种压力。</span></p>
+<p>
+	<span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 大数据云基地出现后，企业就能在平台上租服务。这个服务，不仅仅是互联网成熟的技术输出到企业，帮助企业研发、商务模式的扩展，还有一个服务，就是提供基础数据的平台，通过互联网的方式，帮助企业沟通前端的生产、运输，后期的销售乃至消费者。</span></p>
+<p>
+	<span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 至于服务形式，就和供电供水差不多。企业在平台上按需服务，按需扩展。有些数据，可以是企业自己完成，如果是涉及高计算的部分，云基地提供服务，实现企业的机房和云基地混合使用。这对企业的生产、经营、研发，都有推动作用。</span></p>
+<p>
+	<strong><span style="font-size:16px;">平台选址为何落地慈溪？</span></strong></p>
+<p>
+	<span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 说到大数据云平台的建立，胡晓明说，这背后还有一段故事。</span></p>
+<p>
+	<span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 去年，马云带企业家朋友来奉化，和宁波市政府的相关负责人见了面。当时，宁波政府方面提出，阿里的云计算、大数据、电子商务、物流等业务，能不能在宁波落地？马云非常看好宁波，自那以后，便应宁波政府的邀请，多次来到宁波，落实相关事宜。</span></p>
+<p>
+	<span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 那么，为什么后大数据云基地终落户在了慈溪？&ldquo;拥抱实体经济，推动产业互联网发展 ，是下一步非常重要的任务，也是战略机遇。&rdquo;这位负责人说， 慈溪是全国百强县，经济、产业模式，在宁波乃至浙江都是佼佼者，社会资本相对丰厚，也是省级电子商务示范县（市、区）创建单位，去年双十一网上消费，在全 国县市区排名第三，条件相当不错。</span></p>
+<p>
+	<span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 从去年年中开始，<a href="http://www.qynet.cc/">阿里巴巴</a>集团的多位高层来过慈溪。一方有技术输出，一方有转型升级的需求， 双方一拍即合 ，促成了这个大数据云基地的诞生。</span></p>
+<p>
+	<span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo;我们希望能用这个平台，带动慈溪小家电乃至工业企业的转型升级。我们也会把智慧城市的建设纳入其中，包括支付宝、农村淘宝等多个产品也会陆续引入宁波，将慈溪作为一个窗户，服务好宁波，辐射华东地区。&rdquo;这位负责人介绍。</span></p>
+<p>
+	<strong><span style="font-size:16px;">云基地能为宁波带来什么？</span></strong></p>
+<p>
+	<span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 昨天的活动现场，云基地还签了多个项目：宁波大数据云基地特许经营权项目、珠算云（宁波）研究院项目、宁波工业云大数据建设项目、吉利汽车高性能计算、大数据及应用项目的签约，另外还进行了数梦工场大数据云计算培训中心、数梦工场生态孵化基地授牌。</span></p>
+<p>
+	<span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 看到这，省政府信息公开办公室主任陈新忠有些激动：&ldquo;全省的大数据云基地，目前还在筹备阶段，慈溪的这一步，走得很好。&rdquo;</span></p>
+<p>
+	<span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo;签约的很多项目，涵盖了浙江省下一步大数据工作的方方面面。可以说，慈溪这个大数据云基地项目，是浙江省大数据工作的个落地项目。希望这个项目能成为全省乃至全国大数据工作的典范。&rdquo;陈新忠说。</span></p>
+<p>
+	<span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 宁波市政府相关负责人表示，宁波大数据云基地正式落户慈溪，未来将形成创新创业生态覆盖宁波，面向华东。这是宁波市经济社会转型升级的重大步伐，也 是国家&ldquo;互联网＋&rdquo;行动的里程碑事件，计划三年内建成一个国内领先的大数据云计算平台，探索出一条互联网基础设施建设和大数据创新的宁波之路。</span></p>
+ </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/news/info/271.html'>马云公益基金会启动乡村教师计划</a> </li>
+
+        <li>下一篇：没有了 </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>阿里钉钉实现低成本无纸化办公_企元</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">阿里钉钉实现低成本无纸化办公</div>
+<div class="content1"><span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 早在11月下旬，<a href="http://www.qynet.cc/">阿里巴巴</a>钉钉工作人员在钉钉社区发出公告，从企业用户中招募讲师，组成&ldquo;钉钉讲师团&rdquo;为新用户讲解钉钉的用法。这些讲师全凭自愿，没有酬劳。原计划招募10余名讲师，两天时间就有5000多人报名。<br />
+<img alt="" src="/uploads/allimg/160108/1-16010Q1261E92.jpg" style="width: 640px; height: 427px;" /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 统计报名人员资料发现，这5000多人中，超过半数是钉钉深度用户，也就是使用钉钉较久且使用频率很高的用户，而且超过半数是企业经营管理人员。<br />
+<br />
+<strong>&ldquo;钉钉&rdquo;是什么？凭什么赢得了用户的青睐？</strong><br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2015年，阿里巴巴集团出现一款明星产品&mdash;&mdash;钉钉，它是专为中小企业打造的沟通、协同多端平台。在当年年末盘点时，多家机构将钉钉评选为年度创新产品，钉钉创始人陈航也屡获业界肯定。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo;从诞生之日起，阿里钉钉一直秉承着&lsquo;为中小企业服务&rsquo;的信念，基于<a href="http://www.qynet.cc/">阿里巴巴</a>在云和移动时代的技术积累，通过架设于统一通信能力基础上的多样能力输出和综合服务建设，致力于帮助中小企业提高工作效率、降低经营成本，为中小企业投身&lsquo;大众创业、万众创新&rsquo;打造更有利的平台。&rdquo;这是对钉钉和陈航的评价。5000多报名者中，终15人入选，组成了届&ldquo;钉钉讲师团&rdquo;。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2015年12月中旬，钉钉组织他们聚集到杭州，进行了两天培训交流。下一步，这15位讲师将在钉钉官网开课，通过视频直播及录播的形式，让更多钉钉用户深度了解钉钉的功能，熟练掌握使用方法。阿里钉钉，既是&ldquo;创业+创新&rdquo;的成果，同时也为&ldquo;双创&rdquo;提供平台支持。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 陈航说：&ldquo;钉钉为中国中小企业而生，我们要帮中小企业进入云和移动时代，提升工作协同效率，让它们有更多的精力用于创新。&rdquo;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 钉钉上线一年来，用户爆炸性增长，覆盖各行各业，包括行政事业单位。取得这样的发展，根本原因是钉钉解决了很多中小企业管理效率中的&ldquo;痛点&rdquo;，让很多用户彻底&ldquo;粉&rdquo;上了钉钉，主动为钉钉进行口碑营销。<br />
+<br />
+<strong>钉钉实现低成本办公自动化</strong><br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 用上<a href="http://www.qynet.cc/">阿里巴巴</a>钉钉后，刘文伟感到很开心。他不喜欢软件体验里有太多的广告和被迫转发，钉钉就没有这些，界面清晰，让他有一种被解放的感觉。&ldquo;现在，关键的事情我基本上都是在钉钉上解决。&rdquo;刘文伟说。27岁的刘文伟是辽宁方林集团的信息化负责人，这么多年一直致力于集团信息化管理的升级，但苦于找不到一种合适的移动端软件，直到遇到钉钉。方林集团是一家传统企业，做装饰装修，集团员工5000多人，但信息化管理程度不高。2014年，刘文伟组建了一个开发团队，想开发出适合本公司使用的办公自动化系统。终系统虽然上线，但感觉仍不理想，而且开发的成本很大。2015年年中，刘文伟听人介绍钉钉后，就下载试用，钉钉在工作协同上的功能让他爱不释手。&ldquo;集团几千人多数都是工人，分散在工地上。原来是纸上签到，有弄虚作假的空间，为此有时还会派人巡查。&rdquo;刘文伟说，钉钉签到解决了这个问题。无纸化办公，是方林集团的目标。刘文伟此前每天都会收到一大摞纸质文件，钉钉的报表及审批功能，让集团省下了很多纸张及打印耗材费用。使用钉钉后，刘文伟和同事们体会到工作和生活分开的好处，&ldquo;原来因为通讯软件把工作生活都混杂在一起，轻重不分。现在工作时间只关注钉钉即可，可以更加专注高效&rdquo;。</span> </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/news/info/249.html'>阿里集团CEO张勇：完善体制 要从管理小二开始</a> </li>
+
+        <li>下一篇：<a href='/news/info/253.html'>阿里体育未来要打造产业生态链</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/></p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+.fl{display:inline;float:left}
+.fr{display:inline;float:right}
+.cf:after{content:"";clear:both;display:block;height:0;overflow:hidden}
+.cf{zoom:1; width:100%;}
+.pb10{padding-bottom:10px}
+.mt10{margin-top:10px}
+/*main*/
+.zhaopin{width:1200px;margin:0 auto; overflow:hidden;}
+.zhaopin .title-list{ position: relative;}
+.zhaopin .title-list li{ font-size:20px; color:#333;text-align: center;display:block;cursor:pointer; width:139px; overflow:hidden; float:left; margin-bottom:10px; margin-left:35px; margin-right:35px;}
+.zhaopin .title-list li img{ width:68px; height:68px; margin-top:10px;}
+.zhaopin .title-list li:hover{ color:#eb3d00; border-bottom:4px #eb3d00 solid;margin-bottom:6px;}
+.zhaopin .title-list li.on{ color: #eb3d00; border-bottom:4px #eb3d00 solid;margin-bottom:6px;}
+.zhaopin .title-list p{position:absolute;left:0px; bottom:0;width:50px;height:10px;border-bottom: 3px solid #ff6600; overflow: hidden; text-align: center;}
+.product{ position: relative; overflow: hidden; display: none; margin:40px;}
+.product ol{ width:70%; overflow:hidden; display:block; margin:0 auto; color:#191919; margin-bottom:20px;}
+.product ol li{ line-height:30px; font-size:15px;}
+.product ol div{ line-height:60px; font-size:24px;}
+.product-wrap { width:90%; background:url(../images/bai.png); background-size:100%;padding:10px; margin:0 auto;margin-top:20px; margin-bottom:50px;box-shadow: 0 0 3px 3px #CCC;}
+.product-wrap .show{ display: block;}
+
+.zhao{width:100%; height:auto; overflow:hidden; background:url(../images/zhao_img.jpg); background-size:100%;}
+.zhao_box{ width:100%; overflow:hidden; margin-top:26px; margin-bottom:10px;}
+.zhao_box p{ display:block; margin:0 auto; color:#000;}
+.zhao_box .p1{ font-size:30px; display:block;text-align:center; line-height:40px;}
+.zhao_box .p2{ text-align:center; font-size:20px; line-height:30px;}
+.zhao_box .p3{ text-align:center; font-size:18px; font-family:"宋体"; font-weight:bold; border-top:1px #000 solid; width:230px; line-height:30px;}
+.neme_1{ font-size:15px; color:#333; line-height:24px;}.neme_2{ color:#000; font-size:12px; height:24px; font-family:"Arial";}

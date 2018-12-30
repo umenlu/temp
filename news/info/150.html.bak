@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>一场晚会背后的阿里野心_企元时代</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/html5.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/index.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/Services.css">
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href='http://www.qynet.cc'" class="logo" style=" width:170px;"><input type="image" src="http://www.qynet.cc/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc'" src="http://www.qynet.cc/images/01.jpg"/>
+			<a href="http://www.qynet.cc/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/about/'"  src="http://www.qynet.cc/images/02.jpg"/>
+			<a href="http://www.qynet.cc/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/services/'"  src="http://www.qynet.cc/images/04.jpg"/>
+			<a href="http://www.qynet.cc/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/case/'"  src="http://www.qynet.cc/images/05.jpg"/>
+			<a href="http://www.qynet.cc/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/news/'"  src="http://www.qynet.cc/images/03.jpg"/>
+			<a href="http://www.qynet.cc/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/muban/'"  src="http://www.qynet.cc/images/06.jpg"/>
+			<a href="http://www.qynet.cc/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/zhaopin/'"  src="http://www.qynet.cc/images/07.jpg" />
+			<a href="http://www.qynet.cc/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/contact/'"  src="http://www.qynet.cc/images/08.jpg"/>
+			<a href="http://www.qynet.cc/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="http://www.qynet.cc/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">一场晚会背后的阿里野心</div>
+<div class="content1"><span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 阿里云首次加入双11、农村淘宝纳入双11阵营、线下医疗机构&ldquo;赶场&rdquo;双11&hellip;&hellip;再加上今年的首次双11晚会&mdash;&mdash;一年一度的双11，已不止是一次买买买的电商购物狂欢，更像是<a href="http://www.qynet.cc/">阿里巴巴</a>全盘业务的年度阅兵：阿里在一年里进行的业务推进，不再只是财经新闻里的&ldquo;收购&rdquo;、&ldquo;扩张&rdquo;字眼，双11这张大网，一一具体展现在消费者面前。截至2015年11月11日1时14分，阿里双11销售额已突破300亿元。<br />
+<br />
+　　其实历经7年的双11，成交额已不再是让阿里巴巴关注的。记者在现场注意到，11日0时33分交易额突破200亿元时，身处双11媒体中心的阿里巴巴董事局主席马云，脸上也没有显现出特别的喜悦。要知道，这个时间点的交易额，是去年的两倍多。<br />
+<br />
+　　不久前，马云在回应海外投资者的公开信中直言，希望外界不要把成交额增长率作为对阿里模式的评判标准，&ldquo;狭义的电子商务仅仅是今天阿里巴巴集团战略的一部分，我们追求的是打造一个开放、透明、协同的商业基础设施平台&rdquo;。这是记者参加的第四次双11媒体直播，与前三次相比，虽还是电商唱主角，但不可否认的是，阿里的非电商元素愈来愈多。也许就像马云说的，&ldquo;将阿里定义成一家电子商务公司是一种误解&rdquo;。双11七年痒不痒？不妨跳出电商的框框，或许能看到这是阿里巴巴的全生态扩张。<br />
+<br />
+<strong>一场晚会背后的娱乐版图扩张</strong><br />
+<br />
+　　11月10日晚，阿里巴巴首次举办由冯小刚导演、众多明星参演的双11晚会，在北京&ldquo;水立方&rdquo;国家游泳中心开幕，并在湖南卫视直播。<br />
+<br />
+　　一种说法是：&ldquo;已经举办7年的双11，需要用晚会的新形式，刺激这场狂欢持续。&rdquo;另一种说法是：&ldquo;这场晚会是阿里近年在娱乐版图扩张的全面体现。&rdquo;<br />
+<br />
+　　确实，<a href="http://www.qynet.cc/">阿里巴巴</a>作为首次主办大型晚会的东家，即使有湖南卫视做搭档，能将双11晚会办到市场占有率28%也让人咂舌&mdash;&mdash;截至11月10日晚11时，据酷云eye收视关注度统计，湖南卫视阿里节目的市占率为28%，排全国电视频道首位，央视三套京东节目的市占率为2.6%，排名第六。<br />
+<br />
+　　这背后与阿里在娱乐业的大力推进关联甚密：为晚会站台的高晓松，是阿里旗下阿里音乐董事长；负责晚会网络直播的优酷土豆，不久前刚被阿里全资收购；《星球大战》、《007》、《纸牌屋》等影视剧元素的出现，让人不禁联想是否与阿里影业有关&hellip;&hellip;<br />
+<br />
+　　除此之外，既与马云私交不错、又是天猫平台新晋店主的赵薇，在晚会上多次提及钉钉，也教人反应过来&mdash;&mdash;原来阿里在面对微信这个社交软件绝对强大的对手时，仍没有死心，正不声不响地谋划从办公人群切入移动社交软件领域。<br />
+<br />
+<strong>收入增速快的阿里云技术助力</strong><br />
+<br />
+　　11日0时，晚会接近尾声时，位于北京&ldquo;水立方&rdquo;的双11媒体中心大屏，从晚会直播切换至交易数据显示。这块大屏亦隐藏着阿里的技术野心&mdash;&mdash;用来显示全球双11数据情况的地球图像，采用的技术是阿里云dateV数据可视化引擎实时渲染。<br />
+<br />
+　　今年4月，阿里云宣布推出云渲染平台，服务于电影行业。利用云计算能力，将原本需要大量时间、硬件才能实现的渲染技术，变为时间短、成本低的一项工作，小团队即可完成好莱坞大片式的动画、特技效果。这次显示在双11媒体直播大屏上的特效图像，即是该技术的不经意间显现。<br />
+<br />
+　　作为阿里集团大力发展方向之一的阿里云，对双11的贡献不仅限于此。除天猫、淘宝的大商家外，苏宁、优酷、嗨淘、众安保险、天弘基金、红岭创投以及40多家中小银行机构等，在今年双11期间均采用阿里云，通过弹性扩容、系统护航等方式备战双11。<br />
+<br />
+　　逐渐成熟的阿里云也在今年正式进入双11战场。创业者和开发者可以像网购奶粉一样，在阿里云双11活动中购买企业IT建设所需的计算资源产品与服务。截至11月9日，超过10万家创业企业，在阿里云双11活动中提交了计算资源采购意向。<br />
+<br />
+　　&ldquo;阿里巴巴集团2015年第二季度财报显示，阿里云以比同期增长106%的速度成为阿里巴巴收入增速快的业务&rdquo;&mdash;&mdash;而今年的双11，把阿里云这份数据具象化了。<br />
+<br />
+<strong>非关注热点业务借双11东风现身</strong><br />
+<br />
+　　趁着双11的东风，一些相对不太被人关注的阿里业务，也逐渐浮现出来。这些迹象让人惊觉，原来阿里的这部分业务，也已经发展到这个规模了。<br />
+<br />
+　　比如，来自阿里健康、农村淘宝发来的新闻稿邮件，一则是和睦家、博奥颐和、通策医疗等医疗机构入驻天猫医药馆，并在双11推出低价孕前检查、剖宫产、口腔齿科、体检等线下医疗套餐；另一则是已经覆盖全国27个省份、6000多个村，发展近万名合伙人的农村淘宝今年首次加入双11。<br />
+<br />
+　　再比如，今年农村淘宝的单&mdash;&mdash;重庆奉节山区的一名村民购买的一台电视，基于阿里菜鸟网络的物流系统，在2小时内就送货到村。在双11前走访物流企业时，一家快递公司负责人说，采用菜鸟物流的电子面单后，发货速度可提高30%，分拣效率提高50%。<br />
+<br />
+　　再比如，首次加入双11的蚂蚁金服旗下的&ldquo;新人&rdquo;蚂蚁花呗，据说在双11开场小时，支付成功率达到100%，系统已具备支撑亿级交易的能力。<br />
+<br />
+　　因此，即使被认为在电商领域略显疲态，双11作为<a href="http://www.qynet.cc/">阿里业务</a>矩阵的&ldquo;阅兵场&rdquo;和&ldquo;练兵台&rdquo;，或许是存在即合理。</span> </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='http://www.qynet.cc/news/info/149.html'>2015双十一开启 1个小时成交额破300亿</a> </li>
+
+        <li>下一篇：<a href='http://www.qynet.cc/news/info/151.html'>双11阿里成交量再创奇迹 终达912.17亿元</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="http://www.qynet.cc/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="http://www.qynet.cc/images/j (1).png"/>
+                    <img src="http://www.qynet.cc/images/j (2).png"/>
+                    <img src="http://www.qynet.cc/images/j (3).png"/>
+                    <img src="http://www.qynet.cc/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

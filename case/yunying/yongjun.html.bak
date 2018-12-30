@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>天津永君商贸有限公司——天津企元时代运营优质案例</title>
+<meta name="keywords" content="1688店铺运营案例,企元时代运营案例,阿里巴巴店铺运营案例" />
+<meta name="description" content="" />
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">天津永君商贸有限公司—企元运营优质案例</div><br /><br />
+<div class="content1"><span style="font-size:16px;"><strong>店铺名称：</strong>天津市永君商贸有限公司<br />
+&nbsp;<br />
+<strong>旺铺地址：</strong>https://tjsyjsm.1688.com/<br /><br />
+<strong>主营产品：</strong>餐饮调料<br />
+&nbsp;<br />
+<strong>公司简介：</strong>天津市永君商贸有限公司 经销批发的四川调料、休闲食品、火锅底料、红糖、食用菌、榨菜畅销消费者市场，在消费者当中享有较高的地位，公司与多家零售商和代理商建立了长期稳定的合作关系。天津市永君商贸有限公司经销的四川调料、休闲食品、火锅底料、红糖、食用菌、榨菜品种齐全、价格合理。天津市永君商贸有限公司实力雄厚，重信用、守合同、保证产品质量，以多品种经营特色和薄利多销的原则，赢得了广大客户的信任。&nbsp;<br />
+&nbsp;<br />
+<strong>客户为何选择我们：</strong>天津永君商贸有限公司是1688餐饮调料类店铺，公司诚信通已经开通了两年，由于接触电商比较晚，因此在同类目中属于新店，需要稳扎稳打运营店铺。经营者关于网店运营方面、网店管理和网店推广的经验甚少，因此在其经营初期面临许多的困难：&nbsp;<br />
+<br />
+<span style="font-size:16px;">
+1、市场上电商人才缺乏；<br />
+2、自己组建电商团队成本高且浪费时间；<br />
+3、电商装修运营外包好处诸多：专业人员运营，店铺发展有保障等；<br />
+4、装修运营外包的同时还可以从代运营公司这里掌握阿里的新讯息；<br />
+5、店铺经营初期知名度不高，难以拓展新兴的市场；<br />
+6、营销方式单一，营销效果不理想。<br />
+7、无法获取阿里巴巴集团内部重要的资讯。<br />
+</span><br />
+<span style="font-size:16px;">
+如：生意参谋升级、网销宝改版、阿里总部组织的洽谈会和阿里小二组织的类目活动等。
+8.未触过网商，对网商经营存在困惑。
+<br />
+</span>
+
+<div style="text-align: center;"><br />
+	<span style="font-size:20px;font-weight:bold;">客户店铺展示</span><br />&nbsp;<br />
+</div>
+<span style="font-size:16px;"><img alt="" src="/uploads/case/161129-2/1.jpg" /></span>
+<div style="text-align: center;"><br />
+	<span style="font-size:20px;font-weight:bold;">运营效果展示</span><br />&nbsp;<br />
+</div>
+
+<div style="text-align: center;">
+
+<span style="font-size:16px;">&nbsp;运营前数据：20160301-20160331
+</span>
+<span style="font-size:16px;"><img alt="" src="/uploads/case/161129-2/2.png"  /></span><br />
+
+<span style="font-size:16px;">&nbsp;运营后的数据：20160801-20160831 交易下降
+</span>
+<span style="font-size:16px;"><img alt="" src="/uploads/case/161129-2/3.png"  /></span><br />
+
+<span style="font-size:16px;">&nbsp;20161024-20161122 交易额开始迅速回升，离不开运营人员的努力</span>
+<span style="font-size:16px;"><img alt="" src="/uploads/case/161129-2/4.png"  /></span><br />
+
+</div>
+
+<span style="font-size:16px;">
+<strong>说明：</strong>经过半年的运维优化，店铺运营基础得到进一步巩固，店铺数据有显著的提升，店铺运营是一个长期的过程，需要大家相互支持合作才能把我们的店铺做的更好。我可以从上面的数据概况看出：无论是展现次数、浏览次数还是访客数以及支付金额方面都有了一个质和量的飞跃。
+<br /><br />
+【1】展现次数由2016年4月运营前的20044次到2016年11月的45703次左右。<br />
+【2】浏览次数由2016年4月运营前的1687次到2016年11月的6223次左右。<br />
+【3】访客数由2016年4月运营前的662个到2016年11月的3681个左右。<br />
+【4】支付笔数和成交额由25笔4752元到月单72笔25591.5元，突破3A店铺。<br />
+<br />
+店铺的运营期间有上升和下降，这些现象都是很正常的。但是店铺的发展整体是上升的趋势，为后期的长期运营规划做了很好的铺垫。<br />
+</span> 
+
+<div style="text-align: center;"><br />
+	<span style="font-size:20px;font-weight:bold;">旺铺优化</span><br />&nbsp;<br />
+</div>
+<div style="text-align: center;">
+<span style="font-size:16px;">&nbsp;优化后
+</span>
+<span style="font-size:16px;"><img alt="" src="/uploads/case/161129-2/5.png"  /></span><br />
+</div>
+<span style="font-size:16px;">
+<strong>说明：</strong>旺铺优化评分是店铺重要的质量指标，旺铺评分只有优化到90分以上才能对店铺展现排名，产品的展现排名起到促进和加权的作用。通过运维（产品标题、详情页、旺旺时长、活跃程度等）店铺指标，优化到97分，店铺运营基础取得良好效果。，但是店铺的产品数量太少，还是有些影响旺铺的评分的，需要客户开发新产品，上传产品进一步优化店铺评分。<br />
+</span> 
+
+<div style="text-align: center;"><br />
+	<span style="font-size:20px;font-weight:bold;">店铺资质提升：</span><br />&nbsp;<br />
+</div>
+<span style="font-size:16px;"><img alt="" src="/uploads/case/161129-2/6.png"  /></span><br />
+<span style="font-size:16px;">
+通过6个多月的运营店铺供应等级达到1钻，交易勋章3A，店铺客户回头率19%获得优质网商资质，店铺处于盈利状态。<br />
+</span> <br />
+<span style="font-size:16px;">
+搜索老干妈，永君商贸产品位居首页第二行和第三行，销量是一直在领先。<br />
+</span> 
+<span style="font-size:16px;">
+感谢天津永君商贸有限公司的对企元的信任。因为您的信任，所以我们会做的更好；因为您的信任，所以我们担起店铺的责任。您的每一次相信，都会成为给您满意大卷的开始！相信企元，更相信自己，让我们一起携手共进，走向网商的巅峰！<br />
+</span> 
+
+</div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/case/yunying/276.html'>天津保祥康</a> </li>
+
+        <li>下一篇：<a href='/case/yunying/161118.html'>天津康益健</a>  </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

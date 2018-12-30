@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>{dede:field.seotitle/}_{dede:global.cfg_webname/}</title>
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+{dede:include filename="head.htm"/}
+<!--顶图-->
+<a href="#"><img style=" width:100%;" src="/images/hjh.jpg"/></a>
+
+<div class="lanrenzhijia2">
+  <div class="title cf">
+    <ul class="title-list fr cf cf1">
+     <a href="/news/info/"> <li class="on"></li></a>
+      <a href="/news/gongsi/"><li class="on1"></li> </a>  
+    </ul>
+  </div>
+  
+<div class="tb_box1">
+<a href="/news/info/">
+	<div class="tb">
+    	<b>HANG YE ZI XUN</b>
+        <div>行业资讯</div>
+        <p>让您了解行业内的新消息<br/>洞察媒体行业</p>
+    </div>
+    </a>
+    <a href="/news/gongsi/">
+    <div class="tb">
+    	<b>GON SI DONG TAI</b>
+        <div>公司动态</div>
+        <p>让您了解公司文化和业态发展<br/>公司文字文字文字</p>
+    </div>
+    </a>
+</div>  
+  
+  <div class="product-wrap">
+
+    <div class="product show">
+	<p>当前位置: {dede:field name='position'/} </p>
+        <div class="common">
+        {dede:list pagesize='8'}
+			<span class="xinwen">
+            	<a href="[field:arcurl/]" target="_Blank"><img src="[field:litpic/]" alt="[field:fulltitle/]" width="220" height="140" /></a>
+                <ol>
+                	<li class="xinwen_li1"><a href="[field:arcurl/]" target="_Blank">[field:title/]</a></li>
+                    <li class="xinwen_li2"><a href="[field:arcurl/]" target="_Blank">[field:description/]... </a></li>
+                </ol>
+            </span>
+   {/dede:list}
+   		</div>
+   <div class="pages">
+
+      <ul class="pageslist">
+
+      <li>
+
+        {dede:pagelist listitem="info,index,end,pre,next,pageno,option" listsize="10"/}
+
+        </li>
+
+      </ul>
+
+    </div>
+    </div>   
+    <!--案例2-->
+    </div>
+           
+  </div>
+</div>
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+{dede:include filename="footer.htm"/}
+</body>
+</html>

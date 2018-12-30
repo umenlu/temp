@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>阿里钉钉解决中小企业管理痛点_企元</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">阿里钉钉解决中小企业管理痛点</div>
+<div class="content1"><span style="font-size:16px;">　&nbsp;&nbsp;&nbsp; &ldquo;DING，是一项伟大的原创。&rdquo;80后创业者史楠说，这是钉钉里面他爱的功能。</span>
+<p>
+	<span style="font-size:16px;">　　钉钉(DingTalk)，是<a href="http://www.qynet.cc/">阿里巴巴</a>集团专为中小企业打造的沟通和协同的多端平台，是一款全免费的应用。</span></p>
+<p>
+	<span style="font-size:16px;">　　史楠提到的DING功能，只是钉钉重要功能之一，目的是消息必达，既可语音又可文字，既可群发又可单发。<br />
+	<img alt="" src="/uploads/allimg/160104/1-160104110K4349.png" style="width: 780px; height: 427px;" /></span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size:16px;">　　摄影师出身的创业者曹军不只青睐DING的&ldquo;使命必达&rdquo;，对钉钉的审批功能也赞不绝口，&ldquo;钉钉一年至少让我节约了10万元管理成本。&rdquo;</span></p>
+<p>
+	<span style="font-size:16px;">　　90后创业女孩杨辛的公司刚注册半年多，由于员工的主要工作是地面推广，她更喜欢钉钉签到功能，&ldquo;签到可以显示地理位置，可以随时知道他们在哪里。&rdquo;</span></p>
+<p>
+	<span style="font-size:16px;">　　史楠、曹军和杨辛，他们的企业都是中小企业。中国有多少家这样的中小企业？公开数据显示，这个数字已超千万。如果算上微型企业，5000万家也不止。</span></p>
+<p>
+	<span style="font-size:16px;">　　在&ldquo;大众创业、万众创新&rdquo;大潮中，新注册创业企业如雨后春笋般涌现，小微企业的数量在快速增加。提升效率、节约成本，是这些企业面临的课题，甚至是管理中的痛点。钉钉的出现，为它们提供了切合自身需求的解决方案。</span></p>
+<p>
+	<span style="font-size:16px;">　　&ldquo;让天下没有难做的生意&rdquo;，阿里巴巴一直以来都致力于帮助中国中小企业。脱胎于阿里巴巴的钉钉，秉承这一理念，一直在努力让更多中小企业提升效率优化成本。</span></p>
+<p>
+	<span style="font-size:16px;">　　钉钉创始人陈航说：&ldquo;我们是为中国中小企业而生，我们要帮它们进入云和移动时代，提升工作协同效率，让它们有更多的精力用于创新，让它们的创造力和欧美企业比肩。&rdquo;</span></p>
+<p>
+	<span style="font-size:16px;">　　&ldquo;工作效率至少提升了3&mdash;5倍&rdquo;</span></p>
+<p>
+	<span style="font-size:16px;">　　1981年出生的史楠是杭州康帕斯科技有限公司的总经理，创业已有十年，如今他的公司已有200多人的规模，做IT硬件设备销售和互联网领域的解决方案。这位80后还有另外一个特殊身份，即钉钉首家共创企业的老板。</span></p>
+<p>
+	<span style="font-size:16px;">　　钉钉在<a href="http://www.qynet.cc/">阿里巴巴</a>内部立项后，创始人陈航曾带队来到史楠的康帕斯公司调研，了解企业沟通中的痛点。据此，钉钉的产品雏形形成。</span></p>
+<p>
+	<span style="font-size:16px;">　　钉钉产品线负责人吴振昊表示，初钉钉产品就是聚焦于这个公司的痛点。先不考虑普遍需求，先把这家公司痛点解决掉，做成一个样本。</span></p>
+<p>
+	<span style="font-size:16px;">　　内测时，史楠就喜欢DING这个功能，他当时还提了改进意见，就是DING要增加回复功能。</span></p>
+<p>
+	<span style="font-size:16px;">　　&ldquo;DING用文字发消息时，好处显而易见，一可以杜绝群沟通的松散，二可以杜绝电话会议无文字记录的情况。&rdquo;史楠对DING功能推崇备至，DING消息现在成为他们公司常用功能，作为老板，他平均每天会被员工DING十几次。</span></p>
+<p>
+	<span style="font-size:16px;">　　每次DING消息&ldquo;钉&rdquo;到了谁，都会有回复和反馈，这就像在BBS建了一个直达用户的帖子，被DING的人能够看到，每人都可以跟帖回复。</span></p>
+<p>
+	<span style="font-size:16px;">　　史楠对此理解得很深刻，他认为即便当面沟通也没有DING消息好使。&ldquo;人的语言是有魅力的，比如演讲就很能打动人。但语言也有弊端，会情绪化，而且没有标准性，文字是有标准的，所以DING消息就可以规避掉语言的弊端。&rdquo;史楠说。</span></p>
+<p>
+	<span style="font-size:16px;">　　DING消息沟通，还让公司打通了此前的沟通壁垒，下级员工直接可DING上司、DING老板，可以时间把自己的想法、需要告诉公司决策者，老板也必须时间做出反馈。</span></p>
+<p>
+	<span style="font-size:16px;">　　史楠说，他的公司虽然创立十年，但真正的爆发成长是近两年，几乎和公司使用钉钉同步，&ldquo;工作效率至少提升了3&mdash;5倍，原来一个审批需要三四天，现在20分钟搞定。&rdquo;他相信有钉钉帮助，他的公司将会迎来更强劲的增长。</span></p>
+<p>
+	<span style="font-size:16px;">　　&ldquo;一年至少为我节约了10万元人力成本&rdquo;</span></p>
+<p>
+	<span style="font-size:16px;">　　和众多80后、90后创业者不同，摄影师出身的曹军是一位60后，今年48岁。</span></p>
+<p>
+	<span style="font-size:16px;">　　他在江苏阜宁投资了一家金色童年儿童摄影加盟店，自己担任总经理，手下有二十五六名员工。</span></p>
+<p>
+	<span style="font-size:16px;">　　摄影师都是&ldquo;心向远方&rdquo;之人，曹军也不例外，他不愿黏在店里，他的理想是&ldquo;离店管理&rdquo;。为此他一直在寻找能让他实现理想的软件。</span></p>
+<p>
+	<span style="font-size:16px;">　　&ldquo;我从5年前开始关注办公客户端工具软件，试用了不下五款，有的还是收费的，年费3000多元。&rdquo;曹军说，结果都不理想，&ldquo;不好使，钱白花了&rdquo;。</span></p>
+<p>
+	<span style="font-size:16px;">　　2015年年初，他看到钉钉1.0版本发布的消息，就立马下载试用，成为钉钉早期的用户之一。</span></p>
+<p>
+	<span style="font-size:16px;">　　基于钉钉的阿里背景，他对钉钉有一种天然的信任感。关键的是，钉钉不但不收费，还提供免费商务电话。不过曹军更青睐的是钉钉&ldquo;使命必达&rdquo;。</span></p>
+<p>
+	<span style="font-size:16px;">　　&ldquo;DING、已读未读，这些功能让对方不能&lsquo;装死&rsquo;不理了。&rdquo;曹军笑着说。</span></p>
+<p>
+	<span style="font-size:16px;">　　使用钉钉之前，他的店里惯用纸质任务单，下达效率很低。使用钉钉之后，不再需要纸质任务单，DING一下即可。</span></p>
+<p>
+	<span style="font-size:16px;">　　由此引发的连锁反应是，他手下的一名副总经理和一名中层失去了存在价值，因为他俩是负责上传下达及核查任务单的。</span></p>
+<p>
+	<span style="font-size:16px;">　　2015年6月，曹军果断砍掉了这两个职位，让两人转岗去做业务。&ldquo;这样一年至少为我节约了10万元人力成本。&rdquo;他说。</span></p>
+<p>
+	<span style="font-size:16px;">　　他认为自己的小店是小微企业的代表，&ldquo;我的理想就是&lsquo;离店管理&rsquo;，如今钉钉帮我做到了。&rdquo;他要把钉钉推荐给远在济南的总店使用，让更多的加盟店都能实现&ldquo;离店管理&rdquo;。</span></p>
+<p>
+	<span style="font-size:16px;">　　&ldquo;已经约好了，总店很感兴趣，我这几天赶过去教他们如何使用钉钉。&rdquo;曹军说。</span></p>
+<p>
+	<span style="font-size:16px;">　　&ldquo;让员工工作效率大幅提升，这意味着业绩提升和收入提升&rdquo;</span></p>
+<p>
+	<span style="font-size:16px;">　　&ldquo;大众创业、万众创新&rdquo;的大潮一浪高过一浪，2015年4月，一直在深圳打拼的90后女孩儿杨辛下定决心辞职下海，回到老家汕头注册成立汕头市布绵绵文化传播有限公司，为少儿提供课外手工培训。</span></p>
+<p>
+	<span style="font-size:16px;">　　一个偶然的机会，她发现丈夫的公司在用一款叫钉钉的手机客户端做企业管理，即时通讯、免费电话及写工作日志都很方便。好奇心驱使她安装了钉钉， 一试用就爱不释手。&ldquo;我喜欢钉钉的签到功能，不过刚开始手下员工是有抵触的。&rdquo;杨辛说，钉钉签到基于地理位置，可以随时随地知道员工在哪里。</span></p>
+<p>
+	<span style="font-size:16px;">　　她手下有20多名地推人员，主要工作是去幼儿园、小学校门口拜访家长，推荐公司的少儿课外手工课程。</span></p>
+<p>
+	<span style="font-size:16px;">　　杨辛说，在用钉钉签到之前，她是无法知晓员工地推出勤情况的，钉钉签到一下子解决了这个难题。</span></p>
+<p>
+	<span style="font-size:16px;">　　不过真正推广这个功能，也让她费了周折，&ldquo;刚开始大家都挺抗拒，因为没法偷懒缺勤了。&rdquo;</span></p>
+<p>
+	<span style="font-size:16px;">　　为此她想了激励办法，如果员工按时用钉钉签到、撰写工作日志，一个月下来，会领到200元激励奖，反之将会罚款200元。</span></p>
+<p>
+	<span style="font-size:16px;">　　除此之外她发现，<a href="http://www.qynet.cc/">阿里巴巴</a>钉钉的签到和日志让员工工作效率大幅提升，这意味着业绩提升和收入提升，有的员工甚至会因此收入翻倍，这样反过来激发了员工钉钉签到的热情，形成了良性循环。</span></p>
+<p>
+	<span style="font-size:16px;">　　杨辛对新鲜事物有着天生的悟性，她对钉钉的很多功能使用愈发纯熟，如今她和史楠、曹军等十多位深度用户一起，受聘成为&ldquo;钉钉讲师团&rdquo;的一员，义务为钉钉的新用户做网上视频教学。</span></p>
+ </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/news/info/234.html'>阿里巴巴村淘签约仪式在陕县举行</a> </li>
+
+        <li>下一篇：<a href='/news/info/236.html'>阿里网商银行总部大楼位于杭州西湖区</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

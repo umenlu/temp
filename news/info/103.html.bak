@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>阿里巴巴开创跨境电商领域新模式_企元时代</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/html5.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/index.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/Services.css">
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href='http://www.qynet.cc'" class="logo" style=" width:170px;"><input type="image" src="http://www.qynet.cc/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc'" src="http://www.qynet.cc/images/01.jpg"/>
+			<a href="http://www.qynet.cc/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/about/'"  src="http://www.qynet.cc/images/02.jpg"/>
+			<a href="http://www.qynet.cc/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/services/'"  src="http://www.qynet.cc/images/04.jpg"/>
+			<a href="http://www.qynet.cc/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/case/'"  src="http://www.qynet.cc/images/05.jpg"/>
+			<a href="http://www.qynet.cc/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/news/'"  src="http://www.qynet.cc/images/03.jpg"/>
+			<a href="http://www.qynet.cc/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/muban/'"  src="http://www.qynet.cc/images/06.jpg"/>
+			<a href="http://www.qynet.cc/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/zhaopin/'"  src="http://www.qynet.cc/images/07.jpg" />
+			<a href="http://www.qynet.cc/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/contact/'"  src="http://www.qynet.cc/images/08.jpg"/>
+			<a href="http://www.qynet.cc/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="http://www.qynet.cc/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">阿里巴巴开创跨境电商领域新模式</div>
+<div class="content1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-size:16px;">&nbsp;&nbsp; 立志为中国消费者扮演好全球买手角色的<a href="http://www.qynet.cc/">阿里巴巴</a>，又开创了跨境电商领域的新模式。近日，阿里巴巴旗下聚划算平台在泰国曼谷宣布，将携手泰王国商业部及泰国品牌联合推出泰国美食生活年卡。将泰国的美食、乳胶家纺、旅游等产业直送中国消费者，共同促进泰国产业跨境电商的进程。<br />
+<br />
+<strong>中泰之间经济文化交流已在不断深化</strong><br />
+<br />
+　　泰王国商业部常务秘书长Vuthichai先生、泰王国商业部战略规划部首席执行官Phaichit先生、泰王国商业部国际贸易促进部首席执行官Lalida女士以及中华人民共和国驻泰王国经济商务处参赞张佩东女士共同出席了本次阿里巴巴与泰王国商业部战略合作峰会。<br />
+<br />
+　　&ldquo;2014年中国共有400多万游客去泰国旅游，今年的预期数字是600万左右&rdquo;，中国驻泰王国经济商务处参赞张佩东女士介绍道，&ldquo;今年是中泰建交40周年，自建交以来，中泰两国在文化、旅游、教育、经济等多方面交往甚密，目前许多中国企业在泰国投资。而中国也已经成为泰国旅游业大的客源国，两国之间的经济文化交流不断深化。&rdquo;<br />
+<br />
+<strong>&ldquo;汇聚泰国&rdquo;带动泰国区域产业发展</strong><br />
+<br />
+　　泰王国商业部常务秘书长Vuthichai先生表示，随着中国和泰国之间的经济贸易往来不断深化，中国消费者对泰国的文化和特色产品接受程度非常高。&ldquo;泰国的品牌已经开始尝试通过阿里巴巴平台将泰国的农业、乳胶业等优质商品直送中国，达成了很高的成交量，带动了区域产业的发展。这也是泰国希望能进一步通过电商平台深化产业合作的原因。&rdquo;Vuthichai先生还介绍说，泰国商业部为此出台了系列认证标志，对应泰国各个行业，为全球消费者提供泰国跨境商品的品质保障。<br />
+<br />
+　　据了解，2013年和2014年，聚划算平台分别推出两次&ldquo;汇聚泰国&rdquo;的活动。期活动卖出100吨泰国香米，第二期活动中仅乳胶制品成交就达700万，共卖出4万个泰国乳胶枕，对泰国的乳胶产业产生了深远影响。本次推出的泰国美食生活年卡，主推泰国农业、乳胶、旅游等产业内容。消费者购买泰国美食生活年卡后，将在全年12个月内享受到每月新鲜的泰国香米，当季新鲜的水果，天然的乳胶床品、泰国年货礼包、泰国泼水节旅行机票套餐等内容。<br />
+<br />
+<strong>直供年卡可一站式全年享受直送服务</strong><br />
+<br />
+　　泰王国商业部战略规划部首席执行官Phaichit先生表示，这次携手阿里巴巴打造全球直供年卡，并作为全球张跨境直供年卡发布，说明泰国区域产业的实力雄厚，并深受中国消费者的喜爱。通过阿里巴巴的大数据可以看到，单笔订单的模式已经不能满足全球消费者对泰国美食特产的需求，年卡的形式可以让全球的消费者一站式全年享受直送服务，正是因为有这样的市场需求，泰国商务部愿意和阿里巴巴一起携手为全球的消费者服务。未来，泰国商务部还将携40个泰国新品牌通过阿里巴巴平台，进驻中国市场。<br />
+<br />
+　　<a href="http://www.qynet.cc/">阿里巴巴</a>中国零售事业群总裁张建锋认为，在目前跨境电商的竞争中，关键点在于品类的丰富性和消费人群的规模化。在阿里巴巴的跨境电商策略里，聚划算承担的功能是，通过聚划算渠道的爆发力，把消费者的需求激发出来，用短平快的速度推广和尝试新的品类和模式，然后再大规模引进把运营成本降下来，进入常态化的运营。聚划算营销负责人刘博表示，泰国美食、香米等特色产品早已为中国消费者熟知和喜爱。而泰国的乳胶制品通过两次活动，在中国的消费市场扩大了知名度，也让泰国的品牌厂家看到了阿里电商平台的巨大能量。泰国直供年卡的思路正是这样来的。接下来，聚划算会携手全球各个国家政府，打造国家特色的整合式产业消费卡，为中国消费者提供来自全球的特色直供商品。</span> </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='http://www.qynet.cc/news/info/102.html'>阿里巴巴将启动“杭州+北京”双中心战略</a> </li>
+
+        <li>下一篇：<a href='http://www.qynet.cc/news/info/104.html'>国内零售总额：阿里撑起9%</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="http://www.qynet.cc/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="http://www.qynet.cc/images/j (1).png"/>
+                    <img src="http://www.qynet.cc/images/j (2).png"/>
+                    <img src="http://www.qynet.cc/images/j (3).png"/>
+                    <img src="http://www.qynet.cc/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

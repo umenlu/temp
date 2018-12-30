@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>阿里回顾2015 我们都做了什么？_企元</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">阿里回顾2015 我们都做了什么？</div>
+<div class="content1"><span style="font-size:16px;">　<span>&nbsp;&nbsp;&nbsp; 2015年已经过去，回顾这一年时间，<a href="http://www.qynet.cc/">阿里巴巴</a>在资本市场的动作日趋频繁，投资触手陆续伸向智能手机、传媒、电商和在线视频等领域，引发各方高度关注。但在飨食投资盛宴的同时，阿里巴巴也面临着更多的质疑和挑战。<br />
+<img alt="" src="/uploads/allimg/160121/1-160121092630L8.jpg" style="width: 808px; height: 190px;" /></span></span>
+<p>
+	<span style="font-size:16px;"><strong><span>一、投资魅族</span></strong></span></p>
+<p>
+	<span style="font-size:16px;">　　<span>2015年2月9日，有关阿里入股魅族的传闻终于得到证实。魅族科技同阿里巴巴集团联合宣布，阿里巴巴集团将斥资5.9亿美元投资魅族，开启阿里上市以来金额大的一笔投资。</span></span></p>
+<p>
+	<span style="font-size:16px;">　　<span>其实，投资魅族对阿里来说意义非凡，这不仅能帮助拓展阿里的生态系统，同时也是阿里巴巴集团互联网布局的重要一步，以手机为载体的硬件支撑将为阿里未来的内容布局打下基础。</span></span></p>
+<p>
+	<span style="font-size:16px;">　　<span>魅族方面表示，该公司2016年出货量的目标是2000万台；旗下智能家居平台LifeK it正在内测，年后推出。此外，继手机之后，双方的下一个合作是基于Yun OS的平板电脑。</span></span></p>
+<p>
+	<span style="font-size:16px;"><strong><span>二、疯狂入股媒体</span></strong></span></p>
+<p>
+	<span style="font-size:16px;">　　<span>为了逐步扩大自己在传媒领域的话语权，2015年阿里仅在传媒领域的投资动作就出现至少七次，平均每两个月就要上演一次收购大戏，不可谓不疯狂。</span></span></p>
+<p>
+	<span style="font-size:16px;">　　<span>具体看，早在2015年3月，阿里便斥资24亿元入股光线传媒，成为后者第二大股东。2015年5月，阿里又投资了《北青社区 报》。一个月后，阿里投资12亿元参股财经，成为财经传媒的第二大股东；同时入股博雅天下，后者旗下经营《财经天下》。2015年9月，阿里与财 讯集团、新疆网信办联合组建的无界新闻正式上线。10月，阿里子公司蚂蚁金服战略投资创业科技媒体平台36氪。12月，阿里宣布收购《南华早报》以及南华 早报集团旗下其他媒体资产。</span></span></p>
+<p>
+	<span style="font-size:16px;">　　<span>对阿里的生态圈来说，传媒板块是继电商、视频、影业、音乐等之后的又一个重要环节。虽然阿里投资的媒体当中不乏有新媒体的身影，但其多数投资对象仍属传统媒体范畴，而传统媒体依旧具有根深蒂固的权威性和影响力，这一权威性往往更容易控制舆论导向。</span></span></p>
+<p>
+	<span style="font-size:16px;"><strong><span>三、入股苏宁</span></strong></span></p>
+<p>
+	<span style="font-size:16px;">　　<span>2015年08，<a href="http://www.qynet.cc/">阿里巴巴</a>宣布以约283亿元战略投资苏宁云商，参与苏宁云商的非公开发行，占发行后总股本的19.99%，成为苏宁云商的第二大股东。同时，苏宁将以140亿元人民币认购不超过2780万股的阿里新发行股份。</span></span></p>
+<p>
+	<span style="font-size:16px;">　　<span>阿里是中国大的在线电商企业，苏宁则是中国大的实体零售企业，一个线上一个线下，双方联姻的消息一经公布便引起各方猜测，互补互赢、互拉股价等说法陆续传出。</span></span></p>
+<p>
+	<span style="font-size:16px;">　　<span>不管怎么说，电商与实体零售商的融合，在吸引无数眼球的同时，也将给市场带来无限的遐想。</span></span></p>
+<p>
+	<span style="font-size:16px;"><strong><span>四、收购优酷土豆</span></strong></span></p>
+<p>
+	<span style="font-size:16px;">　　<span>2015年10月中旬，阿里巴巴突然宣布，已向优酷土豆董事会发出非约束性要约，全面收购尚未持有的优酷土豆所有股份。按照每ADS（美国存托凭证）26.60美元计算，预计总金额将超过45亿美元，高出前一日优土的市值，意味着阿里将溢价收购优土。</span></span></p>
+<p>
+	<span style="font-size:16px;">　　<span>这是阿里283亿元入股苏宁后，在资本市场上的又一重大动作，并直接带动二级市场的反应。受此消息影响，优酷土豆当日股价急剧上行，报收24.91美元/股，涨21.93%。</span></span></p>
+<p>
+	<span style="font-size:16px;">　　<span>毫无疑问，这是阿里在内容上的重大布局，二者结合的方向必然是在大娱乐领域，在内容生产方面可以达到优势互补的目的。</span></span></p>
+<p>
+	<span style="font-size:16px;"><strong><span>五、股价大跌</span></strong></span></p>
+<p>
+	<span style="font-size:16px;">　　<span>对于在美国上市的中概股，2015年过得其实并不容易，尤其在中概股集体遇冷的环境中，阿里也难逃股价大跌的窘境。甚至在阿里IPO成功时的喝彩声还未褪去，其股价就遭遇腰斩质疑。</span></span></p>
+<p>
+	<span style="font-size:16px;">　　<span>阿里早前于2014年9月在美国上市，发行价为68美元/股，当年11月阿里曾站上120美元/股的高位，但此后股价一直走弱。 2015年8月24日，阿里股价首度跌破发行价后，此后仍难掩颓势，9月11日报收64.63美元/股，较高价下跌45.76%，市值缩水超三成。</span></span></p>
+<p>
+	<span style="font-size:16px;">　　<span>面对这种遭遇，瑞士银行、太平洋皇冠证券等国际投资机构纷纷下调阿里股价预期，甚至《巴伦周刊》在封面文章中预测阿里股价可能再跌50%。尽管阿里对此回应表示这篇报道不诚信、不专业，对事实进行扭曲误导读者，但此后短期内，阿里在二级市场的表现依旧不令人满意。</span></span></p>
+<p>
+	<span style="font-size:16px;"><strong><span>六、屡陷假货风波</span></strong></span></p>
+<p>
+	<span style="font-size:16px;">　　<span>自2015年年初，阿里与工商局的口水战升级，到年中法国开云集团旗下品牌就假货问题对阿里提起的第二次诉讼，再到下半年美国服装鞋类协会(AAFA)将阿里列入假货黑名单中&hellip;&hellip;种种迹象表明，假货问题对于阿里而言始终是一个无法绕开的劫。</span></span></p>
+<p>
+	<span style="font-size:16px;">　　<span>马云曾多次在公开场合表示，华尔街看不懂中国的商业模式，但无奈受制于人，阿里也只能硬着头皮坚持。</span></span></p>
+<p>
+	<span style="font-size:16px;">　　<span>众所周知，美国对假货问题相当重视，无论是资本市场还是监管层，都一直采取对假货零容忍的态度。而阿里频发的假货问题无疑更容易触碰到美国的神经，使资本市场对阿里的期望值越降越低。这对阿里来说，是其长期为头疼的一件事，也是2016年仍将继续努力的方向。</span></span></p>
+<p>
+	<span style="font-size:16px;"><strong><span>七、新闻造假疑云</span></strong></span></p>
+<p>
+	<span style="font-size:16px;">　　<span>2015年，阿里和京东同时在智能领域发力。在2016年，京东和哈曼达成了合作，后者是全球顶尖的音频解决方案提供商，拥有很多一线品牌。</span></span></p>
+<p>
+	<span style="font-size:16px;">　　<span>就在京东和哈曼发布会的前七天，网上突然出现大量的阿里哈曼合作的新闻，仅百度新闻源可搜索的链接就超过30个。不过，哈曼时尚及车载事业部大中华区副总裁兼总经理郭志明在回答记者提问时表示：&ldquo;哈曼和阿里的合作只是意向，并没有明确计划。&rdquo;</span></span></p>
+<p>
+	<span style="font-size:16px;">　　<span>分析认为，这一新闻事件在某种程度上对京东和哈曼的合作产生了一定程度上的舆论冲击。目前，阿里哈曼合作已经被确定为假新闻，但至今无人对这一新闻事件负责。</span></span></p>
+<p>
+	<span style="font-size:16px;">　　<strong><span>结束语：</span></strong></span></p>
+<p>
+	<span style="font-size:16px;">　　<span>过去的一年，对阿里来说喜忧参半。尽管如此，我们依然可以看到这个阿里超大体量公司的惊人能量，以及未来在资本市场可能出现的蜕变。蚂蚁金服离上市已经不远了，传奇的马云在2016年会给<a href="http://www.qynet.cc/">阿里巴巴</a>带来哪些变化？让我们拭目以待。</span></span></p>
+ </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/news/info/283.html'>阿里PP助手事业群开启2016移动应用新战略</a> </li>
+
+        <li>下一篇：没有了 </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

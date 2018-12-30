@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>全球互联网大会 看看大咖们如何刷“存在感”？_企元</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">全球互联网大会 看看大咖们如何刷“存在感”？</div>
+<div class="content1"><span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 昨日上午，全球互联网界都进入了&ldquo;乌镇时间&rdquo;，2015第二届世界互联网大会正式开幕。本次大会的主题是&ldquo;互联互通&middot;共享共治&rdquo;。中外互联网企业的大佬、行业大咖济济一堂，他们都说了些什么呢?又是怎样在大会现场怒刷&ldquo;存在感&rdquo;的呢?<br />
+<img alt="" src="/uploads/allimg/151217/1-15121G1405E95.jpg" style="width: 779px; height: 416px;" /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在今早的开幕式上，作为大会东道主，习大大针对当下世界互联网的发展和秩序，也提出了自己的&ldquo;五点主张&rdquo;和&ldquo;四点原则&rdquo;。他说道，网络空间是人类共同的活动空间，网络空间前途命运应由世界各国共同掌握。各国应该加强沟通、扩大共识、深化合作，共同构建网络空间命运共同体。这一段时间以来，我非常愿意使用&ldquo;命运共同体&rdquo;这个词。对此，我愿提出五点主张：<br />
+<br />
+，加快全球网络基础设施建设，促进互联互通。中国正在实施&ldquo;宽带中国&rdquo;战略，预计到2020年，中国宽带网络将基本覆盖所有农村，打通网络基础设施&ldquo;后一公里&rdquo;。<br />
+<br />
+第二，打造网上文化交流共享平台，促进交流互鉴。<br />
+<br />
+第三，推动网络经济创新发展，促进共同繁荣。我们愿意同各国加强合作，通过发展跨境电子商务、建设信息经济示范区等，促进世界范围内投资和贸易发展，推动全球数字经济发展。<br />
+<br />
+第四，保障网络安全，促进有序发展。<br />
+<br />
+第五，构建互联网治理体系，促进公平正义。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 他同时指出，现在&ldquo;互联网发展不平衡、规则不健全、秩序不合理等问题日益凸显。不同国家和地区信息鸿沟不断拉大，现有网络空间治理规则难以反映大多数国家意愿和利益;世界范围内侵害个人隐私、侵犯知识产权、网络犯罪等时有发生，网络监听、网络攻击、网络恐怖主义活动等成为全球公害。&rdquo;为推进全球互联网治理体系变革，应该坚持以下四个原则：尊重网络主权;维护和平安全;促进开放合作;构建良好秩序。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 习大大还介绍到，中国正处在互联网快速发展的历史进程之中。目前，中国有6.7亿网民、413万多家网站。中国将大力实施网络强国战略、国家大数据战略、&ldquo;互联网+&rdquo;行动计划，发展积极向上的网络文化，拓展网络经济空间，促进互联网和经济社会融合发展。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 开幕式结束后，大会进入了分论坛时间，主要分为&ldquo;互联网+&rdquo;&ldquo;数字丝路&middot;合作共赢&rdquo;&ldquo;网络安全&rdquo;&ldquo;海峡两岸暨香港、澳门互联网发展&rdquo;&ldquo;互联网文化与传播&rdquo;等，这也是各互联网大佬、行业大咖正式登场的时间了。看看这些互联网大咖们都说了些什么？<br />
+<br />
+<strong>马云：<a href="http://www.qynet.cc/">阿里巴巴</a>把双十一当成测试中国经济温度的体温计</strong><br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 马云在会面俄罗斯总理梅德韦杰夫时说，我们把双十一当成测试中国经济温度的体温计，这个体温计同样可以用在跨境贸易国家。在双十一当天成交前十大国家当中，位是俄罗斯，双十一当天全球每100个老外就有一个人来逛，其中俄罗斯更夸张，每10个人就有一个人来逛。我相信，普京总统创建在线平台帮助俄罗斯制造出口的计划，会让俄罗斯和阿里巴巴有更多的合作机会。<br />
+<br />
+<strong>李彦宏：用互联网整合用户体验是巨大商机</strong><br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 对中国而言，我们的市场经济只有几十年的历史，我们传统产业和主流产业的运营效率跟美国等发达国家相比还是有差距的，在这样的情况下用互联网的方法再重新做一遍，我们有可能能够超越其他的国家，使得各种产业变得更有效率。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 现在中国整体经济环境十分适宜互联网发展，各个领域都是遍地机遇。在中国，互联网与传统产业紧密结合，孕育无限商机，不管是医疗、金融、教育、饭店，只要是能想到的行业都有办法利用互联网创造全方位整合的用户体验，我认为这是巨大商机。<br />
+<br />
+<strong>京东CEO刘强东：跨境电商的核心品类在母婴，和生鲜食品</strong><br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 刘强东在论坛中说到，京东在中国建立很庞大的物流网络，过去的两岸四地，与电商有关的，很大的一部分商品就是视频。京东有能力全覆盖大陆地区的冷链网络，让大陆消费者有能力消费台湾的食品。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 跨境电商主要核心在两大类：一是母婴，二是生鲜食品。工业品的跨境贸易已经很发达了，生鲜食品是高频次的消费，市场很大。两岸四地是一家人，京东致力于两岸四地一家人的衣食住行能无障碍的交流。<br />
+<br />
+<strong>网易CEO丁磊：国家开放自贸区是跨境电商的机会</strong><br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 丁磊说，国家开放自贸区的跨境电商的机会。电商的核心是商品，如何将性价比好的商品带给中国13亿消费者。网易在日本，韩国，美国，欧洲都设置了采购点，网易自己采购。物流会越来越先进，但网易目前还不考虑做物流，都是交给了顺丰等合作方。 我自己也是电商的忠实用户，很痛苦买到假货，网易进入电商后，重要的宗旨不仅仅是没有假货，还要把好的商品，好性价比的商品带给中国的消费者，希望做成为500-1000亿规模的电商。<br />
+<br />
+<strong>携程旅行网CEO梁建章：人员的自由流动是促进创新的因素</strong><br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 梁建章认为，世界全球化的步就是所有的商品流动都没有障碍，制造业和实物产品只是商业的一部分，还有一部分是服务产品。 未来有很大一部分的旅游消费是让人们享受到全世界好的旅游服务，是下一个很有意义的目标。人员方面的流动，商务的交流也是非常大的需求，会进一步加快整个世界的创新的速度。创新就是把世界上好的想法，融入本地的想法，得出更有创意的想法。 人员的充分的自由流动是促进创新的因素，是全球化的下一个目标。<br />
+<br />
+<strong>小米科技CEO雷军：失败是常态，回归初心</strong><br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 今天是大会开幕日，同样也是小米科技CEO雷军的生日，还送给所有嘉宾一部定制手机：小米Note 全网通版，国礼的赶脚。</span> </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/news/info/190.html'>马云：未来5到15年消费时代一定会来临</a> </li>
+
+        <li>下一篇：<a href='/news/info/192.html'>“网络安全”仍是世界互联网大会关键词</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="apple-touch-fullscreen">
+<meta content="telephone=no" name="format-detection">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0">
+<link rel="stylesheet" href="style/html5.css">
+<link href="style/style.css" rel="stylesheet" type="text/css">
+</head>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+
+<body>
+<!--会员中心头部-->
+<div class="header">
+	<img style=" width:100%;" class="tou" src="images/dla1.jpg"/>
+    <div class="header1">
+    	<div class="header11">
+            <a class="header1_left">
+                <img src="images/dla2.png"/>
+                <div>返回</div>
+            </a>
+            <div class="header1_right">会员中心</div>
+        </div>
+    </div>
+    <div class="header2">
+    	<div><img src="images/dlb1.jpg"/></div>
+        <p>郑绍成</p>
+    </div>
+</div>
+<!--会员中心头部完-->
+
+<!--会员中心头输入框-->
+<div class="input_box">
+	<div class="input_box1">
+    	<img src="images/tb1_03.png"/>
+        <p>邮箱</p>
+        <input class="in1" type="email" value="请输入您的邮箱地址"onfocus="if (value =='请输入您的邮箱地址'){value =''}"onblur="if (value ==''){value='请输入您的邮箱地址'}"/> 
+    </div>
+</div>
+
+<div class="input_box">
+	<div class="input_box1">
+    	<img src="images/tb2_07.png"/>
+        <p>密码</p>
+        <input class="in1" type="tel" value="请输入密码"onfocus="if (value =='请输入密码'){value =''}"onblur="if (value ==''){value='请输入密码'}"/> 
+    </div>
+</div>
+
+<div class="input_box">
+	<div class="input_box1">
+    	<img src="images/tb3_07.png"/>
+        <p>确认密码</p>
+        <input class="in1" type="tel" value="请输入密码"onfocus="if (value =='请输入密码'){value =''}"onblur="if (value ==''){value='请输入密码'}"/> 
+    </div>
+</div>
+<!--会员中心头输入框完-->
+
+<!--会员中心按钮-->
+<a href="index_zhuce.html" class="zhuce">会员注册</a>
+
+<img class="yezi" src="images/dla3.png"/>
+
+<ul class="tishi">
+	<p>系统找不到您账号的任何信息，请点击下面的链接完成操作。</p>
+    <li>1.若您已是天狮经销商请点击<span>“经销商绑定”</span>。</li>
+    <li>2.若您是普通会员请点击<span>“普通会员绑定”</span>。</li>
+    <li>3.若您没有任何账号请点击<span>“会员注册”</span>成为普通会员。</li>
+</ul>
+
+<a href="index_jingxiao.html" class="zhuce">经销商绑定</a>
+
+<a href="index_putong.html" class="zhuce">普通会员绑定</a>
+
+<!--会员中心按钮完-->
+
+</body>
+</html>

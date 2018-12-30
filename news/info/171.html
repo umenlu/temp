@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>阿里双十二新玩法：买家也可以赚钱_企元时代</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/html5.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/index.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/Services.css">
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href='http://www.qynet.cc'" class="logo" style=" width:170px;"><input type="image" src="http://www.qynet.cc/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc'" src="http://www.qynet.cc/images/01.jpg"/>
+			<a href="http://www.qynet.cc/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/about/'"  src="http://www.qynet.cc/images/02.jpg"/>
+			<a href="http://www.qynet.cc/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/services/'"  src="http://www.qynet.cc/images/04.jpg"/>
+			<a href="http://www.qynet.cc/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/case/'"  src="http://www.qynet.cc/images/05.jpg"/>
+			<a href="http://www.qynet.cc/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/news/'"  src="http://www.qynet.cc/images/03.jpg"/>
+			<a href="http://www.qynet.cc/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/muban/'"  src="http://www.qynet.cc/images/06.jpg"/>
+			<a href="http://www.qynet.cc/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/zhaopin/'"  src="http://www.qynet.cc/images/07.jpg" />
+			<a href="http://www.qynet.cc/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/contact/'"  src="http://www.qynet.cc/images/08.jpg"/>
+			<a href="http://www.qynet.cc/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="http://www.qynet.cc/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">阿里双十二新玩法：买家也可以赚钱</div>
+<div class="content1"><span style="font-size:16px;">　&nbsp;&nbsp;&nbsp; 阿里淘宝网在11月30日举办的&ldquo;年度盛典&rdquo;上宣布，双12期间手机淘宝将提供1亿元现金的购物分享奖励，鼓励包括达人、普通网民内的消费者在双12期间发现并分享&ldquo;淘&rdquo;的乐趣。此外，<a href="http://www.qynet.cc/">阿里</a>淘宝还设计了很多互动细节，带动更多的买家参与。<br />
+<br />
+<strong>双12也能赚钱：两种玩法&ldquo;薅羊毛&rdquo;</strong><br />
+<br />
+　　如果你对淘宝的印象还停留在买买买上，那么，今年的双12你可要特别留心，因为这个双12不仅能花钱，普通消费者也能赚钱了。满返现金红包是指在双12当天，当消费者购买参加活动的商品时，如果单笔订单实付金额达到满返条件，支付成功后就会获得店铺返赠的1212现金红包。据了解，今年双12的购物满返总额将上不封顶，做到&ldquo;每满均返&rdquo;，消费者获得的现金红包可于12月12日至12月13日在淘宝天猫的商家通用。<br />
+<br />
+　　而1亿元购物分享奖励则是指，从12月7日开始到12月12日， 消费者可以在手机淘宝创建&ldquo;我的清单&rdquo;，自己推荐或者邀请朋友一同推荐商品生成&ldquo;我的清单&rdquo;，清单可以向朋友或者通过社交媒体进行分享。当&ldquo;我的清单&rdquo;推荐的商品被消费者购买并确认收货后，加入清单的小伙伴就可以在双12过后一起分钱，奖金会随着&ldquo;清单&rdquo;推荐商品被购买的数量增加而不断上涨。<br />
+<br />
+　　根了解，今年的双12除了眼花缭乱的商品以外，粉丝多潮的红人店铺、具匠心的手工定制店、质量高的直供工厂、以及各省流行的小吃、来自县域的真正特产直供、中华老字号的再次创新，都会让消费者在双12发现&ldquo;淘&rdquo;的乐趣。而家政、洗衣、大厨等上门服务和在线教育，以及各类&ldquo;奇葩&rdquo;服务，也会在双12全力出击。这都为用户发现与分享提供了丰富的&ldquo;素材&rdquo;。<br />
+<br />
+　　作为全球大的移动消费生活平台，手机淘宝近期一直在积极搭建内容生态。此前手淘于今年9月推出&ldquo;内容开放计划&rdquo;，鼓励广大媒体、自媒体、红人、各个领域的专业机构、社区运营者、电商导购服务者、有特长有兴趣的资深消费者等，通过手机淘宝上的淘宝头条、有好货、红人圈、爱逛街等内容板块，为消费者提供丰富而的内容。目前已经有大量的创作者依靠内容在手机淘宝上获得了收益，例如内容创作者&ldquo;欧范小姐&rdquo;就在7天时间共获得13.6万元收益。<br />
+<br />
+　　而对于此次双12开放1亿现金鼓励&ldquo;全民导购&rdquo;，手机淘宝负责人蒋凡表示，手淘要为内容创作大开方便之门：&ldquo;我们希望让所有的用户都能成为内容的输出者，让不同购物场景能够沉淀下来，并与用户产生更紧密的联系。&rdquo;<br />
+<br />
+<strong>淘生活服务的双12：百万服务大军严阵以待</strong><br />
+<br />
+　　早晨被英国管家叫起床，按私人服装师的建议打扮一身，出门乘上租好的特斯拉，在私人牙医那里做个检查，途中打个电话，约验房师去帮忙看一下刚刚在淘宝上购买的新房，定下今天英语课程，顺便问一下预订的休假游艇&hellip;&hellip;这样的生活，不再是电影里的桥段，在双12期间，消费者就可以通过淘宝服务平台预订如此&ldquo;任性&rdquo;的生活。<br />
+<br />
+　　除了私人管家、服装搭配等&ldquo;另类&rdquo;服务之外，双12期间，淘宝生活服务连接的百万服务大军也将严阵以待，为消费者提供上门保洁、上门洗衣、上门美甲、上门大厨，上门按摩等各式服务。<br />
+<br />
+　　据了解，在双12当天，北京四中的老师将会上线提供在线教育课程。此外，淘宝生活服务平台也会将超过1500家教育机构的近2万门在线课程提供给用户。<br />
+<br />
+　　除了家政、婚庆、娱乐、汽车、在线教育以外，淘宝平台上还有来自50个城市的近两万个楼盘出售。<br />
+<br />
+<strong>手淘的社交化双12：呼朋唤友来砍价</strong><br />
+<br />
+　　在此次双12期间，手机淘宝还将充分开发消费者自身的社交关系，上线&ldquo;求打赏&rdquo;和&ldquo;砍价&rdquo;功能，让消费者呼朋唤友一同来&ldquo;剁手&rdquo;。<br />
+<br />
+　　&ldquo;求打赏&rdquo;功能让消费者可以选择一款自己想要购买的商品，通过社交媒体分享给朋友，朋友们可以自由选择打赏金额。&ldquo;砍价&rdquo;则是将朋友支持转化成了现金折扣，可以邀请朋友帮忙砍价，消费者可以依靠参加砍价的朋友数量享受对应的折扣，召唤朋友越多，折扣也越多。<br />
+<br />
+　　此外，<a href="http://www.qynet.cc/">阿里巴巴</a>手机淘宝还于近期上线了&ldquo;问大家&rdquo;功能，让消费者来给消费者提供建议。据介绍，消费者可以针对产品、服务或购物需求进行购物提问，手淘会把问题系统分发给优质的购买用户，由已经购买过的用户进行解答，帮助消费者更加准确地进行购物决策。目前，&ldquo;问答&rdquo;功能已经吸引了千万人参与。</span> </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='http://www.qynet.cc/news/info/170.html'>阿里巴巴涉足钢铁行业 加速钢铁电商发展</a> </li>
+
+        <li>下一篇：<a href='http://www.qynet.cc/news/info/172.html'>阿里巴巴在英法德意四国设立办公室</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="http://www.qynet.cc/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/></p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="http://www.qynet.cc/images/j (1).png"/>
+                    <img src="http://www.qynet.cc/images/j (2).png"/>
+                    <img src="http://www.qynet.cc/images/j (3).png"/>
+                    <img src="http://www.qynet.cc/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

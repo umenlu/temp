@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>天津诚信通_天津阿里巴巴总代理_阿里巴巴店铺装修_阿里巴巴渠道商_企元</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+	var $tab_li = $('#tab ul li');
+	$tab_li.mouseenter(function(){
+		$(this).addClass('selected').siblings().removeClass('selected');
+		var index = $tab_li.index(this);
+		$('div.tab_box > div').eq(index).show().siblings().hide();
+	});	
+});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/fuwubannner.jpg"/></a>
+
+<div class="lanrenzhijia">
+  <div class="title cf">
+    <ul class="title-list fr cf ">
+      <li class="on"></li>
+      <li class="on1"></li>
+      <li class="on2"></li>
+      <li class="on3"></li>
+      <li class="on4"></li>     
+    </ul>
+  </div>
+<div class="tb_box">
+	<div class="tb">
+    	<b>CHENG XIN TONG</b>
+        <div>诚信通</div>
+        <p>为中小企业提供全套的电商功能及服务，帮助中小企业快速进入网络市场</p>
+    </div>
+    
+    <div class="tb">
+    	<b>MA YI WEI DAI</b>
+        <div>蚂蚁微贷</div>
+        <p>专注企业融资<br/>服务致力于解决小微企业融资<br/>和贷款</p>
+    </div>
+    
+    <div class="tb">
+    	<b>ZHUANG XIU FUWU</b>
+        <div>装修服务</div>
+        <p>360°全方位产品展示<br/>优化店铺评分、产品星级增加自然免费搜索流量</p>
+    </div>
+    
+    <div class="tb">
+    	<b>YUN YING FUWU</b>
+        <div>运营服务</div>
+        <p>精准的商家竞品定位<br/>全年持续的产品优化<br/>资深的活动策划实践</p>
+    </div>
+    
+    <div class="tb">
+    	<b>SHANG GXUE YUAN</b>
+        <div>津橙商学院</div>
+        <p>优势宝贝的选款，数据化地域投放，主推款数据分析，<br/>搜索排名优先化</p>
+    </div>
+</div>  
+
+  
+  <div class="product-wrap">
+  
+  
+    <div class="product show">
+		<p>建网站</p>
+        <div style=" margin-bottom:70px;" class="common">
+            <div id="tab">
+                <ul class="tab_menu">
+                    <li class="selected">阿里巴巴超级旺铺<br/><span>旺铺2.0</span></li>
+                    <li>独立企业官网<br/><span>您自己的企业官网</span></li>
+                    <li>企业移动旺铺<br/><span>生意不离手</span></li>
+                    <li>生意参谋标准版<br/><span>监控旺铺营收</span></li>
+                </ul>
+                <div class="tab_box">
+                    <div class="hihe">
+                    	<span class="hihe_top">
+                        	<ol>
+                            	<li class="hihe_top_li1">超级旺铺2.0功能</li>
+                                <li class="hihe_top_li2">超级旺铺2.0集推广、运营、维护于一体，为网商量身打造的企业营销型产品，用于展示您的公司及产品信息。包含80套网站主题风格，50个自定义版块，拥有5G存储、展示的图片空间。只需轻点鼠标，就能建成自己的企业网站。</li>
+                            </ol>
+                            
+                            <img src="/images/wp1.jpg">
+                            
+                        </span>
+                        <span class="hihe_bottom">
+                        	<img src="/images/wp2.jpg">
+                            <ol>
+                            	<li class="hihe_bottom_li1">使用超级旺铺2.0</li>
+                                <li class="hihe_bottom_li2">订单<span style=" color:#e80000;">提升20%</span></li>
+                                <li class="hihe_bottom_li3">10秒拥有企业网站80套精美模板</li>
+                                <li class="hihe_bottom_li4"><a style="color:#e80000;" href="#">进入旺铺体验&nbsp;>></a></li>
+                            </ol>
+                        </span>
+                    </div>
+                 
+                    <div class="guanwang">
+                    	<img src="/images/2287834_917176640.jpg"/>
+                        <dl>
+                        	<dt class="guanwang_dt">自己的企业官网</dt>
+                            <dd class="guanwang_dd">轻松打造独特网站 </dd>
+                            <dd>海量模板选择  </dd>
+                            <dd>智能SEO优化工具 </dd>
+                            <dd>免费获得网站流量专业的技术支持 </dd>
+                            <dd>24小时稳定云服务器依托阿里生态圈，共享千万会员数据。</dd>
+                            <dd>（需自行购买域名并备案）</dd>
+                        </dl>
+                    
+                    </div>
+                    <div class="guanwang1">
+                    	<img src="/images/2285862_917176640.jpg">
+                        <dl>
+                        	<dt class="guanwang1_dt">移动旺铺办公，不错过任何商机！</dt>
+                            <dd class="guanwang1_dd">手机旺铺装修更丰富！</dd>
+                            <dd>全网布局，全新渠道 </dd>
+                            <dd>手机扫描二维码直达企业官网 </dd>
+                            <dd>移动旺铺需要智能手机，部分机型系统受限制，暂不兼容。</dd>                 
+                            <img style=" margin-left:0; margin-top:40px;" src="/images/qiyuan.jpg"/>
+                        </dl>                     
+                        
+                    	
+                    </div>
+                    <div class="canmou">
+                    	<img src="/images/2284881_917176640.jpg"/>
+						<dl>
+                        	<dt class="canmou_dt" style=" font-size:20px;">生意参谋，生意好帮手</dt>
+                            <dd class="canmou_dd" style=" margin-top:10px;">监控访客，浏览记录、商品售卖情况，抓紧商机。</dd>
+                            <dd class="canmou_dd1">清晰了解商品售卖情况，随时调整产品线。</dd>               
+                            <img style=" margin-left:0; margin-top:20px;" src="/images/2297688_917176640.jpg"/>
+                        </dl> 
+                    </div>
+                </div>
+            </div>
+        </div>  
+        
+		<p>引流量</p>
+        <div style=" margin-bottom:70px;" class="common">
+        
+            <div id="tab">
+                <ul class="tab_menu">
+                    <li class="selected">买家搜索<br/><span>优先展示</span></li>
+                    <li>采购必应<br/><span>优先报价</span></li>
+                    <li>专场活动<br/><span>优先报名</span></li>
+                </ul>
+                <div class="tab_box">
+                    <div class="hihe liuliang">
+                        <ol>
+                            <li style=" line-height:26px;">买家在搜索商品时，诚信通会员发布的商品会优<br/>先展示，让买家快、直接看到您的商品！</li>
+                            <li><a href="#">进入体验馆&nbsp;>></a></li>
+                        </ol>
+                    	<img src="/images/uy.jpg"/>
+                    
+                    </div>
+                    
+                    <div class="cai">
+                    	<img src="/images/2284882_917176640.jpg"/>
+						<dl>
+                       		<dd>买家采购 优先报价</dd>
+                        	<dt style=" font-size:20px;">只有诚信通会员才能报价，获得买家联系方式</dt>
+                            <dd>监控访客，浏览记录、商品售卖情况，抓紧商机。</dd>
+                            <dd>每天的买家超过<span style=" color:#ff0000;">1000万</span></dd>               
+                            <dd>一年采购需求破<span style=" color:#ff0000;">千亿!</span></dd> 
+                            <dd><a style=" color:#ff0000;" href="#">立即体验&nbsp;>></a></dd>
+                        </dl> 
+                    </div>
+                    
+                    <div class="cai1">
+						<dl>
+                        	<dt class="cai1_dt">首页曝光 百万流量</dt>
+                            <dd class="cai1_dd">诚信通会员可以优先参加，阿里巴巴中文站举办的大型活<br/>动，以及日常行业推广活动。</dd>
+                            <dd class="cai1_dd1"><a style=" color:#ff0000;" href="#">立即体验&nbsp;>></a></dd>
+                        </dl>
+                        <img src="/images/2285864_917176640.jpg"/> 
+                    </div>
+                    
+                </div>
+            </div>
+        </div> 
+
+
+		<p>促交易</p>
+        <div class="common">
+        
+
+            <div id="tab">
+                <ul class="tab_menu">
+                    <li class="selected">第三方权威认证<br/><span>提升买家信任</span></li>
+                    <li>诚信档案<br/><span>你的信用记录</span></li>
+                    <li>询盘管理<br/><span>助您询盘变订单</span></li>
+                    <li>精准营销<br/><span>帮您访客变买家</span></li>
+                </ul>
+                <div class="tab_box">
+                    <div class="hihe xinren">
+                    	<img src="/images/cfx_07.jpg"/>
+                        <ol>
+                        	<li class="xinren_1">第三方权威认证</li>
+                            <li class="xinren_2">在经过企业授权后，第三方认证公司会对企业合法性，真实性以及申请人是否隶属该企业，进行审核，让买家更信任您。</li>
+                            <li class="xinren_3"><a style=" color:#ff0000;" href="#">第三方认证公司介绍&nbsp;>></a></li>
+                        </ol>
+                    
+                    </div>
+                   
+                    <div class="xinyu">
+                    	<span>
+                        	<p style=" font-size:20px;">公司档案</p>
+                            <p style=" font-size:14px;">上传各种资质证书（税务等级、经营许可、产品专利），彰显真实实力！</p>
+                            <img src="/images/2297685_917176640.jpg">
+                        </span>
+                        
+                        <span>
+                        	<p style=" font-size:20px;">信用<br/>积累</p>
+                            <p style=" font-size:14px;">您的每一笔网上交易都能进行信用累计，更快赢得买家信任！</p>
+                            <img src="/images/2290802_917176640.jpg">
+                        </span>
+                    
+                    </div>
+                    
+                    <div class="xunpan">
+                    	<ol>
+                        
+                        	<li>
+                            	<span style=" background-color:#ff811a;">主动<br/>询盘</span>
+                                <p>客户访问您的旺铺，您能马上知道 主动洽谈，获得联系方式！</p>
+                            </li>
+                            
+                            <li>
+                            	<span style=" background-color:#f9ac0e;">主动<br/>询盘</span>
+                                <p>客户访问您的旺铺，您能马上知道 主动洽谈，获得联系方式！</p>
+                            </li>
+                            
+                            <li>
+                            	<span style=" background-color:#0eb1d0;">主动<br/>询盘</span>
+                                <p>客户访问您的旺铺，您能马上知道 主动洽谈，获得联系方式！</p>
+                            </li>
+                            
+                            
+                        </ol>
+                    <img src="/images/2287835_917176640.jpg"/>
+                    </div>
+                    
+                    <div class="xunpan1">
+                    	<ol>
+                        
+                        	<li>
+                            	<span style=" background-color:#ff811a;">主动<br/>接待</span>
+                                <p>客户访问您的旺铺，您能马上知道 主动洽谈，获得联系方式！</p>
+                            </li>
+                            
+                            <li>
+                            	<span style=" background-color:#f9ac0e;">短信<br/>接待</span>
+                                <p>掌握买家浏览行为，了解买家新动向</p>
+                            </li>
+                            
+                            <li>
+                            	<span style=" background-color:#0eb1d0;">买家<br/>分析</span>
+                                <p>系统智能推荐潜在买家</p>
+                            </li>
+                            
+                            
+                        </ol>
+                    <img src="/images/2290803_917176640.jpg"/>
+                    </div>
+                </div>
+            </div>
+            
+        </div> 
+
+    </div>
+    
+    
+    <!--案例2-->
+    <div class="product">
+<p>蚂蚁微贷</p>
+           
+ <!-- 代码 开始 -->
+        <div class="common common1">
+         <img src="/images/mayiweidai.jpg"/>
+        </div>
+ <!-- 代码 结束 -->
+    </div>
+    <!--案例3-->
+    <div class="product">
+<p>装修服务</p>
+           
+ <!-- 代码 开始 -->
+        <div class="common common1">
+         <img src="/images/zhungxiubao.jpg"/>
+        </div>
+ <!-- 代码 结束 -->
+    </div>
+    <!--案例4-->
+    <div class="product">
+		<div id="tab">
+                <ul class="tab_menu jincheng">
+                    <li class="selected">运营服务<br/><span>YUNYING FUWU</span></li>
+                    <li>流量服务<br/><span>LIULIANG FUWU</span></li>
+                </ul>
+                <div class="tab_box">
+                    <div style=" border-bottom:3px #a0a0a0 solid;" class="hihe">
+					<img src="/images/yunyingbao.jpg"/>
+                    
+                    </div>
+                    
+                    <div class="cai">
+					<img style=" margin:0;" src="/images/liuliangbao.jpg"/>
+                    </div>
+                    
+                </div>
+            </div>
+    </div>
+    <!--案例5-->
+    <div class="product">
+<p>津橙商学院</p>
+           
+ <!-- 代码 开始 -->
+        <div  class="common common1">
+         <img src="/images/jc.jpg"/>
+        </div>
+ <!-- 代码 结束 -->        
+    </div>
+           
+    </div>
+  </div>
+</div>
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/></p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

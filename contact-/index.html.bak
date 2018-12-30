@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>联系我们_企元</title>
+
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+</head>
+<style>
+.contact{ background:url(/images/jrtf.jpg); background-size:100%;overflow:hidden;}
+.contact_box{ width:1000px; background-color:#666;}
+.contact_box1{ width:1000px; margin-top:26px;}
+.contact_box1 img{ margin:26px; display:block; width:44.8%;}
+.contact_box2{ width:1000px;}
+.contact_box21{ float:left; width:50%;}
+.contact_box22{ float:left; width:50%;}
+.contact_box22 ul{ width:448; height:480px; margin:26px; margin-bottom:52px; padding-top:140px;border:#fff solid 1px;}
+.contact_box22 ul li{ text-align:center; font-size:24px; line-height:40px;}
+</style>
+
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/lx.jpg"/></a>
+<!--内容-->
+<div class="contact">
+	<div class="contact_box">
+    	<div class="contact_box1">
+        	<img style=" float:left;" src="/images/qylogo.jpg"/>
+            <img style=" float:right;" src="/images/qylian.jpg"/>
+        </div>
+        
+        <div class="contact_box2">
+        
+        	<div class="contact_box21">
+<!--地图-->
+
+				<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+                <div style="width:448px;height:480px; margin:26px ; margin-bottom:52px; border:#fff solid 1px;" id="dituContent"></div>
+                <script type="text/javascript">
+                    //创建和初始化地图函数：
+                    function initMap(){
+                        createMap();//创建地图
+                        setMapEvent();//设置地图事件
+                        addMapControl();//向地图添加控件
+                        addMarker();//向地图中添加marker
+                    }
+                    
+                    //创建地图函数：
+                    function createMap(){
+                        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+                        var point = new BMap.Point(117.259804,39.130216);//定义一个中心点坐标
+                        map.centerAndZoom(point,17);//设定地图的中心点和坐标并将地图显示在地图容器中
+                        window.map = map;//将map变量存储在全局
+                    }
+                    
+                    //地图事件设置函数：
+                    function setMapEvent(){
+                        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+                        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+                        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+                        map.enableKeyboard();//启用键盘上下左右键移动地图
+                    }
+                    
+                    //地图控件添加函数：
+                    function addMapControl(){
+                        //向地图中添加缩放控件
+                    var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_ZOOM});
+                    map.addControl(ctrl_nav);
+                        //向地图中添加缩略图控件
+                    var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:0});
+                    map.addControl(ctrl_ove);
+                        //向地图中添加比例尺控件
+                    var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+                    map.addControl(ctrl_sca);
+                    }
+                    
+                    //标注点数组
+                    var markerArr = [{title:"",content:"",point:"117.259804|39.130216",isOpen:0,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
+                         ];
+                    //创建marker
+                    function addMarker(){
+                        for(var i=0;i<markerArr.length;i++){
+                            var json = markerArr[i];
+                            var p0 = json.point.split("|")[0];
+                            var p1 = json.point.split("|")[1];
+                            var point = new BMap.Point(p0,p1);
+                            var iconImg = createIcon(json.icon);
+                            var marker = new BMap.Marker(point,{icon:iconImg});
+                            var iw = createInfoWindow(i);
+                            var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+                            marker.setLabel(label);
+                            map.addOverlay(marker);
+                            label.setStyle({
+                                        borderColor:"#808080",
+                                        color:"#333",
+                                        cursor:"pointer"
+                            });
+                            
+                            (function(){
+                                var index = i;
+                                var _iw = createInfoWindow(i);
+                                var _marker = marker;
+                                _marker.addEventListener("click",function(){
+                                    this.openInfoWindow(_iw);
+                                });
+                                _iw.addEventListener("open",function(){
+                                    _marker.getLabel().hide();
+                                })
+                                _iw.addEventListener("close",function(){
+                                    _marker.getLabel().show();
+                                })
+                                label.addEventListener("click",function(){
+                                    _marker.openInfoWindow(_iw);
+                                })
+                                if(!!json.isOpen){
+                                    label.hide();
+                                    _marker.openInfoWindow(_iw);
+                                }
+                            })()
+                        }
+                    }
+                    //创建InfoWindow
+                    function createInfoWindow(i){
+                        var json = markerArr[i];
+                        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+                        return iw;
+                    }
+                    //创建一个Icon
+                    function createIcon(json){
+                        var icon = new BMap.Icon("http://app.baidu.com/map//images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+                        return icon;
+                    }
+                    
+                    initMap();//创建和初始化地图
+                </script>
+                
+<!--地图完-->
+            </div>
+            
+            <div class="contact_box22">
+            	<ul>
+                	<li>电话:4006268271 　022-58915999</li>
+                    <li>传真：022-58286233</li>
+                    <li>E-mail：kf@qynet.cc</li>
+                    <li>邮编：300160</li>
+                    <li>网址：http://www.qynet.cc</li>
+                    
+                </ul>
+            </div>
+            
+        </div>	
+    </div>
+</div>
+
+<!--外调底部-->
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

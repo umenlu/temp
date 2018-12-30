@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>{dede:field.seotitle/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+{dede:include filename="head.htm"/}
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="lanrenzhijia1">
+  <div class="title cf">
+    <ul class="title-list fr cf ">
+      <li class="on"></li>
+      <li class="on1"></li>
+      <li class="on2"></li>
+      <li class="on3"></li>
+      <li class="on4"></li>     
+    </ul>
+  </div>
+<div class="tb_box">
+	<div class="tb">
+    	<b>GONG SI JIE SHAO</b>
+        <div>公司介绍</div>
+        <p>让您了解行业内的新消息<br/>洞察媒体行业</p>
+    </div>
+    
+    <div class="tb">
+    	<b>QI YE WEN HUA</b>
+        <div>企业文化</div>
+        <p>让您了解公司文化和业态发展<br/>公司文字文字文字</p>
+    </div>
+    
+    <div class="tb">
+    	<b>QI YE RONG YU</b>
+        <div>企业荣誉</div>
+        <p>让您了解公司文化和业态发展<br/>公司文字文字文字</p>
+    </div>
+    
+    <div class="tb">
+    	<b>FA ZHAN LI CHENG</b>
+        <div>发展历程</div>
+        <p>让您了解公司文化和业态发展<br/>公司文字文字文字</p>
+    </div>
+    
+    <div class="tb">
+    	<b>GUAN DUI FENG CAI</b>
+        <div>团队风采</div>
+        <p>让您了解公司文化和业态发展<br/>公司文字文字文字</p>
+    </div>
+</div>  
+  
+  <div class="product-wrap">
+
+  
+    <div class="product show">
+<p>公司介绍</p>
+<span class="hui">COMPANY</span>
+        <div class="common bottom_bo">
+			<img src="/images/y_03.jpg"/>
+            <span>
+            	<ol>
+                	<li class="tetx_1">天津企元时代科技有限公司致力于为天津的中小型企业提供电子商务、互联网与移动互联网整合营销解决方案等多项服务。</li>
+                    <li class="tetx_2">公司与阿里巴巴（www.alibaba.com.cn）合作，成为阿里巴巴诚信通天津地区金牌服务站。企元时代公司携手阿里巴巴信奉客户共赢的企业精神，致力于为中小企业提供优质的电子商务应用服务，帮助企业实现基础的网络营销及电子商务交易。</li><br/>
+                    <li class="tetx_2" style=" font-size:15px; text-indent:2em;color:#333;line-height:24px;">企元时代在移动互联网方面自主研发、设计、制作APP产品、微信二次开发产品的整合营销推广方案，旨在把中小型企业电子商务从互联网延伸到移动互联网，并且紧跟着阿里巴巴O2O模式的开发，企元也将为天津中小企业的O2O发展提供更方便的服务。</li><br/>
+                    <li class="tetx_2" style=" font-size:15px; text-indent:2em;color:#333;line-height:24px;">企元时代秉承“顾问式、专家级”的服务理念，为企业用户提供“安全、高效、稳定”的电子商务及互联网应用服务。企元是一家拥有着丰富的电子商务运营经验，完善的服务体系，领先的技术研发能力，高效的管理模式是为客户提供高品质服务承诺的基础，将携手天津百万企业不断前行，谱写电子商务的新篇章。</li><br/>
+                    <li class="tetx_3" style=" font-size:16px; line-height:30px;">公司经营宗旨：以客户利益为中心，以成就共同事业为责任。</li>
+                    <li class="tetx_3" style=" font-size:16px; line-height:30px;">公司经营定位：做一家值得托付的企业。 </li>
+                    <li class="tetx_3" style=" font-size:16px; line-height:30px;">公司服务方向：从细致处做起，创建一体化解决方案，胸怀天下，正向积累，放大正能量。</li>
+                    <li class="tetx_3" style=" font-size:16px; line-height:30px;">公司基本业务模式：电子商务建设、阿里巴巴IT外包服务、移动互联网整合营销服务、O2O营销整合服务。</li>
+                </ol>
+            
+            </span>
+   		</div>
+    
+ </div>   
+    <!--案例2-->
+    <div class="product">
+<p>企业文化</p>
+<span class="hui">CULTURE</span>           
+ <!-- 代码 开始 -->
+        <div class="common bottom_bo">
+        <img src="/images/jies2.jpg"/>
+        </div>
+ <!-- 代码 结束 -->
+    </div>
+    <!--案例3-->
+    <div class="product">
+<p>企业荣誉</p>
+<span class="hui">ENTERPRISE&nbsp;HONOR</span>           
+ <!-- 代码 开始 -->
+        <div class="common bottom_bo">
+        <img src="/images/jies3.jpg"/>
+        </div>
+ <!-- 代码 结束 -->
+    </div>
+    <!--案例4-->
+    <div class="product">
+<p>发展历程</p>
+<span class="hui">DEVELOPMENT</span>           
+ <!-- 代码 开始 -->
+        <div class="common bottom_bo">
+         <img src="/images/jies1.jpg"/>
+        </div>
+ <!-- 代码 结束 -->
+    </div>
+    <!--案例5-->
+    <div class="product">
+<p>团队风采</p>
+ <span class="hui">TEAM&nbsp;STYLE</span>          
+ <!-- 代码 开始 -->
+        <div class="common bottom_bo">
+        <img src="/images/jies4.jpg"/>
+        </div>
+ <!-- 代码 结束 -->
+    </div>
+           
+    </div>
+  </div>
+</div>
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+{dede:include filename="footer.htm"/}
+</body>
+</html>

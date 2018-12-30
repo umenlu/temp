@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="apple-touch-fullscreen">
+<meta content="telephone=no" name="format-detection">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0">
+<link rel="stylesheet" href="style/html5.css">
+<link href="style/style.css" rel="stylesheet" type="text/css">
+</head>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<body>
+<!--注册通过头部-->
+<div class="header_tong">
+    <div class="header2_tong">
+    	<div><img src="images/dlb1.jpg"/></div>
+        <p>周渝民</p>
+    </div>
+</div>
+<!--注册通过头部完-->
+
+<div class="jihuo"><img src="images/dld3.png"/></div>
+
+<div class="kaitong1">您的个人云微店已经成功的激活开通。</div>
+
+<!--注册通过按钮-->
+<a href="index.html" class="zhuce">点此开始创建个性化产品组合</a>
+
+<div class="kaitong1">当前有效期为</div>
+
+<div class="kaitong1">2015年11月05日——2016年11月04日，</div>
+
+<div class="kaitong1">感谢您选择使用天乐个人云微店系统。</div>
+
+<!--注册通过按钮完-->
+
+</body>
+</html>

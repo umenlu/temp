@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+/*public*/
+.fl{display:inline;float:left}
+.fr{display:inline;float:right}
+.cf:after{content:"";clear:both;display:block;height:0;overflow:hidden}
+.cf{zoom:1; width:83%;}
+.pb10{padding-bottom:10px}
+.mt10{margin-top:10px}
+/*main*/
+.lan{width:1200px;margin:0 auto;}
+.lan .title-list{ position: relative;}
+.lan .title-list li{ font-size:20px;  color:#9fa0a0; height:24px; line-height:24px; text-align: center; float: left; padding:0 18px 0 18px; display: inline;cursor:pointer; border-left:1px #000 solid;}
+.lan .title-list li:hover{ color:#000000;}
+.lan .title-list li.on{ color: #ff6510;}
+.lan .title-list p{position:absolute;top:44px;left:0px;width:116px;height:7px;border-top: 3px solid #ff6600; overflow: hidden; text-align: center;}
+.lan .title-list b{display:inline-block;width:0;height:0;margin-top:-3px;border-style:solid dashed dashed dashed;border-width:9px;border-color: #ff6600 #fff #fff #fff;overflow: hidden;zoom: 1;font-size: 0;}
+.product{ position: relative; overflow: hidden; display: none;}
+.product-wrap { margin-top:45px;}
+.product-wrap .show{ display: block;}
+.product p{ display:block; font-size:20px; line-height:40px;width:100%; border-bottom:3px #f39800 solid; text-indent:0.5em;}
+
+/*main*/
+.lanrenzhijia3{width:1200px;margin:0 auto; padding-top:66px;}
+.lanrenzhijia3 .title-list1{ position: relative;}
+.lanrenzhijia3 .title-list1 li{ width:77px; height:83px; line-height:24px; margin:0 61px 0 62px; text-align: center; float: left;display: inline;cursor:pointer;}
+.lanrenzhijia3 .title-list1 li.l{ background-image: url(../images/b8.png);}
+.lanrenzhijia3 .title-list1 li.l:hover{background-color:#ff6510; background-image: url(../images/b1.png);}
+.lanrenzhijia3 .title-list1 li.l1{ background-image: url(../images/b2.png);}
+.lanrenzhijia3 .title-list1 li.l1:hover{background-color:#ff6510; background-image: url(../images/b9.png);}
+
+.tb_box1{ width:34%; overflow:hidden;}
+.tb_box1 .tb{width:160px; text-align:center; color:#ff6510; float:left; margin:20px 20px 0 20px;}
+.tb_box1 .tb b{ font-size:15px;}
+.tb_box1 .tb div{ border-bottom:2px #ff6510 solid; width:100px; height:36px; line-height:36px; font-size:15px;}
+.tb_box1 .tb p{ color:#9fa0a0; font-size:12px; line-height:18px; margin-top:10px;}
+
+.product1{ position: relative; overflow: hidden; display: none;}
+.product-wrap { margin-top:45px;}
+.product-wrap .show{ display: block;}
+.product1 p{ display:block; font-size:20px; line-height:40px;width:100%; border-bottom:3px #f39800 solid; text-indent:0.5em;}
+
+
+
+.common{margin:0 auto; width:1200px; position:relative;}
+.common ul li{ margin-top:24px; margin-bottom:24px; margin-left:15px;}
+.clear{clear:both;}
+.summary{ background: url(../images/tg.png);  }
+.listbox{float:left;background:#f6f6f6; width:183px; height:300px; position:relative;}
+.listimg{float:left; width:183px; height:300px; position:relative; overflow:hidden;}
+.summary{width:183px;top:300px;left:0;position:absolute; padding-bottom:6px; padding-top:6px;}
+.summarytxt{width:183px;height:82px;color:#cfcfcf;}
+.summarytxt p{ display:block; text-align:center; font-size:14px; width:70%; line-height:24px;border-bottom:0; text-indent:0; color:#FFF;}
+.summarytxt a{ display:block; text-align:center; font-size:12px;line-height:22px; color:#FFF;}
+.summarytxt a:hover{text-decoration:underline; }
+.wp-post-image{ width:183px; height:300px; background-color:#CCC; padding:1px; display:block;}
+

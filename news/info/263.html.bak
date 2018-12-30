@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>在农村小店 也能买到进口商品_企元</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">在农村小店 也能买到进口商品</div>
+<div class="content1"><span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 昨天，在杭州举办的&ldquo;全球B2B生态峰会&rdquo;上，<a href="http://www.qynet.cc/">阿里巴巴</a>B2B事业群宣布了这一项目，并启动城市合伙人计划。阿里巴巴B2B事业群销售服务总经理余涌解释，该项目将为城市零售店提供货源、配送、金融等一系列服务，同时也为有志于线上线下零售业的城市青年提供创业平台。<br />
+<br />
+　　据悉，前期主攻的市场为2~5线城市。说白了就是，自农村淘宝后，阿里又要进军农村市场了。而一旦做成，又将是颠覆性的一步。<br />
+<strong><img alt="" src="/uploads/allimg/160113/1-160113111320L5.jpg" style="width: 500px; height: 272px;" /><br />
+在农村小店<br />
+<br />
+你也可能买到进口货</strong><br />
+<br />
+　　这个批发怎么做？余涌介绍，目前阿里已经组建了一个合伙人团队，这些团队中的大部分来自阿里具地推能力的&ldquo;中供铁军&rdquo;，目前整个团队拥有近千位合伙人。<br />
+<br />
+　　每个合伙人&ldquo;承包&rdquo;一个区域，直径2公里范围内的小店，都是这位合伙人的客户。他可以为小店提供各种服务，包括商品批发、商品配送、金融贷款等，而这些都由阿里背书。<br />
+<br />
+　　&ldquo;相比之下，我们的竞争力远远超过当地批发商。&rdquo;余涌表示，比如，阿里拥有众多的商品渠道，淘宝、农村淘宝、1688、工厂等，阿里可以根据大数据，挑选出好卖的商品、进口商品以及农村淘宝提供的源头土货，送到社区零售店的货架上。&ldquo;近刚与新疆兵团签了一个大单，今后他们将为这些小店提供新疆大枣。&rdquo;余涌兴奋地表示，2016年1月下旬起，城市合伙人项目将给供货商品打上&ldquo;阿里巴巴&rdquo;标志，如果商品出现问题，阿里巴巴将先行赔付。未来还将引入扫码溯源，通过二维码的方式为每件商品赋予&ldquo;身份证&rdquo;，让消费者放心选购。<br />
+<br />
+　　而由于中间省去了不少经销商环节，城市合伙人或将为小店商家省下55~65%的成本。在价格上，也较当地批发商有优势。仓储、物流则都采用阿里集团的菜鸟，以保质保量。<br />
+<br />
+<strong>到3月将招募<br />
+<br />
+500名城市合伙人</strong><br />
+<br />
+　　这是阿里自农村淘宝后，又一大农村行动，余涌称这个项目的模式为&ldquo;互联网+铁军&rdquo;。&ldquo;未来一定是线上业务和线下业务的叠加，虽然前期会花很多时间和精力，但做十个样板，可以一下扩大至十万。&rdquo;<br />
+<br />
+　　既然前期很难，就需要大量高质量的合伙人。该项目已从阿里淘系、中供和支付宝都抽了强兵能将。<br />
+<br />
+　　那么，非阿里的城市合伙人有什么门槛？&ldquo;没有设很高的门槛。是他有这个意愿，且必须保持创业者的状；另一个是基本的沟通能力。&rdquo;余涌透露，城市合伙人没有底薪，收入跟着商品GMV（商品交易总额）走，靠55%~65%的成本缩减中来，&ldquo;可能20%让利给消费者，10%让利给小店，10%给合伙人，10%给中间商，阿里5%这样。&rdquo;<br />
+<br />
+　　城市合伙人计划负责人郭坤坤介绍，自2015年10月启动试点以来，已有近2万人次报名咨询城市合伙人，其中不乏想创业却缺少经验和资金的年轻人。<br />
+<br />
+　　据介绍，目前该项目主要进军长三角、珠三角、环渤海地区。首批三个省，浙江、江苏和安徽。第二批会新增10~12个省份。&ldquo;前期主攻2~5线城市，北上广深暂时不进，因为意义不大。&rdquo;余涌称。<br />
+<br />
+　　预计到2016年3月，<a href="http://www.qynet.cc/">阿里巴巴</a>将招募500名城市合伙人，以社区为中心，平均每个城市合伙人覆盖30万人口，总服务人口将达到1.5亿。<br />
+<br />
+　　而不少人担心的是，一旦这个项目做成，又将是对实体经济的一次颠覆，首当其冲受到影响的，就是当地的批发商。余涌也不否认：&ldquo;对当地批发商一定会带来冲击，但是他们可以跟我们合作。&rdquo;</span> </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/news/info/262.html'>阿里巴巴全球B2B生态峰会在杭州云溪小镇举行</a> </li>
+
+        <li>下一篇：<a href='/news/info/264.html'>阿里诚信通和新浪微博将实现深度合作</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

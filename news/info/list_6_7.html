@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>行业资讯_企元</title>
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--顶图-->
+<a href="#"><img style=" width:100%;" src="/images/hjh.jpg"/></a>
+
+<div class="lanrenzhijia2">
+  <div class="title cf">
+    <ul class="title-list fr cf cf1">
+     <a href="/news/info/"> <li class="on"></li></a>
+      <a href="/news/gongsi/"><li class="on1"></li> </a>  
+    </ul>
+  </div>
+  
+<div class="tb_box1">
+<a href="/news/info/">
+	<div class="tb">
+    	<b>HANG YE ZI XUN</b>
+        <div>行业资讯</div>
+        <p>让您了解行业内的新消息<br/>洞察媒体行业</p>
+    </div>
+    </a>
+    <a href="/news/gongsi/">
+    <div class="tb">
+    	<b>GON SI DONG TAI</b>
+        <div>公司动态</div>
+        <p>让您了解公司文化和业态发展<br/>公司文字文字文字</p>
+    </div>
+    </a>
+</div>  
+  
+  <div class="product-wrap">
+
+    <div class="product show">
+	<p>当前位置: <a href='http://www.qynet.cc/'>主页</a> > <a href='/news/'>新闻中心</a> > <a href='/news/info/'>行业资讯</a> >  </p>
+        <div class="common">
+        <span class="xinwen">
+            	<a href="/news/info/230.html" target="_Blank"><img src="/uploads/allimg/151231/1-1512310926160-L.jpg" alt="阿里“村淘”黑龙江运营部揭牌仪式在北安举行" width="220" height="140" /></a>
+                <ol>
+                	<li class="xinwen_li1"><a href="/news/info/230.html" target="_Blank">阿里“村淘”黑龙江运营部揭牌仪式在北安举行</a></li>
+                    <li class="xinwen_li2"><a href="/news/info/230.html" target="_Blank">阿里巴巴集团农村淘宝黑龙江省北部运营总部揭牌仪式在北安市工业园区举行，市委常委、北安市委书记姚志波与 阿里巴巴 集团农村淘宝事业部大区总经理赵亮共同为总部揭牌。 阿里... </a></li>
+                </ol>
+            </span><span class="xinwen">
+            	<a href="/news/info/229.html" target="_Blank"><img src="/uploads/allimg/151231/1-1512310Z2480-L.jpg" alt="阿里巴巴未来将会放手 让更多年轻人掌舵" width="220" height="140" /></a>
+                <ol>
+                	<li class="xinwen_li1"><a href="/news/info/229.html" target="_Blank">阿里巴巴未来将会放手 让更多年轻人掌舵</a></li>
+                    <li class="xinwen_li2"><a href="/news/info/229.html" target="_Blank">回顾这一年，数字经济与实体经济的融合越来越深，拥抱互联网被人们反复提起。一个事实清楚明白：互联网+不是简单物理相加，而是数字经济与实体经济产生化学反应，升级为新经济... </a></li>
+                </ol>
+            </span><span class="xinwen">
+            	<a href="/news/info/228.html" target="_Blank"><img src="/uploads/allimg/151230/1-151230093S40-L.jpg" alt="阿里健康全面焕新 打通线上就医购药" width="220" height="140" /></a>
+                <ol>
+                	<li class="xinwen_li1"><a href="/news/info/228.html" target="_Blank">阿里健康全面焕新 打通线上就医购药</a></li>
+                    <li class="xinwen_li2"><a href="/news/info/228.html" target="_Blank">近日， 阿里巴巴 旗下的阿里健康新版APP已在各大应用市场悄然上线，与旧版app风格迥异，新版以心形LOGO和药啥有啥SLOGAN做为开机画面，更为简洁明快。与此同时，阿里健康的官方网站... </a></li>
+                </ol>
+            </span><span class="xinwen">
+            	<a href="/news/info/227.html" target="_Blank"><img src="/uploads/allimg/151230/1-151230091F70-L.jpg" alt="阿里选择加入游族网络共同创造“阿里创客”" width="220" height="140" /></a>
+                <ol>
+                	<li class="xinwen_li1"><a href="/news/info/227.html" target="_Blank">阿里选择加入游族网络共同创造“阿里创客”</a></li>
+                    <li class="xinwen_li2"><a href="/news/info/227.html" target="_Blank">昨天， 阿里巴巴 和腾讯选择在同一时间做了同一件事，那就是跟同一家公司游族网络，分别在南京和苏州共同创建创新创业平台，游族网络作为运营方，将全面负责腾讯众创空间和阿... </a></li>
+                </ol>
+            </span><span class="xinwen">
+            	<a href="/news/info/226.html" target="_Blank"><img src="/uploads/allimg/151230/1-1512300T6380-L.jpg" alt="阿里影业集团在香港召开股东大会" width="220" height="140" /></a>
+                <ol>
+                	<li class="xinwen_li1"><a href="/news/info/226.html" target="_Blank">阿里影业集团在香港召开股东大会</a></li>
+                    <li class="xinwen_li2"><a href="/news/info/226.html" target="_Blank">昨日， 阿里巴巴 影业集团（HK：01060）在香港召开股东特别大会，投票表决淘宝电影和娱乐宝资产注入交易，其中已投票股东支持有关交易的比率超过99%，该项交易获得正式通过。 4月... </a></li>
+                </ol>
+            </span><span class="xinwen">
+            	<a href="/news/info/225.html" target="_Blank"><img src="/uploads/allimg/151230/1-1512300SH00-L.jpg" alt="著名节目主持人何炅加入阿里音乐出任CMO" width="220" height="140" /></a>
+                <ol>
+                	<li class="xinwen_li1"><a href="/news/info/225.html" target="_Blank">著名节目主持人何炅加入阿里音乐出任CMO</a></li>
+                    <li class="xinwen_li2"><a href="/news/info/225.html" target="_Blank">近日，澎湃新闻获悉，著名电视主持人何炅加入阿里音乐，出任CMO（首席市场官），花名小炅。阿里音乐官方证实了该消息。 至于何炅未来是否会继续在湖南卫视主持节目，阿里音乐相... </a></li>
+                </ol>
+            </span><span class="xinwen">
+            	<a href="/news/info/224.html" target="_Blank"><img src="/uploads/allimg/151229/1-1512291513140-L.jpg" alt="阿里巴巴村淘已超过1万家 覆盖20多个省" width="220" height="140" /></a>
+                <ol>
+                	<li class="xinwen_li1"><a href="/news/info/224.html" target="_Blank">阿里巴巴村淘已超过1万家 覆盖20多个省</a></li>
+                    <li class="xinwen_li2"><a href="/news/info/224.html" target="_Blank">昨日， 阿里巴巴 集团CEO张勇在淘宝大学县长电商研修班一周年发布会

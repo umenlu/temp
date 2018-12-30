@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>阿里巴巴要在“黑灰产业”上下功夫_企元</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">阿里巴巴要在“黑灰产业”上下功夫</div>
+<div class="content1"><span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 随着互联网的迅猛发展，&ldquo;互联网+&rdquo;越来越多地渗透到人们的生活当中来。然而，在高速发展的背后，也暴露出不少隐患和监管盲区。由互联网产生的恶意注册、虚假认证、诈骗、盗窃、假冒伪劣产品等一系列问题亟待规范和监管。<br />
+<img alt="" src="/uploads/allimg/160112/1-16011211554V95.jpg" style="width: 640px; height: 320px;" /></span>
+<p>
+	<span style="font-size:16px;">　　近日，在&ldquo;&lsquo;互联网+&rsquo;：创新与法制建设研讨会&rdquo;上，来自阿里巴巴的资深安全专家魏鸿表示，由于缺乏法律监管，伴随着互联网新业态诞生的一些 &ldquo;黑灰产业&rdquo;逐渐蔓延开来，<a href="http://www.qynet.cc/">阿里巴巴</a>推出一系列的安全防范措施，通过大数据作为武器，出重拳全面打击互联网&ldquo;黑灰产业&rdquo;，大限度保护消费者的权益。</span></p>
+<p>
+	<span style="font-size:16px;"><strong>互联网黑灰产业已成&ldquo;一条龙服务&rdquo;</strong></span></p>
+<p>
+	<span style="font-size:16px;">　　根据中国互联网络信息中心（CNNIC）发布的新数据显示：截至2015年6月，我国网民规模达6.68亿。庞大的网络用户，成为互联网黑灰 产业违法犯罪的目标。魏鸿表示，如今在电子商务领域，互联网犯罪有侵犯知识产权、盗窃账户、网络诈骗、盗取信息、销售违禁品、黑客攻击等六大犯罪类型。而 诸如手机黑卡、银行卡、身份信息非法买卖等灰色产业也不可小视。</span></p>
+<p>
+	<span style="font-size:16px;">　　黑灰产业相互依附，形成了各种各样的产业链，其中如恶意注册、虚假认证、虚假交易等部分黑灰产业甚至已经发展成了&ldquo;一条龙服务&rdquo;，从前期骗取农村、工厂等人口的身份信息，到后期网络交易平台虚假认证和虚假交易的整个过程，都有跨境跨地区的专人或公司负责。</span></p>
+<p>
+	<span style="font-size:16px;">　　据公安部网络安全保卫局披露的数据，2014年共侦办各类涉网案件15.7万起。其中，诈骗、传销等侵财型案件占比高为38%，色情次之，占 比20%，赌博占比14%，销售违禁品占比9%。据统计，2011年至2014年全国通信信息诈骗案件从10万起激增至40万起，年均增长超30%。 2014年因通信信息诈骗导致的公众损失达100多亿元。</span></p>
+<p>
+	<span style="font-size:16px;">　　黑色产业的数据触目惊心，灰色产业则更甚。有业内人士估计，全国从事灰色产业的人员有高达几十万之多。</span></p>
+<p>
+	<span style="font-size:16px;">　　黑灰色产业给网民带来了巨大的危害，同时也给各大互联网企业带来极大的挑战。包括阿里巴巴在内的各大互联网企业，均投入极大人力财力用于防控。</span></p>
+<p>
+	<span style="font-size:16px;"><strong>法律监管难题仍需破解</strong></span></p>
+<p>
+	<span style="font-size:16px;">　　对于黑灰产业的猖獗，互联网企业们纷纷开始了先期行动，例如阿里巴巴神盾局运用大数据实施风控、分析能力，专注于协助执法部门打击诈骗、假货、 盗号等违法犯罪行为。同时，神盾局进一步研究网络犯罪背后的黑灰产业链，并为有关部门推动网络司法完善，提供鲜活的素材和依据。</span></p>
+<p>
+	<span style="font-size:16px;">　　同时，<a href="http://www.qynet.cc/">阿里巴巴</a>神盾局就先后组建了特战队、老鹰组等一系列专业团队，打击互联网黑灰产业。阿里巴巴有关负责人表示，特战队是阿里组建的一支专门 打假团队，通过大数据分析，一旦发现任何售假线索，即对假货生产到销售等环节的证据进行全程搜集，并及时反馈至有关执法部门，进行线上线下联动打击。同 时，阿里组建的&ldquo;老鹰团队&rdquo;，通过技术手段保护网友的信息安全。通过收集网友、消费者的各种反馈，提前锁定并通知商家展开店铺自查，找出系统漏洞，阻止信 息泄露并被互联网灰色产业链利用。</span></p>
+<p>
+	<span style="font-size:16px;">　　虽然大型的互联网公司对互联网黑灰产展开了很多打击措施，但专家认为，我国法律和监管体系未能跟上&ldquo;互联网+&rdquo;时代的经济社会发展形势，&ldquo;黑灰产业&rdquo;在法律监管上依然存在问题。</span></p>
+<p>
+	<span style="font-size:16px;">　　高人民法院应用法学研究所刑事法室主任李玉萍就指出，由于固有的侦查或取证手段与现有&ldquo;互联网+&rdquo;的要求不匹配，公检法在网络犯罪事实的认定 上存在较大困难，这让后者更加肆无忌惮。中国信息通信研究院互联网法律研究中心主任李海英认为，现有的法律框架不包容新兴业务领域，导致大量新业态的法律 状态无法确定。</span></p>
+<p>
+	<span style="font-size:16px;"><strong>专家呼吁：完善法律　形成社会阶层监管</strong></span></p>
+<p>
+	<span style="font-size:16px;">　　针对上述问题，专家呼吁，只有尽快完善法律监管，从根本上解决互联网黑灰产业蔓延的问题。</span></p>
+<p>
+	<span style="font-size:16px;">　　中国社会科学院法学研究所研究员、刑法研究室主任刘仁文认为，现行法律本身不存在太大缺陷漏洞，但&ldquo;互联网+&rdquo;本身的新特征会导致法律政策践行不清晰，甚至存在&ldquo;没法管&rdquo;的灰色地带，给了黑灰产业钻空子的机会，应该从司法事务的角度明确一些法律政策的界线。</span></p>
+<p>
+	<span style="font-size:16px;">　　中国电子商务协会政策法律委员会委员、专家组成员张韬认为，除了要对现有法律及配套制度进行梳理和协调，可以针对互联网行业的特殊性进行专门立法，也可以在根据地方特色制定相应标准的同时，考虑通过立法建立统一的标准加以规范。</span></p>
+<p>
+	<span style="font-size:16px;">　　&ldquo;压制性立法与互联网创新业态分属极端，容易造成恶性循环。&rdquo;中国人民大学法学院副院长、中国人民大学互联网与信息法律研究所所长杨东表示，现阶段法律应该给新兴业态一定的发展空间，加快压制性立法向包容性、激励性立法转变，鼓励、引导新兴业态健康发展。</span></p>
+<p>
+	<span style="font-size:16px;">　　此外，中国信息经济学会原理事长杨培芳认为，法制建设仅靠企业和政府部门是并不够的，要想将系统的监管上升成一种普遍思维，需要引导建立基于互联网的新的社会价值观，人与人相互监督，形成社会阶层监管，用&ldquo;第三只手&rdquo;调节法治环境。</span></p>
+ </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/news/info/259.html'>阿里巴巴B2B事业群宣布启动城市合伙人计划</a> </li>
+
+        <li>下一篇：<a href='/news/info/261.html'>阿里成功秘诀：铁军文化下的销售团队</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

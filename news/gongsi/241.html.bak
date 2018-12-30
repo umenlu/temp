@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>阿里诚信通运营如何外部引流_企元</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">阿里诚信通运营如何外部引流</div>
+<div class="content1"><strong><span style="font-size:16px;"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></strong><span style="font-size:16px;"><span>说到<a href="http://www.qynet.cc/">阿里巴巴</a>诚信通，可能现在很多有着传统营销理念的老板正在做电商转型，但是刚开通诚信通如何做好，如何内外部引流，让自己的店铺排名不断提升，这是老板们比较头疼的问题，那么如何去做，做哪些呢？看看下面的&ldquo;干货&rdquo;分享：</span></span><br />
+<strong><span style="font-size:16px;"><span><img alt="" src="/uploads/allimg/160106/1-160106100QJT.jpg" style="width: 750px; height: 397px;" /><br />
+&nbsp;&nbsp;&nbsp; 一、判定推广的产品 </span></span></strong>
+<p>
+	<span style="font-size:16px;"><span>1．我们推广的产品，先要分析该产品的特性，然后拟定针对性的推广计划。 </span></span></p>
+<p>
+	<span style="font-size:16px;">2．我们推广的目的是要达到什么样的效果？比方说是单纯的为了增加网站流量，网站用户的注册量，还是为了出售产品，推广公司品牌等。</span><br />
+	<br />
+	<span style="font-size:16px;">&nbsp;&nbsp; 3．分析我们竞争对手和同类网站有没有做过类似的推广，假定他们做了，投入情况怎样？效果怎样？</span><br />
+	&nbsp;</p>
+<p>
+	<strong><span style="font-size:16px;">二、<span>正确使用推广论坛以及面向的人群 </span></span></strong></p>
+<p>
+	<span style="font-size:16px;">　　在选择目的论坛时，要根据我们的推广目的和想要抵达的效果要有针对性的选择，如我们为了出售产品，选择时就要选择用户精准的论坛间断推广，论坛不一定越大和越多越好，关键要看自己的才华和精神来定，人手少论坛多了维护本钱很高，也很累。还有就是在选择目的论坛的时好选内容源的论坛，这样我们的贴子才会有很高的转载率。</span></p>
+<p>
+	<strong><span style="font-size:16px;"><span>三、判定推广的政策 </span></span></strong></p>
+<p>
+	<span style="font-size:16px;">　　这就跟我们追MM一样，MM喜欢啥我们就做啥，这样才华感动MM的心。要晓得论坛的规则，每个论坛都有自己的一套规则，我们在推广的时要去熟悉这些规则才华被论坛认可。</span></p>
+<p>
+	<span style="font-size:16px;">　　要分析和把握政策论坛的特征，比方说该论坛的用户是爱灌水玩，还是喜欢发独创的文章，是喜欢注册还是对比保留的。是年轻人还是中老年人，是以男 性为主还是以女性为主。这些我们都要晓得才华非常好的进行推广。 还要晓得政策论坛每个版块的特征是啥？比方说文娱性的版式块我们可以发发水贴，灌灌水，如果是技术性很强的版块我们就要发点技术性的文章，这样才华保证我 们发的贴子不被删。</span></p>
+<p>
+	<strong><span style="font-size:16px;"><span>四、多注册一些马甲，常常运用，混个脸熟 </span></span></strong></p>
+<p>
+	<span style="font-size:16px;">　　说一下注册马甲的一些留心事项？</span></p>
+<p>
+	<span style="font-size:16px;">　　注册时要用不一样的IP进行注册，这样才不简略被封。如果有老的ID效果会非常好。</span></p>
+<p>
+	<span style="font-size:16px;">　　注册用户名时尽量不要用英文和字母，好用中文，彰显出特征。</span></p>
+<p>
+	<span style="font-size:16px;">　　及时更新自己资料，自己资料填的越详细，越简略让人发作好感。</span></p>
+<p>
+	<span style="font-size:16px;">　　刚注册时不要急着发广告，前几天要活泼回复别人的贴子和进步自已的等级，好能和老会员还有版主树立豪情，这样往后我们发广告就简略多了。</span></p>
+<p>
+	<span style="font-size:16px;">　　恰当的与人争论，让别人能记住你。好的办法便是宣告一些见地共同的独创内容，也可以谈论别人的观念，但要留心不能过激，把握好规范。</span></p>
+<p>
+	<strong><span style="font-size:16px;"><span>五：准备好充分的内容 </span></span></strong></p>
+<p>
+	<span style="font-size:16px;">　　标题很重要，别人看贴首先看标题，标题好不好直接影响我们的推广效果。</span></p>
+<p>
+	<span style="font-size:16px;">　　怎样写好标题的一些小窍门？</span></p>
+<p>
+	<span style="font-size:16px;">　　标题要满足引人的眼球，学会做标题党，不能让用户有受骗上当的感触。</span></p>
+<p>
+	<span style="font-size:16px;">　　标题写好了接下来便是内容，内容要搞些文娱，抢手工作，有争议，能致使别人一致的，能感动和协作的一些论题，当然还可以搞些擦边球。总归一切要环绕用户特征，论坛特征及所推广的产品来进行。</span></p>
+<p>
+	<span style="font-size:16px;">　　在做论坛推广时，贴子一定要丰盛多元化，要多融入一些视频，图像，文字，游戏等让贴子显得生动活泼。</span></p>
+<p>
+	<strong><span style="font-size:16px;"><span>六：把论坛混熟，用自己的马甲 </span></span></strong></p>
+<p>
+	<span style="font-size:16px;">　　1．用马甲时要先设计好情节，好搞的跟电视剧一样，跌当崎岖，恰当的设计一些争议和敌对。引导用户谈论。</span></p>
+<p>
+	<span style="font-size:16px;">　　2．设计好题和回复，回复要准备的多，不一样的论题和内容是好都能准备几个，关键的一点便是要引出你推广的产品信息。</span></p>
+<p>
+	<span style="font-size:16px;">　　3．根据情况上马甲，以用户参与谈论为目的，马甲当令参与引导论题。</span></p>
+<p>
+	<span style="font-size:16px;">　　4．还有一个需要留心的当地，便是不要用一样的IP登入马甲，这样很简略让人发现，有删号的风险哟。<br />
+	<br />
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; <a href="http://www.qynet.cc/">天津企元时代</a>作为<a href="http://www.qynet.cc/">天津阿里巴巴诚信通官方授权渠道商</a>可以为大家解答诚信通相关问题，而且<a href="http://www.qynet.cc/">企元时代</a>还是阿里巴巴京津冀地区一家阿里官方授权的培训机构，每周二、四下午都给大家提供免费的诚信通运营干货分享课，每次课堂现场都爆满，有的学员甚至在站着听课，培训老师都是具有多年诚信通营销经验的电商专家，希望这些服务能给天津诚信通商家更多的帮助和支持。</span><br />
+	&nbsp;</p>
+ </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/news/gongsi/223.html'>如何让产品和用户成功相亲</a> </li>
+
+        <li>下一篇：<a href='/news/gongsi/244.html'>运营那些事：网销宝怎么玩？</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

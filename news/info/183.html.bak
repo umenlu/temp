@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>新浪直播间对话阿里YunOS事业部产品总监胡晓东_企元</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">新浪直播间对话阿里YunOS事业部产品总监胡晓东</div>
+<div class="content1"><span style="font-size:16px;"><strong>新浪直播间对话阿里巴巴集团YunOS事业部产品总监胡晓东</strong><br />
+<br />
+（新浪直播间主持人：Q&nbsp;&nbsp;&nbsp;&nbsp; 阿里巴巴YunOS事业部产品总监胡晓东：A）<br />
+<br />
+<strong>Q：</strong>您好！上周YunOS在北京发布，在业内引起了比较大的反响。什么是阿里巴巴YunOS？其主要特点是什么？<br />
+<br />
+<strong>A：</strong>YunOS是<a href="http://www.qynet.cc/">阿里巴巴</a>集团旗下智能操作系统，它支持实物扫一扫即可轻松识别图片、物品。该系统也具备实时美妆功能，毫无PS痕迹，并可直接网购美妆用品。YunOS 5通过内容及用户操作智能协助寻找图片，可两步完成寻找。YunOS的云同步服务飞快如同本地储存。其特点无论是在速度和省电方面，我们都有很杰出的表现，个是快，他能够在内容和服务上，给用户精准推送，精准，准是第二个方面。第三方面，我们系统本身来讲，它在帮助厂商进行差异化的产品设计的时候，它非常方便，我们管它叫活，一个活系统。<br />
+<br />
+<strong>Q：</strong>活系统在我的理解就是比较灵活的意思，你们是针对用户来说还是说针对手机厂商来说呢？<br />
+<br />
+<strong>A：</strong>你这个问题提得很好，其实从两个方面来讲，从厂商来讲，我们看到今天用户有了非常多的个性化的需求，我们需要提供差异化的，各种各样硬件产品来去适应它。手机当然是其中的一个构成部分，除了手机之外，还有很多的上网设备，在以前我们手机厂商想要做差异化的产品，非常费劲，他要自己开发，非常麻烦。现在YunOS通过我们的系统设计，可以让厂商通过简单的配置，或者是调一些参数就能够做出符合他需要的产品。我们发现和运营商的合作过程当中，运营商也需要我们厂商有各种各样的产品来给用户更好以互联网使用体验，在这些方面，YunOS都有很杰出的表现。<br />
+<br />
+<strong>Q：</strong>如果能够体现出带给我们厂商或者是用户带来的便利，有什么典型案例可以介绍一下呢？<br />
+<br />
+<strong>A：</strong>这有个案例特别好，就是在我们很多的年轻人，在使用手机的过程当中，你可能经常的活动是看视频，看视频你会担心很多的问题，你找不到想看的东西，然后你要担心流量资费的问题，可能你找到了一些内容，这些内容还要收费。我们前一段时间和运营商和手机厂商一起合作，推出一款小辣椒的手机，它捆绑了流量，可以通过和优酷的合作，内置它的黄金会员，同时YunOS的系统能够猜出你喜欢哪些视频节目，主动推送给你。或者在找你想要视频的时候，可能说一句话就能够找到它，对用户非常的方便。<br />
+<br />
+<strong>Q：</strong>其实货车司机的市场是不是之前还没有人去涉足过？<br />
+<br />
+<strong>A：</strong>是的。其实我们有非常多的细分市场。我们有很多人讲手机市场是一个红海，实际上我们判断一个市场是红海还是蓝海的时候，不是判断有多少人在玩，而是看用户的需求有没有得到充分的满足。如果没有，那就是蓝海。<br />
+<br />
+<strong>Q：</strong>听起来是很不错。如果能够做到精准分发，对厂商和用户来说都是非常好的事情，其实厂商是可以通过应用分发获得更多的效益吧？<br />
+<br />
+<strong>A：</strong>当然，正如我刚才讲的YunOS的第二个特点叫精准，其实我们知道精准首先从用户这个角度去考虑问题。比如说我们以前，互联网还不够发达，那个时候我们要找到一条信息是很困难。所以说信息获取是重要的。但是现在呢，信息越来越多了，所以对于我们来说，大的困惑就是让这些信息筛选把一些垃圾信息从我们身边去到，能够找到我需要的，才是有用的，才是有价值的。<br />
+<br />
+　　YunOS精准分发的系统，可以让你根据你的使用习惯，根据你的使用特性，给你推送相应的内容和服务以及我们的应用等等这些方面的东西。那么，用户这边呢，他喜欢使用提升他的效率的手机。对于厂商，他的分发效率也就提升了，也就是说从效益方面有了体现。<br />
+<br />
+<strong>Q：</strong>比厂商更加了解用户，就可以帮助厂商提升自己的能力，这背后主要靠大数据的能力。在上周你们有一个发布会就提出智能机器人&ldquo;个人助理+&rdquo;的功能，这背后是不是也是着重应用大数据的能力呢？<br />
+<br />
+<strong>A：</strong>是。其实我们说到大数据，往往是一个比较空泛的概念，但是实际上来说，数据已经能够实实在在帮到你，帮到你做你所需要的东西。一方面我刚才所讲到的精准，另外一个方面我们可以看到的就是智能，我们的YunOS系统，它的智能主要体现在云端，它不在手机端，在云端。<br />
+<br />
+　　<a href="http://www.qynet.cc/">阿里巴巴</a>整个云服务系统，能够实时计算你的使用习惯，能够考虑到你的使用场景、你的应用等各方面的东西，然后猜出你所需要的东西，这样来讲就可以让用户得心应手，非常方便。其实无论是我们看到的大数据还是智能，终所要做到的只是一件事情，就是给我们用户更好的体验，给我们用户更多的方便，做到这一点，我想这也是体现了移动互联网的精华。<br />
+<br />
+　　</span> </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/news/info/182.html'>DT时代 你中有我 我中有你</a> </li>
+
+        <li>下一篇：<a href='/news/info/184.html'>升级生意参谋 让数据业务化更简单</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

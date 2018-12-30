@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>运营思维分享：如何做好用户画像_企元</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">运营思维分享：如何做好用户画像</div>
+<div class="content1"><span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 互联网一直都强调用户思维，可事实上在行业里，我们经常看到这样一种现象：做一个产品，期望目标用户能涵盖普罗大众，男女老幼、大拿小白、文青屌丝&hellip;&hellip;通常这样大而全的产品会走向消亡，因为正常情况下，每一个产品都该是为特定目标群的共同标准而服务的。当目标群体的基数越大，这个标准就越低。换言之，如果一个产品是服务于每一个人的，其实它设置的服务标准门槛是很低的，这样的产品，目前在同领域内竞争激烈，几乎没有进入的可能性。所以<a href="http://www.qynet.cc/">阿里巴巴</a>一直强调大数据，其实也是在细化目标人群的用户画像。<br />
+<img alt="" src="/uploads/allimg/151228/1-15122Q0335I58.jpg" style="width: 552px; height: 277px;" /><br />
+<br />
+　　所以，根据产品功能和定位，针对特定目标用户实行运营以及产品迭代才是生存及发展的不二法门。趁着这个机会，根据过去几个月的产品运营经历，总结三点感受如下。<br />
+<br />
+<strong>一、构建用户画像，初探市场</strong><br />
+<br />
+　　在做产品的过程中我们需要引入 PERSONA&mdash;&mdash;用户画像。用户画像是针对产品 / 服务目标群体真实特征的勾勒，是真实用户的综合原型。任何产品，都有他的目标用户，换言之，任何产品都该有其目标用户的 Persona。给特定群体提供专注的服务，远比给广泛人群提供低标准的服务更接近成功。<br />
+<br />
+　　从我们自己的经验来看，我们的目标用户有两类：类是我们直接需要获取的程序员用户，第二类是业务端的创业公司 / 创业者。以程序员用户举例，构建的 Persona 大致如下。<br />
+<br />
+　　，将目标用户标签化，并为各个标签标示权重高低。标签化是为了后期的数据统计分析;标示权重高低则是为了突出某些特定的产品功能和模块，也为了划分用户质量高低，高权重标签对于用户的 Rank 排名有非常大的影响。<br />
+<br />
+　　第二，详细的标签可以大大细化用户画像的颗粒度，让用户变得越发立体清晰，这对之后产品的完善以及迭代有着极大的帮助，下文会具体展开。<br />
+<br />
+　　第三，体现在运营上，用户画像的构建对于目标用户的获取有着极大的指向性，可专注于一些垂直的社区 / 论坛 / 社群，事半功倍。<br />
+<br />
+<strong>二、构建使用场景 / 消费场景，提高转化率</strong><br />
+<br />
+　　构建 &ldquo;使用场景 / 消费场景&rdquo;，给予用户 &ldquo;场景式引导&rdquo;，让用户注意&rarr;感兴趣&rarr;欲望&rarr;行动&rarr;满意，给予用户足够清晰的说明，这是一个逐步打消用户疑虑并取得用户信任的一个过程。<br />
+<br />
+　　从产品角度来说，提供产品 / 服务的网站有必要遵循 AIDAS 原理，让用户在浏览的过程中，对产品解除疑虑并产生好感，从而提高用户转化率或产品 / 服务的成交率。<br />
+<br />
+　　，为不同层次的用户设置场景引导。为浏览用户提供清楚明确的产品介绍，以及产品的用户数据 / 成交数据;为期望用户提供成功案例或第三方评价，提供消费场景引导;为消费客户提供清晰可靠的 Call On Action，将注册 / 支付流程和网站的交互尽量简化。<br />
+<br />
+　　第二，分析数据指标。着重分析点击率、停留时长、访问深度、人均浏览页数、跳出率等，以便产品的优化和完善。<br />
+贯穿产品运营过程的三个用户思维,互联网的一些事<br />
+<br />
+<strong>三、逐步迭代产品功能和模块，提供差异化服务</strong><br />
+<br />
+　　KANO 模型定义了三个层次的用户需求：<br />
+<br />
+　　基本型需求，是产品基础的属性或功能，满足绝大部分的用户需求。<br />
+<br />
+　　期望型需求，提供给用户比较优秀的功能或服务，满足中高层次的用户需求。<br />
+<br />
+　　兴奋型需求，提供给用户一些独特的高级功能或服务，满足高层次用户需求。<br />
+<br />
+　　从我们自己的经验来看，KANO 模型对于产品的完善以及迭代有着极大的帮助。前文也提到，详细的标签可以大大细化用户画像的颗粒度，让用户变得越发立体清晰。区分用户质量的高低可以从颗粒度细化程度分析出来。以程序员客栈上的三个程序员举例：<br />
+<br />
+　　用户是国内普通本科应届生，刚入职于杭州某创业公司，任 Android 开发；<br />
+<br />
+　　用户是有三年互联网移动端开发经验，擅长 Android，iOS 两大主流平台开发技术和框架，包括原生和混合。<br />
+<br />
+　　用户是任职于腾讯的资深工程师，八年工作经验，做过 12 个产品，其中多个产品用户规模达到亿级别。<br />
+<br />
+　　以上三个用户是对 &ldquo;程序员&rdquo; 这个目标群体的细化，通过颗粒度的丰富 / 细化程度，我们大概可以分析这三个用户相对质量的高低，结合 KANO 模型，程序员客栈就可以给这三类用户提供差异化的服务。</span><br />
+ </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/news/gongsi/208.html'>近假冒阿里小二骗子猖獗 商家要警惕</a> </li>
+
+        <li>下一篇：<a href='/news/gongsi/223.html'>如何让产品和用户成功相亲</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

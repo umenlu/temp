@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>成功案例</title>
+</head>
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/case.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){$('.listimg').hover(function(){
+	$(".summary",this).stop().animate({top:'220px'},{queue:false,duration:300});},function(){
+		$(".summary",this).stop().animate({top:'300px'},{queue:false,duration:300})
+		;})
+		;});
+$(function(){		
+	//设计案例切换
+	$('.title-list li').click(function(){
+		var liindex = $('.title-list li').index(this);
+		$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+$(function(){		
+	//设计案例切换
+	$('.title-list1 li').mouseenter(function(){
+		var liindex = $('.title-list1 li').index(this);
+		//$(this).addClass('l').siblings().removeClass('l');
+		$('.product-wrap div.product1').eq(liindex).fadeIn(116).siblings('div.product1').hide();
+		var liWidth = $('.title-list1 li').width();
+		$('.lanrenzhijia3 .title-list1 p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+<body>
+
+<!--导航-->
+{dede:include filename="head.htm"/}
+
+
+<!--顶图-->
+<a href="#"><img style=" width:100%;" src="/images/al.jpg"/></a>
+
+
+<!---->
+<div class="lanrenzhijia3">
+  <div class="title cf">
+    <ul style=" width:70.5%;" class="title-list1 fr cf">
+      <li class="l"></li>
+      <li class="l1"></li>   
+    </ul>
+  </div>
+  
+<div class="tb_box1">
+	<div class="tb">
+    	<b>ZHUANG XIU AN LI</b>
+        <div>装修案例</div>
+        <p>让您了解行业内的新消息<br/>洞察媒体行业</p>
+    </div>
+    
+    <div class="tb">
+    	<b>YUN YING AN LI</b>
+        <div>运营案例</div>
+        <p>让您了解公司文化和业态发展<br/>公司文字文字文字</p>
+    </div>
+</div>  
+  
+  <div class="product-wrap">
+
+    <div class="product1 show">
+<!--案例开始-->
+<div class="lan">
+  <div class="title cf">
+    <ul class="title-list fr cf ">
+      <li class="on" style=" border:none;">服饰家纺</li>
+      <li>食品</li>
+      <li>小商品</li>
+      <li>建材</li>
+      <li>五金</li>
+      <li>线缆设备</li>
+      <li>其他</li>
+    </ul>
+  </div>
+  <div class="product-wrap">
+    <!--案例1-->
+    <div class="product show">
+		<p>服饰家纺</p>
+           
+ <!-- 代码 开始 -->
+        <div class="common">
+          <ul>
+           {dede:arclist row=100 typeid='11' titlelen='55'}
+            <li style="" class="listbox mr20">
+              <div class="listimg"> <a href="[field:arcurl/]"title="[field:title/]" target="_blank"> <img src="[field:litpic/]" alt="[field:fulltitle/]" /> </a>
+                <div class="summary">
+                  <div class="summarytxt">
+                    <p>[field:title/]</p>
+                    <a href="[field:arcurl/]">更多详情</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+             {/dede:arclist}
+          </ul>
+        </div>
+ <!-- 代码 结束 -->
+        
+        
+    </div>
+    <!--案例2-->
+    <div class="product">
+<p>食品</p>
+           
+ <!-- 代码 开始 -->
+        <div class="common">
+            <ul>
+           {dede:arclist row=100 typeid='12' titlelen='55'}
+            <li  class="listbox mr20">
+              <div class="listimg"> <a href="[field:arcurl/]"title="[field:title/]" target="_blank"> <img src="[field:litpic/]" alt="[field:fulltitle/]" /> </a>
+                <div class="summary">
+                  <div class="summarytxt">
+                    <p>[field:title/]</p>
+                    <a href="[field:arcurl/]">更多详情</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+             {/dede:arclist}
+          </ul>
+        </div>
+ <!-- 代码 结束 -->
+    </div>
+    <!--案例3-->
+    <div class="product">
+<p>小商品</p>
+           
+ <!-- 代码 开始 -->
+        <div class="common">
+             <ul>
+           {dede:arclist row=100 typeid='13' titlelen='55'}
+            <li  class="listbox mr20">
+              <div class="listimg"> <a href="[field:arcurl/]"title="[field:title/]" target="_blank"> <img src="[field:litpic/]" alt="[field:fulltitle/]" /> </a>
+                <div class="summary">
+                  <div class="summarytxt">
+                    <p>[field:title/]</p>
+                    <a href="[field:arcurl/]">更多详情</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+             {/dede:arclist}
+          </ul>
+        </div>
+ <!-- 代码 结束 -->
+    </div>
+    <!--案例4-->
+    <div class="product">
+<p>建材</p>
+           
+ <!-- 代码 开始 -->
+        <div class="common">
+             <ul>
+           {dede:arclist row=100 typeid='14' titlelen='55'}
+            <li  class="listbox mr20">
+              <div class="listimg"> <a href="[field:arcurl/]"title="[field:title/]" target="_blank"> <img src="[field:litpic/]" alt="[field:fulltitle/]" /> </a>
+                <div class="summary">
+                  <div class="summarytxt">
+                    <p>[field:title/]</p>
+                    <a href="[field:arcurl/]">更多详情</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+             {/dede:arclist}
+          </ul>
+
+        </div>
+ <!-- 代码 结束 -->
+    </div>
+    <!--案例5-->
+    <div class="product">
+<p>五金</p>
+           
+ <!-- 代码 开始 -->
+        <div class="common">
+             <ul>
+           {dede:arclist row=100 typeid='15' titlelen='55'}
+            <li  class="listbox mr20">
+              <div class="listimg"> <a href="[field:arcurl/]"title="[field:title/]" target="_blank"> <img src="[field:litpic/]" alt="[field:fulltitle/]" /> </a>
+                <div class="summary">
+                  <div class="summarytxt">
+                    <p>[field:title/]</p>
+                    <a href="[field:arcurl/]">更多详情</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+             {/dede:arclist}
+          </ul>
+        </div>
+ <!-- 代码 结束 -->
+    </div>
+    <div class="product">
+<p>电缆设备</p>
+           
+ <!-- 代码 开始 -->
+        <div class="common">
+              <ul>
+           {dede:arclist row=100 typeid='16' titlelen='55'}
+            <li class="listbox mr20">
+              <div class="listimg"> <a href="[field:arcurl/]"title="[field:title/]" target="_blank"> <img src="[field:litpic/]" alt="[field:fulltitle/]" /> </a>
+                <div class="summary">
+                  <div class="summarytxt">
+                    <p>[field:title/]</p>
+                    <a href="[field:arcurl/]">更多详情</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+             {/dede:arclist}
+          </ul>
+        </div>
+ <!-- 代码 结束 -->
+    </div>
+    
+    <div class="product">
+<p>其他</p>
+           
+ <!-- 代码 开始 -->
+        <div class="common">
+             <ul>
+           {dede:arclist row=100 typeid='17' titlelen='55'}
+            <li  class="listbox mr20">
+              <div class="listimg"> <a href="[field:arcurl/]"title="[field:title/]" target="_blank"> <img src="[field:litpic/]" alt="[field:fulltitle/]" /> </a>
+                <div class="summary">
+                  <div class="summarytxt">
+                    <p>[field:title/]</p>
+                    <a href="[field:arcurl/]">更多详情</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+             {/dede:arclist}
+          </ul>
+        </div>
+ <!-- 代码 结束 -->
+    </div>
+    
+  </div>
+</div>
+<!--案例结束-->    
+    </div>   
+    <!--案例2-->
+    
+    <div class="product1">
+    
+<!--案例开始-->
+<!--<div class="lan">
+  <div class="title cf">
+    <ul class="title-list fr cf ">
+      <li class="on" style=" border:none;">全部</li>
+      <li>家居百货</li>
+      <li>小吃冲饮</li>
+      <li>零件器械</li>
+      <li>环保产品</li>
+      <li>建筑材料</li>
+    </ul>
+  </div>-->
+  <div class="product-wrap">
+    <!--案例1-->
+    <div class="product show">
+		<p>全部运营案例</p>
+           
+ <!-- 代码 开始 -->
+        <div class="common">
+          <ul>
+              {dede:arclist row=100 typeid='18' titlelen='55'}
+            <li  class="listbox mr20">
+              <div class="listimg"> <a href="[field:arcurl/]"title="[field:title/]" target="_blank"> <img src="[field:litpic/]" alt="[field:fulltitle/]" /> </a>
+                <div class="summary">
+                  <div class="summarytxt">
+                    <p>[field:title/]</p>
+                    <a href="[field:arcurl/]">更多详情</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+             {/dede:arclist}
+          </ul>
+          
+          
+        </div>
+ <!-- 代码 结束 -->
+        
+        
+    </div>
+    <!--案例2-->
+
+
+   
+    
+  </div>
+</div>
+<!--案例结束-->  
+</div>
+          
+  </div>
+</div>
+<!---->
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+<!--外调底部-->
+{dede:include filename="footer.htm"/}
+</body>
+</html>

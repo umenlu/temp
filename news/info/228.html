@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>阿里健康全面焕新 打通线上就医购药_企元</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">阿里健康全面焕新 打通线上就医购药</div>
+<div class="content1"><span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 近日，<a href="http://www.qynet.cc/">阿里巴巴</a>旗下的阿里健康新版APP已在各大应用市场悄然上线，与旧版app风格迥异，新版以心形LOGO和&ldquo;药啥有啥&rdquo;SLOGAN做为开机画面，更为简洁明快。与此同时，阿里健康的官方网站也都做了改头换面，全新登场。<br />
+<br />
+　　正如此前媒体猜测，阿里健康新版APP，在给消费者提供了线上线下打通的多渠道购药模式的同时，还上线了&ldquo;签约专属家庭医生&rdquo;和&ldquo;预约专家&rdquo;两项新功能，以满足购药前后的医疗咨询需求。不久前，阿里健康发布了未来药店合伙人计划，提供打造B2C+O2O的立体购药平台，而在与滴滴出行合作的送医上门服务中，阿里健康也曾透露过，后期会联动社区医院实现居民身边的家庭医生场景，从而推进分级诊疗。<br />
+<img alt="" src="/uploads/allimg/151230/1-151230093959220.jpg" style="width: 500px; height: 293px;" /><br />
+<strong>B2C还是O2O 有的选才公道</strong><br />
+<br />
+　　阿里健康APP首页由&ldquo;每日特惠&rdquo;、&ldquo;附近药店&rdquo;和&ldquo;热门类目&rdquo;三个版块组成，用户既可以获得新的优惠信息，也能查询身边药店的库存情况，有针对性地选购药品。此外，用户还可以在app上方搜索栏输入药品或症状找到合适的药品。<br />
+<br />
+　　例如，搜索&ldquo;感冒&rdquo;关键词后，APP上&ldquo;附近药店&rdquo;显示与感冒相关的治疗发热、头疼、流涕等症状的药品。选择其中一款后，系统就会告知附近有售药品的药店、药品价格和预计送达的时间。而选择&ldquo;网上药店&rdquo;，则可以看到天猫医药馆平台上店铺感冒药品的相关信息，用户可以直接比对价格和运费。阿里健康相关人士提到，附近药店配送服务目前只在北京和杭州市区开展，但在几个月内，这项配送药品的服务会拓展至全国主要省会城市。<br />
+<br />
+<strong>新增家庭医生便民功能 北京知名专家方便&ldquo;约&rdquo;</strong><br />
+<br />
+　　今年10月，阿里健康与滴滴出行合作送医上门时，就表示过将探索价格亲民的社区医院家庭医生服务形式。本次阿里健康焕新后，APP上线了&ldquo;找医生&rdquo;版块，覆盖&ldquo;专属家庭医生&rdquo;和&ldquo;预约专家&rdquo;两个功能，分级满足用户在购药前后的健康咨询和诊疗需求。<br />
+<br />
+　　阿里健康APP找医生页面显示，家庭医生服务暂时只在北京地区开通。北京的用户在&ldquo;专属家庭医生&rdquo;版块挑选合乎心意的医生，填写姓名、身份证号、手机号等个人基本信息，提交给医生经过至多一天的审核，就可以和安贞社区卫生服务中心的实名医生进行签约，享受&ldquo;我的家庭医生&rdquo;免费图文和电话咨询服务，并享受每月60分钟的免费通话时间。在阿里健康&ldquo;家庭医生&rdquo;功能区提供服务的安贞社区卫生服务中心，覆盖全科、慢病、儿科、中医等多个科室，可以满足社区居民对于常见疾病咨询的需求。阿里健康的&ldquo;家庭医生&rdquo;服务帮助社区卫生服务中心实现签约电子化，服务智能化、管理信息化，通过签约服务，有效促进基层首诊从而推动双向转诊。据悉，&ldquo;家庭医生&rdquo;服务也即将推广至上海、天津、浙江杭州和江苏常州等城市。<br />
+<br />
+　　除了社区基础医疗咨询服务，阿里健康APP同时上线的&ldquo;预约专家&rdquo;功能，为有进一步医疗咨询需求的用户提供专家名医的诊号预约服务。目前全部上线提供咨询服务的近2000名医生均具有三甲背景，仍在三甲医院内工作的医生占85%以上，预约医院覆盖了全国19个省27个市的137个医院，包括北京协和医院、北京301医院、北京和睦家医院等优质医疗机构的胡大一、崔玉涛等知名专家也在预约专家名单之列，而专家医生和号源数量仍在持续增加中。在这个阶段，用户预约北京同仁医院主任医师王军等部分知名专家，甚至可以享受到1分钱&ldquo;预约咨询费用&rdquo;的优惠。<br />
+<br />
+<strong>阿里健康全面焕新 打通线上就医购药</strong><br />
+<br />
+　　11月18日，阿里健康官方网站改版上线，官网展示阿里健康药品零售、医疗服务、药监码和健康保险等四大业务版块，同时，官网也承担了连锁药店和医疗网络的自助进驻功能。<br />
+<br />
+　　&ldquo;阿里健康对互联网医药市场现阶段的思考和判断，已经初步体现在新版阿里健康APP中。&rdquo;阿里健康战略与投资部副总裁马立介绍，新版APP部分体现了阿里健康未来药店合伙人计划B2C+O2O的双向导流模式，通过虚拟货架帮助线下药店扩品类，又通过线下药店丰富了线上店铺的购买场景。<br />
+<br />
+　　在互联网医疗方面，马立表示，改版后的<a href="http://www.qynet.cc/">阿里巴巴</a>旗下的阿里健康在APP内开始探索&ldquo;首诊在社区，大病进医院，康复回社区&rdquo;的分级诊疗模式。希望通过提供用户与实名社区医生的日常交流工具，逐渐培养双方的沟通习惯，并建立起信赖感，从而形成长期稳定的健康管理沟通平台。遇到复杂问题时，家庭医生可以建议用户预约专家，并配合专家进行治疗后的日常管理，从而形成了双向导诊。&ldquo;未来，阿里健康还会不断地优化APP功能，提供更加丰富的工具，为社区卫生服务中心带来签约电子化、服务智能化和管理信息化的便利，帮助基层医生更好地服务百姓。&rdquo;马立说。</span> </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/news/info/227.html'>阿里选择加入游族网络共同创造“阿里创客”</a> </li>
+
+        <li>下一篇：<a href='/news/info/229.html'>阿里巴巴未来将会放手 让更多年轻人掌舵</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/></p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

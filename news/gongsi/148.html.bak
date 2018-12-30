@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>津橙商学院合作客户推广 双十一嗨起来_企元时代</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/html5.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/index.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/Services.css">
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href='http://www.qynet.cc'" class="logo" style=" width:170px;"><input type="image" src="http://www.qynet.cc/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc'" src="http://www.qynet.cc/images/01.jpg"/>
+			<a href="http://www.qynet.cc/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/about/'"  src="http://www.qynet.cc/images/02.jpg"/>
+			<a href="http://www.qynet.cc/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/services/'"  src="http://www.qynet.cc/images/04.jpg"/>
+			<a href="http://www.qynet.cc/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/case/'"  src="http://www.qynet.cc/images/05.jpg"/>
+			<a href="http://www.qynet.cc/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/news/'"  src="http://www.qynet.cc/images/03.jpg"/>
+			<a href="http://www.qynet.cc/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/muban/'"  src="http://www.qynet.cc/images/06.jpg"/>
+			<a href="http://www.qynet.cc/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/zhaopin/'"  src="http://www.qynet.cc/images/07.jpg" />
+			<a href="http://www.qynet.cc/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/contact/'"  src="http://www.qynet.cc/images/08.jpg"/>
+			<a href="http://www.qynet.cc/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="http://www.qynet.cc/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">津橙商学院合作客户推广 双十一嗨起来</div>
+<div class="content1"><img alt="" src="/uploads/allimg/151110/1-1511101K432.jpg" />
+<div style="text-align: center;">
+	<span style="color: rgb(51, 51, 51); font-family: 宋体; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 22.4px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: pre-wrap; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255);">优惠券发发发，根本停不下来！</span></div>
+<img alt="" src="/uploads/allimg/151110/1-1511101K436.jpg" />
+<div style="text-align: center;">
+	<span style="color: rgb(51, 51, 51); font-family: 宋体; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 22.4px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: pre-wrap; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255);">Vip会员礼品送送送！</span></div>
+<img alt="" src="/uploads/allimg/151110/1-1511101K440.jpg" />
+<div style="text-align: center;">
+	<span style="color: rgb(51, 51, 51); font-family: 宋体; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 22.4px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: pre-wrap; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255);">镇店之宝，皮肤护理美美美！</span></div>
+<img alt="" src="/uploads/allimg/151110/1-1511101K444.jpg" /><img alt="" src="/uploads/allimg/151110/1-1511101K452.jpg" /><img alt="" src="/uploads/allimg/151110/1-1511101K517.jpg" /><br />
+<img alt="津橙商学院合作客户推广 双十一嗨起来" src="/uploads/allimg/151110/1-1511101K522.jpg" /><br />
+<img alt="" src="/uploads/allimg/151110/1-1511101K531.jpg" /><img alt="" src="/uploads/allimg/151110/1-1511101K527.jpg" /><br />
+<img alt="津橙商学院合作客户推广 双十一嗨起来" src="/uploads/allimg/151110/1-1511101K531.jpg" /><br />
+<p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box ! important; word-wrap: break-word ! important; clear: both; min-height: 1em; white-space: pre-wrap; color: rgb(62, 62, 62); font-family: &quot;Helvetica Neue&quot;,Helvetica,&quot;Hiragino Sans GB&quot;,&quot;Microsoft YaHei&quot;,Arial,sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25.6px; text-indent: 0px; text-transform: none; widows: 1; word-spacing: 0px; background-color: rgb(255, 255, 255); text-align: center;">
+	<span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-family: 宋体; color: rgb(51, 51, 51); letter-spacing: 0px; font-size: 14px; background-color: rgb(255, 255, 255);">老板说，亲我还敢再低一点，你敢来吗？</span></p>
+<p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box ! important; word-wrap: break-word ! important; clear: both; min-height: 1em; white-space: pre-wrap; color: rgb(62, 62, 62); font-family: &quot;Helvetica Neue&quot;,Helvetica,&quot;Hiragino Sans GB&quot;,&quot;Microsoft YaHei&quot;,Arial,sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25.6px; text-indent: 0px; text-transform: none; widows: 1; word-spacing: 0px; background-color: rgb(255, 255, 255); text-align: center;">
+	<span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-family: 宋体; color: rgb(51, 51, 51); letter-spacing: 0px; font-size: 14px; background-color: rgb(255, 255, 255);">双十一到天猫媞娅旗舰店，我们来场至尊约</span><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-family: 宋体; color: rgb(51, 51, 51); letter-spacing: 0px; font-size: 14px; background-color: rgb(255, 255, 255);">惠</span><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-family: 宋体; color: rgb(51, 51, 51); letter-spacing: 0px; font-size: 14px; background-color: rgb(255, 255, 255);">吧！</span></p>
+<p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box ! important; word-wrap: break-word ! important; clear: both; min-height: 1em; white-space: pre-wrap; color: rgb(62, 62, 62); font-family: &quot;Helvetica Neue&quot;,Helvetica,&quot;Hiragino Sans GB&quot;,&quot;Microsoft YaHei&quot;,Arial,sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25.6px; text-indent: 0px; text-transform: none; widows: 1; word-spacing: 0px; background-color: rgb(255, 255, 255); text-align: center;">
+	<span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-family: 宋体; color: rgb(51, 51, 51); letter-spacing: 0px; font-size: 14px; background-color: rgb(255, 255, 255);">更多优惠请见天猫活动页面 活动网址</span><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-family: 宋体; color: rgb(51, 51, 51); letter-spacing: 0px; font-size: 14px; background-color: rgb(255, 255, 255);"> </span><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-family: 宋体; color: rgb(51, 51, 51); letter-spacing: 0px; font-size: 14px; background-color: rgb(255, 255, 255);">https://tb.cn/BKSO6Cy</span></p>
+<p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box ! important; word-wrap: break-word ! important; clear: both; min-height: 1em; white-space: pre-wrap; color: rgb(62, 62, 62); font-family: &quot;Helvetica Neue&quot;,Helvetica,&quot;Hiragino Sans GB&quot;,&quot;Microsoft YaHei&quot;,Arial,sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25.6px; text-indent: 0px; text-transform: none; widows: 1; word-spacing: 0px; background-color: rgb(255, 255, 255); text-align: center;">
+	<span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-family: 宋体; color: rgb(51, 51, 51); letter-spacing: 0px; font-size: 14px; background-color: rgb(255, 255, 255);">PS请将网址添加到手机浏览器中才能打开哦，一般人我不告诉他！！！</span></p>
+ </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='http://www.qynet.cc/news/gongsi/143.html'>万企津成

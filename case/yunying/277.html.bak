@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>店铺销量靠什么？优质运营方案在企元_企元</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">店铺销量靠什么？优质运营方案在企元</div>
+<div class="content1"><span style="font-size:16px;"><strong>店铺名称：</strong>天津仁和轩商贸有限公司<br />
+&nbsp;<br />
+<strong>店铺类别：</strong>1688纸类包装容器批发类店铺<br />
+&nbsp;<br />
+<strong>类&nbsp;&nbsp;&nbsp;&nbsp;目：</strong>包装<br />
+&nbsp;<br />
+<strong>所属公司：</strong>天津仁和轩商贸有限公司<br />
+&nbsp;<br />
+<strong>公司地址：</strong>天津市西青区海泰南路<br />
+&nbsp;<br />
+<strong>店铺介绍：</strong>仁和轩天津纸容器包装隶属于天津仁和轩商贸有限公司，是天津地区专业的纸杯、广告杯、品尝杯、冰淇淋杯等各种天津纸杯生产厂作为生产型企业。&nbsp;我们以&ldquo;生产一流、质量一流、管理一流、服务一流、维护健康、绿色环保&rdquo;为宗旨，以&ldquo;质量求生存，以信誉谋发展&rdquo;为发展理念。采用高品质纯木浆纸为原料，以严格的国家标准为标准，采用先进的生产设备，为行政事业单位、公司、工矿企业、超市、酒店餐饮、金融保险、通讯营运商和各商业零售企业设计、订做各种规格广告宣传杯、自用杯、市场零售杯、超市专用杯等服务。&nbsp;<br />
+&nbsp;<br />
+<strong>提升目标：</strong>4个月提升店铺展现量，浏览量和店铺交易额<br />
+&nbsp;<br />
+<strong>提升方式：</strong>将网店运营业务交由企元时代科技有限公司托管<br />
+&nbsp;<br />
+<strong>托管起始时间：</strong>2015年3月<br />
+&nbsp;<br />
+<strong>网店运营遇到的困难：</strong><br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 天津仁和轩商贸有限公司是16881688纸类包装容器店铺，公司经营者关于网店运营方面、网店管理和网店推广的经验完全为零，因此在其经营初期面临许多的困难：</span><br />
+<ol>
+	<li value="NaN">
+		<span style="font-size:16px;">电商人才短缺，无法组建有经验的电商团队；</span></li>
+	<li value="NaN">
+		<span style="font-size:16px;">电商人员流动性大，对店铺稳定和长期发展不利；</span></li>
+	<li value="NaN">
+		<span style="font-size:16px;">招聘专职运营管理成本太高，性价比低于外包托管；</span></li>
+	<li value="NaN">
+		<span style="font-size:16px;">专业度提升受限，无法接触新的专业知识培训，发展有不可控性；</span></li>
+	<li value="NaN">
+		<span style="font-size:16px;">店铺经营初期知名度不高，难以拓展新兴的市场；</span></li>
+	<li value="NaN">
+		<span style="font-size:16px;">营销方式单一，营销效果不理想；</span></li>
+	<li value="NaN">
+		<span style="font-size:16px;">无法获取阿里巴巴集团内部重要的资讯。如：生意参谋升级、网销宝改版、阿里总部组织的洽谈会和阿里小二组织的类目活动等。</span></li>
+</ol>
+<span style="font-size:16px;">&nbsp;</span>
+<div style="text-align: center;">
+	<span style="font-size:16px;">店铺接手阶段数据分析：<br />
+	2015年3月1-31日</span></div>
+<span style="font-size:16px;"><img alt="" src="/uploads/allimg/160120/1-160120094640433.png" style="width: 576px; height: 252px;" /></span>
+<div style="text-align: center;">
+	<span style="font-size:16px;">全店展现4、访客数为12、支付金额0元。<br />
+	&nbsp;2015年7月1-31日</span></div>
+<span style="font-size:16px;"><img alt="" src="/uploads/allimg/160120/1-160120094IJF.png" style="width: 554px; height: 245px;" /></span>
+<div style="text-align: center;">
+	<span style="font-size:16px;">全店展现37116、访客549、支付12846.40元。<br />
+	活跃的单品</span></div>
+<span style="font-size:16px;"><img alt="" src="/uploads/allimg/160120/1-160120094U4108.png" style="width: 336px; height: 479px;" /></span>
+<div style="text-align: center;">
+	<span style="font-size:16px;">访客区域分布</span></div>
+<span style="font-size:16px;"><img alt="" src="/uploads/allimg/160120/1-160120095023V0.png" style="width: 554px; height: 236px;" /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 天津企元时代科技有限公司是阿里巴巴诚信通天津渠道商。诚信通会员可以为企业进行搜索优化，生意参谋等智能的电子商务服务。基于阿里巴巴网上大市场，诚信通不仅可以提供建站、优先展示、独享买家信息等基础型网络贸易服务，也可以为企业建立诚信档案、提供信用查询及诚信保障等服务，同时还能为企业提供采购、物流、贷款等尊享服务。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 数据总结：从数据分析上来看，天津仁和轩商贸有限公司将店铺运营业务托管给由企元时代科技有限公司后，店铺的无论在展现次数和浏览量方面还是下单量和支付方面都有大幅提升，网店月支付金额也由原来0在4个月内提升至12846.40元，这样的成绩与企元时代的提供的金牌服务是密不可分的。<br />
+<br />
+1688店铺运营方案：<br />
+<br />
+一．产品页面设计：<br />
+<br />
+经过本公司设计的店铺产品页面，能够达到以下几点要求：<br />
+1.页面可以突出产品特性，更好的美化产品，刺激消费者的感官神经，促进消费，增加销售数额。<br />
+2.页面的整体外观色彩协调，给人感觉温馨，简洁，大方，简单，但不有失大体。<br />
+3.页面符合1688店铺对图片质量和尺寸的要求。<br />
+4.店铺首页轮播图的设计突出公司以及主打产品。<br />
+5.产品详情页里面有产品大图，细节图和包装展示图（这两个图合成一起），产品功能示意图（这个需要店主提供资料设计），而且会将产品的文字介绍添加到适当的地方，保证页面的整体效果。<br />
+<br />
+二．店铺装修设计：<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 经过本公司设计的1688店铺装修效果，能够达到以下几点要求：<br />
+<br />
+1.店铺首页的设计大气、简单，有很强的视觉冲击力，能够和整个网站的颜色形成很好的搭配<br />
+2.店铺的页面时尚高档，主题明确。<br />
+3.店铺页面设计完全原创。<br />
+<br />
+三．店铺运营与推广：<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 本公司拥有专业的店铺运营与推广的团队，经过本公司包装的淘宝店铺，能够在互联网上拥有很好的曝光率，店铺的排名能够得到明显的提升，能够很好的达到曝光店铺，增加点击率的效果。<br />
+<br />
+四．店铺客服管理：<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 专业的客服人员全天为您服务，分秒守候，为您提供为专业的在线服务，在线解决商品的售前，售后问题。细心为您管理商品订单，管理店铺商品的重发，更能够做到定期与客户交流，拉近店铺与顾客的距离，为您的店铺赚取更多的人气。<br />
+<br />
+五．店铺运营规划：<br />
+<br />
+1.宣传店铺<br />
+①通过网上发帖的方式，尽可能多的曝光店铺。<br />
+②利用橱窗位，广告位，优惠信息区。<br />
+<br />
+2.经营策略<br />
+①公平，公正的去做交易。<br />
+②不要对买家纠缠不放。<br />
+③不要经常的转换自己的销售价格。<br />
+④要得到顾客的信任和赞赏。<br />
+⑤要做到微笑服务，售前的承诺和售后的行动要做到一致。<br />
+<br />
+3.销售手段<br />
+①开展打折促销活动，吸引消费者。<br />
+②保证质量的前提下，突出价格优势。<br />
+③突出商品优势，人无我有，人有我精。<br />
+<br />
+4.学会换位思考，充分抓住顾客的消费心理。<br />
+学会了换位思考能够体谅顾客的心理，抓住了顾客的消费心理更能洞察他的消费方向，能够准确的推销自己的商品。</span> </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/case/yunying/276.html'>天津保祥康</a> </li>
+
+        <li>下一篇：没有了 </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

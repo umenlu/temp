@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>阿里巴巴也会裁员！马云自问“我是不是坏”_企元</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">阿里巴巴也会裁员！马云自问“我是不是坏”</div>
+<div class="content1"><p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1999年2月，<a href="http://www.qynet.cc/">阿里巴巴</a>静悄悄地诞生在杭州湖畔一间简谱无名的单元房里，马云和其他十七人自此走上&ldquo;草根&rdquo;创业之路。同年10 月，阿里在香港正式宣布成立，并开始收获世人的目光。之后的励志故事，常被人津津乐道，也频频见诸报端。但如果就此以为足够了解阿里和马云，其实，很有可能知道的只是这些故事中的中国部分。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 《阿里传：这是阿里巴巴的世界》是前阿里副总裁波特&middot;埃里斯曼的作品。这位美国人是阿里创业时期为数不多的外国高管。他于2000年至2008年在阿里担任副总裁，这本书记录了他在这期间的创业故事、商业经验以及与马云、蔡崇信、关明生等并肩奋战的故事。在波特眼中，阿里的成功经验和模式是可以复制的，它曾经犯过的错误、走过的弯路，后人也可以绕行。阿里巴巴集团前CTO吴炯评价称：&ldquo;波特&middot;埃里斯曼来到杭州，就像当年的埃德加&middot;斯诺来到延安。这本书就是波特的《西行漫记》。&rdquo;</span></p>
+<p style="text-align: center">
+	<img alt="" src="/uploads/allimg/150913/1-150913230434I4.jpg" style="width: 650px; height: 365px" /></p>
+<p>
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">埃里斯曼是早加入阿里巴巴的美国员工之一</span></p>
+<p>
+	<span style="font-size: 16px">风暴前的宁静</span></p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 时间不等人，屋子里来人了。首先是浴室门&ldquo;砰&rdquo;的一声，接着盆盆罐罐叮当作响，然后电视被打开，大声播放着中国新闻，我知道自己无法再躲了。团队可能在等我。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 可我非常怕见到他们。我穿上裤子，扣上了件衬衣，晃悠悠地走下楼。在客厅，我发现一堆凌乱的用过的筷子、脏盘子及皱巴巴的枕头和毯子。在墙边，有一个劣质的牌桌，上面放着几台台式电脑。电脑旁边是几只方便面碗，从结痂的碗底判断，已经放了很多天了。窗帘紧闭，房间空气不流通，充满了难闻的口气。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果在中国，这一场景再熟悉不过了。但这里不是中国，这里是加利福尼亚的弗里蒙特&mdash;阿里巴巴之家。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;阿里巴巴之家后变成了诞生阿里巴巴的单元房之美国版本。在公司内部，阿里巴巴单元房是和苹果的车库或者雅虎的拖车齐名的传奇地标。它已经成为阿里巴巴&ldquo;勤俭，不多花一分钱&rdquo;的公司文化的标志。这一公司文化很显然被带到了美国，为了省钱，公司在弗里蒙特郊区的中间地带租了一栋房子，以供从杭州外派的团队居住。公司在2000年的春天租下了这栋房子，那时公司在美国的业务扩展似乎大有空间。现在，仅仅6个月后，许多来自中国的员工已经被召回中国总部。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在电视机前，坐着两位中国员工，他们转动着手里的筷子，一边大声吸溜着面条，一边听着中文新闻。看到我走下楼，他们有些吃惊。很显然，他们不知道那周会有另外一个室友加入。令人尴尬的是，当我用英语打招呼时，他们回应我的是迷惑的表情。我换用中文后，他们变得自在很多。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 他们来到美国刚刚几周，仍然对这里的一切感到十分新奇。在全球互联网中心工作和生活是极少数中国工程师能实现的梦想。这两位阿里巴巴的工程师告诉我，这栋房子曾经一度住满了从杭州来的工程师。前几周，随着工程师被召回国，人数逐渐下降。当他们问我来美国做什么时，我竟不知道如何回答。我怎么能开口告诉他们我是来这里辞退他们的呢？</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 门铃响了，我暂且不用回答他们的问题了。敲门的是&ldquo;托尼&rdquo;饶彤彤，他是阿里巴巴的创始人之一，开车准备把我带到办公室。&ldquo;准备好了吗？&rdquo;他问我。我心里想：还没有准备好，但还是走吧。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 走进办公室，托尼带我见了员工。员工有西方人、美籍华人及中国人，其中很多都在美国工作或生活过许多年。通常，见新员工是件高兴的事，我却感到自己像位死神。我强颜欢笑，知道很快我将会辞退他们中的许多人。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我被带进一间办公室，看见马云正在阅读邮件。对于即将到来的这次会议，看得出来，马云有些焦虑。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo;我不知道今天该说些什么，&rdquo;马云说，&ldquo;我们一直都在成长，我一直也只是招人，这是我次辞退员工，我们应该怎么办呢？</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 我理解马云的心情。对一家中国公司而言，在硅谷设立办公室是一件十分值得骄傲的事。在过去的几个月，我们在中国各地宣传，我们在美国的员工队伍不断壮大，已经成为阿里巴巴在全球崛起的一个标志。</span></p>
+<p>
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">马云像是哭了</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 讨论了如何更好地应对这次会议后，我们决定将员工召集进一间大会议室。大家似乎觉察到有坏消息，会议室变得死气沉沉。有些人还是次见到马云，我希望这次会议不要出现过多的不友好气氛。大家落座后，关上门，马云开始发言。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo;我想让大家都知道，我们万分感谢每个人的辛勤付出。但我来到这里带来了坏消息，我们需要裁员。&rdquo;</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 会议室所有人脸变得阴沉，马云继续说：&ldquo;几个月前，我们认为把业务搬到硅谷是一个好的选择。大家认为，如果想要运营好一个英文网站，必须选择到硅谷来。这里有工程师，有英文使用环境，互联网专家也在这里。所以说在那时看来，这是一个非常棒的选择。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo;但当我们这样做了后，似乎给公司带来了一些前所未有的问题。这里的每个人都在各自的项目上努力，但这里与杭州办公室的交流变得十分困难。你们来上班的时候，杭州团队刚下班。当我们上班的时候，你们下班了。看起来，双方无法交流，我知道你们会失落，因为要撤销已经启动的项目。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo;对我们而言，阿里巴巴是一个梦想。每个人在这里辛勤工作并且相信这个梦想能成真。我们希望这个公司能活80年。如果这个梦想能够成真，我们就必须实事求是。当前，对我们而言，在硅谷拥有一个大型的中心不现实。如果我们想让公司将来进一步成长，我们今天就必须做减法。&rdquo;</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 我们辞退了一半员工，整个办公室气氛凝重。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在解雇国际员工过程中，阿里巴巴采取了公平的举措。员工可以获得三个月的薪酬或一个月的薪酬外加赠送的两年的股票期权。许多被辞退的经理，由于不满并且也不看好公司的未来，选择的往往是三个月的薪酬。鉴于这家公司看样子很快会倒闭，他们不愿意持有这个公司毫无价值的股票。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 回到阿里巴巴提供的住所，我瘫倒在沙发上，庆幸终于度过了难熬的一天。公司的未来仍不明朗，但至少为了生存，我们迈出了痛苦的一步。并且有一点很明确，只要公司还能以微薄的预算生存下去，我们就能活下去。毕竟阿里巴巴的创建者们在公司建立之初，每月只给自己发500元的工资，和其他全球竞争者相比，我们很容易再次回到勒紧裤腰带的时代。我们开始了&ldquo;重返中国&rdquo;的战略，如果需要的话，整个团队完全可以重新收缩回阿里巴巴的单元房里。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 几天后，我和马云回到了中国，他给我打了电话。听到电话另一端声音颤抖，我稍有些惊讶。</span></p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo;波特，我能问你个问题吗？&rdquo;听上去有些失声，他像是哭了。</span></p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&ldquo;没问题，杰克，怎么了？&rdquo;</span></p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo;我是不是个坏人？&rdquo;</span></p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在过去认识他的8 个月，我从未见过马云的乐观和自信动摇过。</span></p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo;你指哪方面？&rdquo;</span></p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo; 很多员工给我打电话，他们对我辞退员工很生气。我知道是我的错误，做了那些决定。现在每个人都对我发火。你认为我做了这些，我就是个坏人吗？&rdquo;</span></p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 我隐约听到马云在电话那一端抽噎。我为他感到难过。</span></p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 鉴于公司的混乱和组织失调，我早已预见了这一天的到来。我对他表示同情。在我脑海中，马云只是一个英语老师，努力实现了遥不可及的梦想。我不会因为这段时间过度扩张而指责他。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &quot;杰克，你做了你应该做的。如果你不做这些决定，公司可能很难维持下去。&rdquo;</span></p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo; 嗯，你说的没错，但是我感到我让大伙儿失望了。&rdquo;</span></p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 之后又谈了几分钟，然后挂了电话。比起辞退员工的那天早上，这次我感到更加不安。如果马云都失去了信心，那么谁能给我们鼓劲儿呢？</span></p>
+ </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：没有了 </li>
+
+        <li>下一篇：<a href='/news/info/6.html'>阿里启动2015“双11”狂欢节 邀冯小刚办晚会</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

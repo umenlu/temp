@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>阿里的京东焦虑症爆发喽！_企元时代</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/html5.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/index.css">
+<link rel="stylesheet" href="http://www.qynet.cc/templets/default/style/Services.css">
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href='http://www.qynet.cc'" class="logo" style=" width:170px;"><input type="image" src="http://www.qynet.cc/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc'" src="http://www.qynet.cc/images/01.jpg"/>
+			<a href="http://www.qynet.cc/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/about/'"  src="http://www.qynet.cc/images/02.jpg"/>
+			<a href="http://www.qynet.cc/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/services/'"  src="http://www.qynet.cc/images/04.jpg"/>
+			<a href="http://www.qynet.cc/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/case/'"  src="http://www.qynet.cc/images/05.jpg"/>
+			<a href="http://www.qynet.cc/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/news/'"  src="http://www.qynet.cc/images/03.jpg"/>
+			<a href="http://www.qynet.cc/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/muban/'"  src="http://www.qynet.cc/images/06.jpg"/>
+			<a href="http://www.qynet.cc/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='http://www.qynet.cc/zhaopin/'"  src="http://www.qynet.cc/images/07.jpg" />
+			<a href="http://www.qynet.cc/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='http://www.qynet.cc/contact/'"  src="http://www.qynet.cc/images/08.jpg"/>
+			<a href="http://www.qynet.cc/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="http://www.qynet.cc/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">阿里的京东焦虑症爆发喽！</div>
+<div class="content1"><span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在阿里巴巴昨日发布截至9月的新一季度财报后，中国媒体对该新闻的报道角度所暗示的信息，甚至超过了财务数字本身。关于财报本身，尹生昨天已经在《好财报或许正是卖掉阿里股票的好时机》中进行了分析，本文将集中对媒体的报道进行解读。<br />
+<br />
+　　尽管所有的报道角度不尽相同，但基本都可以概括为一个主题&mdash;&mdash;<a href="http://www.qynet.cc/">阿里巴巴</a>的京东焦虑症终于总爆发。下面是几个代表性的观点。<br />
+<br />
+<strong>观点1 ：天猫一个季度交易额的增加额就相当于京东全部的交易额。</strong><br />
+<br />
+　　解读：阿里巴巴显然也意识到&ldquo;恶评不断&rdquo;的淘宝让京东钻了空子，转而寄希望于通过天猫来消解京东的品质购物印象和习惯。如果它真能利用国际化的先发优势，吸引到足够的海外精品来天猫开店，毫无疑问会对京东的高端用户形成吸引力。但问题是它必须解决物流外包带来的体验差距，以及在用户的无抱怨骚扰方面有突破。<br />
+<br />
+　　关于交易额的比较，可以这样解读：就整体交易额而言，京东侵蚀阿里的份额是不争的事实&mdash;&mdash;阿里这个季度整体零售业务的交易额增长为28% ，甚至可能低于同期整体市场的增长，而同期京东的增长至少是其两倍以上，这意味着京东从新增市场中获得了更多份额。但京东交易额的增长可能只比天猫稍快。<br />
+<br />
+<strong>观点2 ：阿里电商人均产值1.426 亿元，是京东的105 倍。</strong><br />
+<br />
+　　解读：这种比较不太合理，毕竟京东8 万多名员工中，一多半都是物流配送人员。多出来的这部分人，让京东变得比阿里重得多，但也正是这点让它在轻资产模式、赚容易赚的钱的阿里地盘上，建造出自己的营地。终的比拼，是物流外包和自营模式下的整体投入产出比，包括每单的成本、速度和交付时的用户满意度。<br />
+<br />
+<strong>观点3 ：天猫的高速增长证明了阿里北京战略的成功。</strong><br />
+<br />
+　　解读：为了治好京东焦虑症，阿里的确下足了本钱，甚至让天猫建立&ldquo;北京+ 杭州&rdquo; 的双总部&mdash;&mdash;这一点对信奉&ldquo;遇水而贵&rdquo;的马云而言，需要非常大的勇气，但将营地扎到京东的家门口，也不失为良策。但赋予双总部地位和战略成功是两回事，真正的成功必须建立在消解京东的&ldquo;品质购物&rdquo; 印象和习惯上，而非一两次促销就能断言的。<br />
+<br />
+　　不过，该公司以数码家电和其中的子类手机作为重点的做法，确实是明智的。这两个领域是京东的核心业务和优势业务，在之前阿里投资苏宁时，尹生就认为阿里选对了攻击点，但能否成功，则取决于阿里、苏宁和整个阿里供应链的协同程度，理论上，由于这些产品高度标准化，且单价较高，只要价格上有优势，就能对用户产生致命诱惑。<br />
+<br />
+<strong>观点4 ：云计算将再造一个阿里。</strong><br />
+<br />
+　　解读：这看起来与京东无关，但实则不然。如果说在电商业务上两家公司需要缠斗，那样一来容易强化一种印象&mdash;&mdash;阿里与京东已经是同一级别的两个对手&mdash;&mdash;这本身就是糟糕的事情。因此，必须塑造云计算这样一个新的明星，而这个业务又是目前京东几乎没有或者刚起步的，以此将战争的位势与距离拉开。<br />
+<br />
+　　云计算确实是这个季度阿里所有业务中增长快的（超过120% ），但基数还很低，只占全部业务的3%左右，考虑到阿里的体量，以及电商业务上的增长压力，可能只有在云计算占比提高到营收的10% 以上、而且仍然保持高速增长时，才会成为真的增长引擎。但该市场普遍存在的政府参与行为，可能使价格失真，从而导致价格战，另外类似腾讯、百度、华为这样的重量级选手尚未真正发力。<br />
+<br />
+　　同时，在亚马逊、谷歌这样的美国巨头因为云计算而大受追捧时，强调自身的云计算业务，也容易激发股市的想象力&mdash;&mdash;这对刚刚从破发阴影中爬出来的阿里而言，重要性不亚于与京东之战。<br />
+<br />
+　　但可以预期， 接下来的几个季度对<a href="http://www.qynet.cc/">阿里巴巴</a>和京东而言，都将变得至关重要，阿里系的苏宁是纸老虎还是真老虎，阿里整合全部力量打系统战的能力和战斗力，都将面临考验，同样，京东也可能会遭受上市以来大的挑战，终的结果可能会决定两家公司的未来运势，而在这之前，两家公司的盈利可能都会承受压力。</span> </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='http://www.qynet.cc/news/info/131.html'>阿里巴巴第三季度业绩同比增长32%</a> </li>
+
+        <li>下一篇：<a href='http://www.qynet.cc/news/info/134.html'>荷兰国王造访阿里 启动天猫荷兰国家馆</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="http://www.qynet.cc/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="http://www.qynet.cc/images/j (1).png"/>
+                    <img src="http://www.qynet.cc/images/j (2).png"/>
+                    <img src="http://www.qynet.cc/images/j (3).png"/>
+                    <img src="http://www.qynet.cc/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

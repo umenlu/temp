@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>新闻中心_企元</title>
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--顶图-->
+<a href="#"><img style=" width:100%;" src="/images/hjh.jpg"/></a>
+
+<div class="lanrenzhijia2">
+  <div class="title cf">
+    <ul class="title-list fr cf cf1">
+     <a href="/news/info/"> <li class="on"></li></a>
+      <a href="/news/gongsi/"><li class="on1"></li> </a>  
+    </ul>
+  </div>
+  
+<div class="tb_box1">
+<a href="/news/info/">
+	<div class="tb">
+    	<b>HANG YE ZI XUN</b>
+        <div>行业资讯</div>
+        <p>让您了解行业内的新消息<br/>洞察媒体行业</p>
+    </div>
+    </a>
+    <a href="/news/gongsi/">
+    <div class="tb">
+    	<b>GON SI DONG TAI</b>
+        <div>公司动态</div>
+        <p>让您了解公司文化和业态发展<br/>公司文字文字文字</p>
+    </div>
+    </a>
+</div>  
+  
+  <div class="product-wrap">
+
+    <div class="product show">
+	<p>当前位置: <a href='http://www.qynet.cc/'>主页</a> > <a href='/news/'>新闻中心</a> >  </p>
+        <div class="common">
+        <span class="xinwen">
+            	<a href="/news/gongsi/101.html" target="_Blank"><img src="/uploads/allimg/150930/1-1509301415250-L.jpg" alt="阿里巴巴运营那些事" width="220" height="140" /></a>
+                <ol>
+                	<li class="xinwen_li1"><a href="/news/gongsi/101.html" target="_Blank">阿里巴巴运营那些事</a></li>
+                    <li class="xinwen_li2"><a href="/news/gongsi/101.html" target="_Blank">其实淘宝、 阿里巴巴 运营方面的文章已经非常多了，而且同质化较为严重，可发现还是有很多朋友比较迷茫，这次我们综合一下，两个放到一起从自身问题下手，提出部分以前经常用... </a></li>
+                </ol>
+            </span><span class="xinwen">
+            	<a href="/news/gongsi/100.html" target="_Blank"><img src="/uploads/allimg/150930/1-1509301100460-L.jpg" alt="10个点子帮你玩转阿里巴巴" width="220" height="140" /></a>
+                <ol>
+                	<li class="xinwen_li1"><a href="/news/gongsi/100.html" target="_Blank">10个点子帮你玩转阿里巴巴</a></li>
+                    <li class="xinwen_li2"><a href="/news/gongsi/100.html" target="_Blank">1.产品发布要有技巧:一个公司的产品橱窗设计往往是客户眼看到的,那些上传的产品一定要配有好的图片,一个好的包装图片也是能吸引人的地方,一个好的图片可以让大家对你的品... </a></li>
+                </ol>
+            </span><span class="xinwen">
+            	<a href="/news/gongsi/99.html" target="_Blank"><img src="/uploads/allimg/150930/1-1509301039250-L.jpg" alt="怎样做好淘宝优站宝贝排名和优化" width="220" height="140" /></a>
+                <ol>
+                	<li class="xinwen_li1"><a href="/news/gongsi/99.html" target="_Blank">怎样做好淘宝优站宝贝排名和优化</a></li>
+                    <li class="xinwen_li2"><a href="/news/gongsi/99.html" target="_Blank">做优站已经有一个多月时间了，从一开始的几个ip到现在每天几千的ip，其中涉及广的是自己优站的宝贝在整个淘宝优站宝贝排名的前后和优站的排名前后。 一：淘宝优站宝贝排名规... </a></li>
+                </ol>
+            </span><span class="xinwen">
+            	<a href="/news/info/98.html" target="_Blank"><img src="/uploads/allimg/150930/1-1509301005170-L.jpg" alt="阿里巴巴和平阳签约“淘村”" width="220" height="140" /></a>
+                <ol>
+                	<li class="xinwen_li1"><a href="/news/info/98.html" target="_Blank">阿里巴巴和平阳签约“淘村”</a></li>
+                    <li class="xinwen_li2"><a href="/news/info/98.html" target="_Blank">阿里巴巴 平阳县农村淘宝推进大会日前举行，双方正式签订农村电子商务合作协议，计划在2017年底完成200个村级服务点建设，使该县农村电商发展达到省内乃至全国领先水平。 该县有... </a></li>
+                </ol>
+            </span><span class="xinwen">
+            	<a href="/news/info/97.html" target="_Blank"><img src="/uploads/allimg/150930/1-1509300925490-L.jpg" alt="阿里巴巴计划培育万名重庆跨境电商人才" width="220" height="140" /></a>
+                <ol>
+                	<li class="xinwen_li1"><a href="/news/info/97.html" target="_Blank">阿里巴巴计划培育万名重庆跨境电商人才</a></li>
+                    <li class="xinwen_li2"><a href="/news/info/97.html" target="_Blank">近日，在渝中区携手 阿里巴巴 发起的2015重庆首届跨境电子商务人才峰会上，来自全国各地的互联网大咖及重庆政府官员、高校师生等500多人集聚一堂，畅谈跨境电商人才培育与发展的... </a></li>
+                </ol>
+            </span><span class="xinwen">
+            	<a href="/news/info/19.html" target="_Blank"><img src="/uploads/allimg/150921/1-1509210U6370-L.jpg" alt="阿里携手丽江政府 共同打造无现金旅游城市" width="220" height="140" /></a>
+                <ol>
+                	<li class="xinwen_li1"><a href="/news/info/19.html" target="_Blank">阿里携手丽江政府 共同打造无现金旅游城市</a></li>
+                    <li class="xinwen_li2"><a href="/news/info/19.html" target="_Blank">阿里巴巴与丽江市人民政府达成合作，共同建立互联网+城市战略丽江示范区。通过 阿里巴巴 旗下的多项服务，从购物、旅游和市民生活等多方面建立摆脱现金的智慧商业形态。 阿里方... </a></li>
+                </ol>
+            </span><span class="xinwen">
+            	<a href="/news/gongsi/18.html" target="_Blank"><img src="/uploads/allimg/150918/1-15091P950230-L.jpg" alt="阿里实力商家启动大会在津顺利召开！" width="220" height="140" /></a>
+                <ol>
+                	<li class="xinwen_li1"><a href="/news/gongsi/18.html" target="_Blank">阿里实力商家启动大会在津顺利召开！</a></li>
+                    <li class="xinwen_li2"><a href="/news/gongsi/18.html" target="_Blank">天津实力商家启动大会于9月17日14：00点在君合利景酒店拉开帷幕！作为本次大会的主办方， 天津企元时代科技有限公司 ，可谓是精心筹划，不仅会场部布置的高大上，而且在团队中还... </a></li>
+                </ol>
+            </span><span class="xinwen">
+            	<a href="/news/info/5.html" target="_Blank"><img src="/uploads/allimg/150913/1-150913230434I4-lp.jpg" alt="阿里巴巴也会裁员！马云自问“我是不是坏”" width="220" height="140" /></a>
+                <ol>
+                	<li class="xinwen_li1"><a href="/news/info/5.html" target="_Blank">阿里巴巴也会裁员！马云自问“我是不是坏”</a></li>
+                    <li class="xinwen_li2"><a href="/news/info/5.html" target="_Blank">1999年2月，阿里巴巴静悄悄地诞生在杭州湖畔一间简谱无名的单元房里，马云和其他十七人自此走上草根创业之路。同年10 月，阿里在香港正式宣布成立，并开始收获世人的目光。之后... </a></li>
+                </ol>
+            </span>
+   		</div>
+   <div class="pages">
+
+      <ul class="pageslist">
+
+      <li>
+
+        <li><a href='list_4_1.html'>首页</a></li>
+<li><a href='list_4_22.html'>上一页</a></li>
+<li><a href='list_4_13.html'>13</a></li>
+<li><a href='list_4_14.html'>14</a></li>
+<li><a href='list_4_15.html'>15</a></li>
+<li><a href='list_4_16.html'>16</a></li>
+<li><a href='list_4_17.html'>17</a></li>
+<li><a href='list_4_18.html'>18</a></li>
+<li><a href='list_4_19.html'>19</a></li>
+<li><a href='list_4_20.html'>20</a></li>
+<li><a href='list_4_21.html'>21</a></li>
+<li><a href='list_4_22.html'>22</a></li>
+<li class="thisclass">23</li>
+<li><a href='list_4_24.html'>24</a></li>
+<li><a href='list_4_24.html'>下一页</a></li>
+<li><a href='list_4_24.html'>末页</a></li>
+<li><select name='sldd' style='width:42px' onchange='location.href=this.options[this.selectedIndex].value;'>
+<option value='list_4_1.html'>1</option>
+<option value='list_4_2.html'>2</option>
+<option value='list_4_3.html'>3</option>
+<option value='list_4_4.html'>4</option>
+<option value='list_4_5.html'>5</option>
+<option value='list_4_6.html'>6</option>
+<option value='list_4_7.html'>7</option>
+<option value='list_4_8.html'>8</option>
+<option value='list_4_9.html'>9</option>
+<option value='list_4_10.html'>10</option>
+<option value='list_4_11.html'>11</option>
+<option value='list_4_12.html'>12</option>
+<option value='list_4_13.html'>13</option>
+<option value='list_4_14.html'>14</option>
+<option value='list_4_15.html'>15</option>
+<option value='list_4_16.html'>16</option>
+<option value='list_4_17.html'>17</option>
+<option value='list_4_18.html'>18</option>
+<option value='list_4_19.html'>19</option>
+<option value='list_4_20.html'>20</option>
+<option value='list_4_21.html'>21</option>
+<option value='list_4_22.html'>22</option>
+<option value='list_4_23.html' selected>23</option>
+<option value='list_4_24.html'>24</option>
+</select></li>
+<li><span class="pageinfo">共 <strong>24</strong>页<strong>188</strong>条</span></li>
+
+
+        </li>
+
+      </ul>
+
+    </div>
+    </div>   
+    <!--案例2-->
+    </div>
+           
+  </div>
+</div>
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/></p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

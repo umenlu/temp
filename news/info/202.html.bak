@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>世界互联网大会 业界大咖们勾画出未来发展趋势_企元</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">世界互联网大会 业界大咖们勾画出未来发展趋势</div>
+<div class="content1"><span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 世界互联网大会在乌镇圆满结束，但值得回味的是互联网行业的领军者们在这几天的时间里纷纷发表精彩观点，在思维的交流与碰撞中，大佬们勾画出了互联网的发展的大趋势。看看这些大咖们都说了些什么？</span><br />
+<img alt="" src="/uploads/allimg/151222/1-151222091412M9.jpg" style="width: 600px; height: 402px;" /><br />
+<span style="font-size:16px;"><strong><a href="http://www.qynet.cc/">阿里巴巴</a>集团董事局主席马云：</strong><br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;互联网的特性就像乌镇的水一样，水是无处不达必须互相连通&hellip;&hellip;人人都喜欢清澈透明的水，但水是公共的，要管好水，需要大家共同努力。<br />
+&nbsp;&nbsp;&nbsp; 过去20年全球化是帮助大企业走向世界，未来20年我们应该用互联网帮助小企业走向世界，互联网是全世界发展中国家中小企业和年轻人的机会和权利。<br />
+<img alt="" src="/uploads/allimg/151222/1-1512220916339E.png" style="width: 640px; height: 427px;" /><br />
+<strong>腾讯公司创始人马化腾：</strong><br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 从大型机到PC，到PC单机运行，再到连接互联网以及连接互联网终端，从一个桌边PC演进到大家的手机。我们发现了一个很有趣的现象：那就是几乎是每20年，终端的演变会对整个信息业态，甚至对整个经济业态产生一个重大转变。&nbsp;&nbsp;&nbsp;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 互联网在服务于实体经济时，互联网实现了去中介化、打破信息孤岛，极大提升了各行各业的效率，同时还促进了产业创新、催生了就业机会。<br />
+<img alt="" src="/uploads/allimg/151222/1-151222091ILX.jpg" style="width: 600px; height: 720px;" /><br />
+<strong>百度公司创始人、董事长兼首席执行官李彦宏：</strong><br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果说过去的几百年工业化改变了人类，那么它主要的改变是代替了绝大多数的体力劳动。未来，人工智能会更加深刻地改变人类，它会代替绝大多数简单重复性的脑力劳动。这是我们看到的人工智能的潜力，而人工智能只是技术创新中的一个小小的分支。&nbsp;&nbsp;&nbsp;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 现在中国整体经济环境十分适宜互联网发展，各个领域都是遍地机遇。在中国，互联网与传统产业紧密结合，孕育无限商机。<br />
+<img alt="" src="/uploads/allimg/151222/1-151222091TM44.png" style="width: 492px; height: 328px;" /><br />
+<strong>360公司创始人周鸿祎：</strong><br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 重新发明轮子的时代到了。所有看到的物件，无论是汽车、家里的各种设备，还是身上穿戴的物件，都会变成不是手机的&lsquo;手机&rsquo;，发明置入一个智能模块，可以赋予它新体验和新商业模式。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 网络攻击是真正的&ldquo;大规模杀伤性武器&rdquo;，相当于网络上&ldquo;核武器&rdquo;&hellip;&hellip;互联网公司应该有足够的能力，在数据存储和传输过程中，保证数据的安全。&rdquo;<br />
+<img alt="" src="/uploads/allimg/151222/1-151222091953512.jpg" style="width: 647px; height: 455px;" /><br />
+<strong>&ldquo;互联网之父&rdquo;罗伯特&middot;卡恩：</strong><br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 未来互联网发展的趋势是连接万物的网络，不仅是机器，不仅是我们现在想象的一些事物，可能在未来互联网会有千万亿量级的联系。而且随着时间的推移，我们现在无法想象未来互联网能容纳多少的事物。因此我们无法把这些事物完全列出来，我觉得重要的就是我们要能够找到这些包罗万象的事物，要有一个指向。在指向方面域名系统还是很重要的。<br />
+<img alt="" src="/uploads/allimg/151222/1-151222092040147.jpg" style="width: 600px; height: 400px;" /><br />
+<strong>滴滴出行CEO程维：</strong><br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 十年以后大家不会再谈论互联网。就像现在家里的电话、电视技术，已经很正常。互联网的发展在非常快的阶段迅速渗透到各行各业，用互联的技术连接起来，优化效率。未来更多的将在云端，在大数据和人工智能端，用大数据计算更好地驱动大家，更智能的互联网，还有进化，就像人早期长胳膊长腿，未来是长知识长思想。</span><br />
+<img alt="" src="/uploads/allimg/151222/1-151222092133222.jpg" style="width: 600px; height: 388px;" /><br />
+<span style="font-size:16px;"><strong>吉利控股集团董事长李书福：</strong><br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 通过个性化生产线来提供个性化产品，然后通过网络连接提供服务，对传统工业而言，&ldquo;互联网＋&rdquo;不仅是纯粹的商业概念，工业化和信息化融合才是未来的发展方向。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 车联网、人工智能和自动驾驶是智能互联汽车的三大技术，自动驾驶是三者融合的方向，这个趋势将引发一系列变革，包括消费者出行和生活方式的变IT和通讯技术的变革、基础设施的变革、人类文化和社会进程的变革，汽车的产品形态也将产生根本变化。<br />
+<img alt="" src="/uploads/allimg/151222/1-151222092244I7.jpg" style="width: 600px; height: 400px;" /><br />
+<strong>京东商城创始人、董事局主席兼首席执行官刘强东：</strong><br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 中国电商未来的出路在于品质化、品牌化。随着生活水平的提高，消费者在购买商品时越来越关注商品的品质和服务，对价格的敏感度逐渐降低。<br />
+<br />
+&nbsp;&nbsp; &nbsp; &nbsp; 可以预见，未来，如果电商平台仅沉迷于低价促销，那么只会造成恶性竞争，流失用户。只有把重点放在提升商品品质和服务上，给予消费者更可靠的购物保障，才能进一步拉动消费，赢得更多消费者。</span><br />
+ </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/news/info/201.html'>阿里巴巴任命苹果前高管Matthew Bassiur专门打假</a> </li>
+
+        <li>下一篇：<a href='/news/info/203.html'>阿里将用体育大数据改变传统体育产业运作模式</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

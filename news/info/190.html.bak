@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>马云：未来5到15年消费时代一定会来临_企元</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">马云：未来5到15年消费时代一定会来临</div>
+<div class="content1"><span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在世界互联网大会上，<a href="http://www.qynet.cc/">阿里巴巴</a>董事局主席马云表示，中国的内需远没被挖掘出来，这是个缓慢的过程，投资和出口拉动经济是快，但快的吃完了，中国就要适应这种慢。经济社会的主力部队是企业家，做企业不是谁都可以做的，100个创业者，95个会死掉。<br />
+<br />
+　　未来5年到15年，消费时代一定会来临<br />
+<img alt="" src="/uploads/allimg/151217/1-15121G11043537.jpg" style="width: 920px; height: 506px;" /><br />
+<br />
+<strong>新京报对话马云</strong><br />
+<br />
+　　新京报：近一年多，很多人都在讨论中国的经济，认为变得越来越乏力，很多企业家也在担心，这种经济环境越来越难融资，生意越来越难做。<br />
+<br />
+　　马云：拉动中国经济的是三驾马车，其中两驾&mdash;&mdash;投资和出口，政府做得得心应手，但是搞消费他们没办法。消费是企业家做的事，消费成熟，才意味着市场经济的成熟。<br />
+<br />
+　　中国的内需远没被挖掘出来，这是个缓慢的过程，投资和出口拉动经济是快，但快的吃完了，中国就要适应这种慢。其实中国现在也不慢，5到6个点的GDP，慢在哪了？<br />
+<br />
+　　新京报：你是对消费拉动经济很乐观吗？国外很多地方曾经靠消费拉动，但随后经济就陷入了停滞。<br />
+<br />
+　　马云：未来5年到15年，消费时代一定会来临。我们有那么多年轻人，应该鼓励大家消费，消费是对未来的信任。<br />
+<br />
+　　新京报：但这会不会导致中国也像其他很多国家那样，经济会陷入一个漫长的停滞期，所谓的中等收入陷阱？<br />
+<br />
+　　马云：没有那么漫长。六七岁的孩子膝盖上一定有伤疤，因为走路会摔跤；难道为了不摔跤就不学走路了？所谓停滞期不是陷阱，不去过才是陷阱，那么多国家都是这么过来的，中国为什么不过呢，为什么总想找方法跨越呢？<br />
+<br />
+　　新京报：但在中国的传统里，透支消费总是让人很担心。<br />
+<br />
+　　马云：那是上了年纪的人才这么想，你看今天的80后、90后，更敢于花明天的钱。我们应该学会花明天的钱，花别人的钱，缝缝补补又三年的时代已经过去了。<br />
+<br />
+　　美国在里根上台之前，就是靠出口和投资拉动经济，里根上台后做的重要的事，就是需求拉动，让年轻人花明天的钱，花别人家的钱。全世界过这一关过得漂亮的就是美国，中国为什么不可以呢？<br />
+<br />
+　　今后人均网上消费会越来越高<br />
+<br />
+　　新京报：去年双十一，淘宝单日成交量达到570亿美元，覆盖的国家和地区已经达到217个，似乎离天花板已经很近了？<br />
+<br />
+　　马云：5年前每个人平均在网上只花200块钱，今天每个人在网上至少花800块钱到1000块钱，再过5年呢？每个人可能会花3000块钱。我们专注投入的是20岁左右的年轻人，那时候他没钱，但有了在网上买生活所需的习惯，等到他25岁、30岁的时候，他们就有了购买力。<br />
+<br />
+　　以前我们没有想过，汽车可以在网上买，房子可以在网上买，只知道衣服、鞋子、茶杯能在网上买，所以今后单位人均的网上消费会越来越高。我不担心它的增长，更不担心它的不增长，我关注的是把这个生态建好，企业的涨落就像春夏秋冬，冬天过去了，明年还会有春夏，四季分明。<br />
+<br />
+　　新京报：在你看来，阿里现在处在企业生命周期的哪个环节？<br />
+<br />
+　　马云：现在还在冲锋时期，子弹打在身上都不觉得痛。<br />
+<br />
+　　新京报：<a href="http://www.qynet.cc/">阿里巴巴</a>现在这么炙手可热，你是否担心犯错误？<br />
+<br />
+　　马云：我不担心犯错误。因为犯错误这个东西是你担心也要犯，不担心也要犯。我们要关心的是，所有犯的错误如果是为了围绕我们的使命和目标去做的，我们都愿意去付出代价。<br />
+<br />
+　　做企业不是谁都可以做的<br />
+<br />
+　　新京报：在你看来，什么样的人能成长为企业家？<br />
+<br />
+　　马云：其实企业家也分为生意人，商人和企业家。这是有基本差异的。生意人是有钱就赚；商人是有所为有所不为，有些钱我是不赚的；企业家赚钱只是他的基本功能，担当社会责任才能称之为企业家，能够为社会创造更多的财富和价值，我的企业和行业是影响社会的进步，他想的问题远远超过生意的本身。<br />
+<br />
+　　新京报：以你的眼光，有多少创业者能成长为企业家？<br />
+<br />
+　　马云：中国需要创业创新创造。经济社会的主力部队是企业家。做企业不是谁都可以做的，100个创业者，95个会死掉。</span> </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/news/info/189.html'>阿里正准备收购香港另家知名报纸《明报》</a> </li>
+
+        <li>下一篇：<a href='/news/info/191.html'>全球互联网大会 看看大咖们如何刷“存在感”？</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

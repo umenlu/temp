@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>阿里巴巴未来将会放手 让更多年轻人掌舵_企元</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">阿里巴巴未来将会放手 让更多年轻人掌舵</div>
+<div class="content1"><span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 回顾这一年，数字经济与实体经济的融合越来越深，拥抱互联网被人们反复提起。一个事实清楚明白：互联网+不是简单物理相加，而是数字经济与实体经济产生化学反应，升级为新经济。实际上，升级新经济，背后有个非常关键的问题：企业组织和机制的变革和升级。这是所有企业面对未来的基础保障，也是每一位管理者必须思考的问题。<br />
+<img alt="" src="/uploads/allimg/151231/1-1512310UJ9592.jpg" style="width: 1000px; height: 747px;" /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 一切商业竞争，到后都会变成组织的竞争。要建设一个适应新生产力的组织生产关系，我认为有几个关键点：组织方式需要树状向网状结构转变；组织架构应当形成&ldquo;小前端+大中台&rdquo;的架构；在人才上，放手让更多年轻人掌舵。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 基于在这样的思考下，<a href="http://www.qynet.cc/">阿里巴巴</a>集团在不久前进行了一次组织升级。按照&ldquo;大中台、小前台&rdquo;理念，我们设立了阿里巴巴中台事业群，同时在淘宝、天猫尝试让每个业务单元更自主、灵活、敏捷，并让一群年轻人组成的&ldquo;班委&rdquo;集体负责这些快速反应的前端业务。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 工业时代延续下来的管理哲学，企业内部通过树状架构实现职能分工，通过KPI实现执行，用流程实现控制，这种管理哲学天然就和&ldquo;网状连接&rdquo;相对立。以前我也提出过，一个人多只能7个人直接向他汇报。但今天因为互联网，组织里人与人的交流可以瞬时、高效而且扁平。企业组织结构从树状结构转变网状结构，把组织从控制型转变为赋能型管理，能够真正为创新创造更多空间。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在网状结构下，公司内不同团队之间，很快会形成基于共同认知在工作上相互交融，以&ldquo;满足客户需求为中心&rdquo;自我驱动的工作。在2014年初，我们把淘宝，手机淘宝和搜索三块业务放到统一的事业部框架下面，以&ldquo;手淘跃进&rdquo;成为清晰一致的目标，搜索、算法、无线产品和垂直行业几个团队网式互动，形成了强烈的化学反应，在一年之内手机淘宝的活跃用户翻倍，取得移动端无可动摇的领先地位。同样，今年我们在淘宝、天猫和手机淘宝三大业务设立&ldquo;班委&rdquo;制度，就是希望年轻人在集体负责制中互相碰撞，创造不同团队间的网络连接。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 不仅在企业内部，未来企业间的关系也会相互结成网状。边界消失了，你中有我、我中有你，将成为未来企业间关系主流，这些网络交织起来就是生态。我经常在内部讲，今天阿里和商家、物流伙伴的关系就是典型的例子。我们之间没有行政关系，没有资本关系，但大家为了&ldquo;服务好客户&rdquo;的共同目标，结成了共同体。我们经常会派小二到商家、物流伙伴那里一起工作，合作伙伴也会派员工到阿里公司与我们的员工一起工作。我相信，在未来全社会大协作中，企业与企业间的网状连接形成的生态，会成为构建起新经济的重要形态。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo;敏捷的前端+强大的中台&rdquo;是<a href="http://www.qynet.cc/">阿里巴巴</a>一直在思考，并已经开始实施的重要组织升级。这也是网状组织的外化体现。由一批在业务前线磨练过的年轻人挑起重担，授予他们充分的人事、财务、决策权力，给予充分的技术和数据支撑，让这些年轻人带着清晰的目标，独立领导一个个小团队去推进业务，并且针对市场变化做快速反应。一个几十人甚至十几个人的小团队，目标清晰，反应迅速，有自由决策的空间，在数据和技术的&ldquo;炮火支援&rdquo;下，撬动的生产力往往可以抵上一个大型企业。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 这一切的前提是，有一个强大的中台系统。这也是迈向赋能型组织的重要一步。中台在企业内部提供共享的技术、数据、产品和标准，维护更新交易体系，营销体系，支付体系。针对必须长期投资的基础技术，比如搜索，算法，图像识别、语音，定位等，大中台又可以化身为企业内创新研究院，结合业务场景进行深入研发。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 中台事业群也会成为阿里重要资产&ldquo;数据&rdquo;的管理者和开发者。用户数据、商品数据，商家数据等数据，只有在规模化利用和严格的流程下，才有望诞生各种的应用和商业决策工具，驱动商业场景升级。只有依靠强大的中台这条&ldquo;航空母舰&rdquo;赋能前台，数据化决策才可能实现，前线业务才能得到足够的产品、数据和技术支援。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 让更多年轻人承担更大的职责。要让这句话不沦为口号，前提就是企业愿意给年轻人足够的空间，并为创新的试错买单。互联网不断新陈代谢。今年在淘宝上诞生的&ldquo;网红经济&rdquo;就是个很好的例子。他们不是大明星，就是年轻人形成的亚文化族群在网上被挖掘出来，产生了商业和经济机会，创造了新经济的新物种。这种新经济现象放在过去很难想象，只有依靠年轻人不断碰撞中诞生，然后依靠一批了解年轻思维方式的同时代人去捕捉把握，转化成产品和商业的机会。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 战略是打出来的，创新不是安排出来的。商业环境和客户需求不断在变化，<a href="http://www.qynet.cc/">阿里巴巴</a>一直在变动中成长：从淘宝一拆三让天猫高速发展，到All in移动完成转型，阿里的每次调整都伴随着组织释放出巨大生产力。只有我们自己勇敢去变化，只有企业主动去拥抱未来的不确定，才能带给消费者和客户确定性的服务和体验。这才是今天所有企业面对未来的有效的方式。</span> </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/news/info/228.html'>阿里健康全面焕新 打通线上就医购药</a> </li>
+
+        <li>下一篇：<a href='/news/info/230.html'>阿里“村淘”黑龙江运营部揭牌仪式在北安举行</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>天津阿里巴巴诚信通运营商谈“打造爆款”_企元</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">天津阿里巴巴诚信通运营商谈“打造爆款”</div>
+<div class="content1"><span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 每位开店铺的商家都想把自己的商品打造成爆款，但是打造爆款需要哪些技巧呢？看看下面的几点是否对您有所帮助。<br />
+<img alt="" src="/uploads/allimg/151218/1-15121Q01635c0.jpg" style="width: 419px; height: 275px;" /><br />
+1、促销活动<br />
+<br />
+　　有朋友可能会说，我促销了一个月都没有人买。很多新手卖家就想着说促销就是自己在店里搞活动。这你就大错特错了。 你在超市里看到的别人在搞促销都是怎么搞的?<br />
+<br />
+2、吆喝<br />
+<br />
+　　网店也要吆喝。网店怎么吆喝? <a href="http://www.qynet.cc/">天津阿里巴巴诚信通渠道运营商</a>告诉大家，就是去到任何一个你可以打广告的地方，尽情地去吆喝。好的地方大声点，不好的地方小声一点，或者不喝!你的博客一天浏览量只有两个(可能都是自己点的)，你去那里长篇大论只是浪费口水。<br />
+<br />
+3、占位置<br />
+<br />
+　　有一些超市里的牌子，他们会在一些主过道等的好地方，显眼的地方放上自己的一大堆产品，然后在产品上面放上优惠价格或者说买就送什么。对网店来说，钻石展位就是可以帮你做得到这个效果。占着好的位置，放上你的优惠信息!别人那么大的一些牌子，还要用这些招数呢，我们这些小店小人物，当然就更应该占好位置，拿好大声公不停地喊!俗话都说了，声儿大的幼鸟才能吃上虫子!<br />
+<br />
+4、如何促销<br />
+<br />
+　&nbsp;&nbsp; 又有人要出来自作聪明了：&ldquo;我知道，不就打折么?&rdquo;好，行，可以。&ldquo;你打算卖几件?亏多少?&rdquo;<br />
+<br />
+　　&ldquo;呃，一件亏三十，亏十件吧。&rdquo;<br />
+<br />
+　　爆款还没有出来你可能就要关门大吉了哦~~只要你的产品好，你并不一定要亏本，只有一个原则，不要考虑自己的利润，这一个爆款不是用来赚钱的，是用来赚人气的。七算八算，九计十计，用上打折，包邮之类的政策(这两个是万世不变的吸引眼球的词)，另外加点小送礼，半买半送的那种，保持你自己不亏本的情况下，去做。这一步看似很简单，难的点是你如何把打折包邮等这些吸引人眼球的噱头都加上去之后，还能保持不亏钱。<br />
+<br />
+　　你可以拿一件新的产品，低价值高吸引的，比方说拿货价十来块钱的一样好东西。 可能你会跟我说你没有这样的一件产品，那如果你还没有找到这种东西就想开店，上帝也帮不了你。你现在没有，不等于你以后没有，就看你有没有从现在开始好好去找。然后标上价格，二十多块左右，半价秒杀。<br />
+<br />
+　　或者说标到二十块钱多一点，然后单件包邮。 还有就是看看秒杀的时候如果一件保持着三块钱左右的利润的话，然后再来一个&ldquo;三件包邮&rdquo;，这就对你的信誉提升更快了。网上的大店有着非常多的促销方法，这些方法每一个的活动成本都是趋于零的!你要成为一个专业的卖家，就要多点去看看一些好的大店是怎么做的，然后每看到一个方法脑子里就要马上联想到自己的店自己的产品，多尝试。总会找到一个合适的办法。(只要不亏本)<br />
+<br />
+5、权衡利弊<br />
+<br />
+　　不过爆款也可能会有弊端。拿我们上面说的那个&ldquo;半价秒杀&rdquo;来说吧，这里还有一个秘诀，大卖家们，他们一个链接里都不止放一件宝贝。一个链接里放多件产品，会造成什么麻烦呢?就是同一个买家在这个链接里面一次过买了几件，只能算一个好评。<br />
+<br />
+　　所以可能你这个链接三十天累计出售了三百件，但是你确实收到的好评大概是一百个左右。<br />
+<br />
+　　所以我们这个第三点叫权衡利弊。有很多卖家，特别是一些新手，觉得信誉就是一切。信誉是很重要，但是信誉是要靠技术慢慢积累起来了，你现在用这种方法积累起来的人气，等你人气高了，再厚积薄发地把信誉赶上去就可以了。这样总好过你一直都没有人气一直都做不高信誉不是?<br />
+<br />
+　　1.搞好你店里的促销活动,先不要考虑爆款的利润!<br />
+<br />
+　　2.快速地宣传出去.(一定要快!)<br />
+<br />
+　　3.摆好心态,一定要知道,现在不要利润是为了以后更大的利润! 占了39.1%的那一个就是我们的爆款了.之前的曾经达到接近50%.因为近我们开始打造更多的爆款,那这个的爆款的比例就下降了哦!<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.qynet.cc/">天津阿里巴巴诚信通官方渠道运营商企元时代</a>为大家总结的爆款经验就是这些，关键是大家要认清打造爆款的目的是什么，再就是有目的有针对性的去打造，讲究方法和策略，这样，你的爆款才能迅速的打造出来。</span> </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/news/gongsi/193.html'>企元专家支招：如何做好阿里店铺</a> </li>
+
+        <li>下一篇：<a href='/news/gongsi/208.html'>近假冒阿里小二骗子猖獗 商家要警惕</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

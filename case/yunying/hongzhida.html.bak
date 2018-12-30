@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>弘志达——天津企元时代运营优质案例</title>
+<meta name="keywords" content="美众福利制鞋厂,1688店铺运营案例,企元时代运营案例,阿里巴巴店铺运营案例" />
+<meta name="description" content="美众福利制鞋厂在经过半年多的优化推广下，店铺的买家数和支付金额都有了明显的提升，并且现在的成交买家有一般以上是老客户成交，交易勋章提升到2A，展现和访客都提升为之前的十几倍." />
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">弘志达—企元运营优质案例</div>
+<div class="content1"><span style="font-size:16px;"><strong>店铺名称：</strong>天津市弘志达仪器仪表商贸中心<br />
+&nbsp;<br />
+<strong>店铺类别：</strong>1688仪器仪表类店铺<br />
+&nbsp;<br />
+<strong>类&nbsp;&nbsp;&nbsp;&nbsp;目：</strong>仪器仪表<br />
+&nbsp;<br />
+<strong>所属公司：</strong>天津市弘志达仪器仪表商贸中心<br />
+&nbsp;<br />
+<strong>公司地址：</strong>天津市南开区密云路五金城二区22栋112号<br />
+&nbsp;<br />
+<strong>店铺介绍：</strong>天津市弘志达仪器仪表商贸中心坐落于中国华北大的五金交易城(天津新南马路五金城)，是一家仪器仪表、衡器、测绘仪器等产品的经销批发的私营独资企业。本公司从事仪器仪表测绘行业已近20年，与多家零售商和代理商建立了长期稳定的合作关系，产品品种齐全、价格合理，畅销市场。天津市弘志达仪器仪表商贸中心实力雄厚，重信用、守合同、保证产品质量，以多品种经营特色和薄利多销的原则，赢得了广大客户的信任。&nbsp;<br />
+&nbsp;<br />
+<strong>提升目标：</strong>半年内提升店铺交易额<br />
+&nbsp;<br />
+<strong>提升方式：</strong>将网店运营业务交由企元时代科技有限公司托管，老板自己接客服<br />
+&nbsp;<br />
+<strong>托管起始时间：</strong>2016年7月<br />
+&nbsp;<br />
+<strong>网店运营遇到的困难：</strong><br />&nbsp;<br />
+
+弘志达仪器仪表是1688的仪器仪表类店铺，公司经营者之前在杭州做运营，因监管和运营效果都不太理想：</span><br /><br />
+<ol>
+	<li value="NaN">
+		<span style="font-size:16px;">1. 公司属于传统五金行业，电商人才匮乏；</span></li>
+	<li value="NaN">
+		<span style="font-size:16px;">2. 聘用成本太高，性价比低；</span></li>
+	<li value="NaN">
+		<span style="font-size:16px;">3. 将店铺交给杭州方面代运营，不能很好的监管；</span></li>
+	<li value="NaN">
+		<span style="font-size:16px;">4. 在杭州代运营期间，店铺长期刷单，交易额一直提不上去；</span></li>
+	<li value="NaN">
+		<span style="font-size:16px;">5. 店铺回头率低，导致很多活动不能报名；</span></li>
+		<li value="NaN">
+		<span style="font-size:16px;">6. 店铺老客户较少，推广吸引新客户比较困难；</span></li>
+</ol>
+<span style="font-size:16px;">&nbsp;</span>
+<div style="text-align: center;">
+	<span style="font-size:20px;font-weight:bold;">店铺接收前后数据对比</span><br />&nbsp;<br />
+	<span style="font-size:16px;">2016年6月数据</span></div>
+<span style="font-size:16px;"><img alt="" src="/uploads/case/161129/1.png" /></span>
+
+<div style="text-align: center;">
+	<span style="font-size:16px;">全店展现41124，访客1080，交易金额14134元<br /><br />&nbsp;<br />
+	&nbsp;2016年10月数据</span></div>
+<span style="font-size:16px;"><img alt="" src="/uploads/case/161129/2.png"  /></span>
+<div style="text-align: center;">
+	<span style="font-size:16px;">全店展现32484，访客1039，交易金额72209元<br />&nbsp;<br />
+	店铺活跃单品</span></div>
+<span style="font-size:16px;"><img alt="" src="/uploads/case/161129/3.png"  /></span>
+
+
+<div style="text-align: center;">
+<span style="font-size:16px;">&nbsp;店铺流量分布</span>
+<span style="font-size:16px;"><img alt="" src="/uploads/case/161129/4.png"  /></span><br />
+
+<span style="font-size:16px;">&nbsp;支付数据</span>
+<span style="font-size:16px;"><img alt="" src="/uploads/case/161129/5.png"  /></span><br />
+
+<span style="font-size:16px;">&nbsp;深度访问占比（73.36%）</span>
+<span style="font-size:16px;"><img alt="" src="/uploads/case/161129/6.png"  /></span><br />
+
+<span style="font-size:16px;">&nbsp;BSR评分</span>
+<span style="font-size:16px;"><img alt="" src="/uploads/case/161129/7.png"  /></span><br />
+
+<span style="font-size:16px;">&nbsp;产品排名情况</span>
+<span style="font-size:16px;"><img alt="" src="/uploads/case/161129/8.png"  /></span><br />
+<span style="font-size:16px;"><img alt="" src="/uploads/case/161129/9.png"  /></span><br />
+
+</div>
+
+<span style="font-size:16px;">
+<strong>数据总结：</strong>从数据上看，店铺交给企元时代科技有限公司托管运营后，店铺第四个月交易金额上升明显，从1万4升到7万，在买家数变化不大的前提下，客单价从1000元左右上升的4800元，这和企元时代注重细节，深耕行业市场有着密不可分的关联。爆款打造成功，成功利用主推款引流，维护每一位客户，争取让进店的每一位顾客都能看到我们产品的优势，深度流量产品详情，强化顾客购买需求。
+
+<br />&nbsp;<br />
+由于之前在杭州时客户回头率较低（3%左右），运营初期遇到一些困难，没有老客户回购，只能重新推广吸引新客户，投入的时间精力都比较大，通过前期有规划的吸引，成功培养了一批老客户，店铺回头率回到正轨（15%）<br />
+<br />
+总结店铺出现变化的原因，大概有这几点<br />
+<br />
+1.对店铺进行市场分析，找到标杆对手。<br />
+2.对店铺进行定位，选出主推款，锁定用户群。<br />
+3.后台完善的数据支付，在不做付费推广的前提下，通过数据分析，提高产品排名。<br />
+4.强大的运营团队，在店铺运营上有详细的规划，前期引流，中期维护，后期的转化，我们都有计划。<br />
+5.客户的配合，在与弘志达负责人周姐的接触中，得到了周姐大力支持，每次有对产品不懂的地方，都能及时得到解答。<br />
+<br />
+经过4个月的运营，店铺交易等级上升到3A，线下也成交了几笔生意，这给店铺老板带来了极大的信心，认为互联网能够带来生意，前几天周姐也是询问我，开天猫的该怎么做。通过企元时代科技有限公司的托管运营业务，使得弘志达仪器仪表商贸中心对电商带来的机遇有了更大的认识，并详细讨论、规划出了一条电商发展之路，日后，不管是1688店铺还是淘宝店铺，都将并入的弘志达公司的发展计划中。<br />
+</span> </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/case/yunying/276.html'>天津保祥康</a> </li>
+
+        <li>下一篇：<a href='/case/yunying/161118.html'>天津康益健</a>  </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

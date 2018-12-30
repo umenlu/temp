@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>阿里巴巴庞然之忧:阿里股价已连续下跌10个月_企元</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">阿里巴巴庞然之忧:阿里股价已连续下跌10个月</div>
+<div class="content1"><p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一年前，在布满橙色LOGO的美国纽交所，马云迎来了人生中极为闪耀的时刻。<a href="http://www.qynet.cc/">阿里巴巴</a>集团（代码BABA，下称&ldquo;阿里&rdquo;）250亿美元的IPO，打破了这里的历史记录。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 伴随着那句&ldquo;梦想还是要有的，万一实现了呢&rdquo;，马云被热烈的掌声包围，他成了全世界耀眼的创业明星，也成为了中国新一代企业家的代表，人们称他为&ldquo;中国梦的追梦人&rdquo;。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;现在，阿里上市几近一周年时，赞美之声犹在耳畔，但这位超级明星不得不面临这样的尴尬&mdash;阿里股价已连续下跌10个月。</span></p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在过去10个月内，阿里市值缩水1407亿美元，至1530亿美元，这是自阿里巴巴于2014年9月上市以来，市值首次低于腾讯。</span></p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在2015年6月9日的美国纽约经济俱乐部午餐会上，当被问及阿里上市的问题时，马云直言不讳：&ldquo;如果我有下辈子，我会让我的公司保持私有化。&rdquo;</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IPO就像一把双刃剑，马云的荣光和枷锁都被置于放大镜中。现在，一些投资者对阿里前景发展的乐观正被对整体经济增长放缓的担忧所取代，人们甚至开始拷问阿里是否已见顶、阿里及其股票是否还能配得上当前市值。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2015年9月14日，阿里反驳外界对其股价下跌称，外界对于阿里股价的质疑主要基于不实的数据，缺乏诚信、专业和公平竞争的态度。</span></p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 作为阿里的掌舵者，马云不断编织一张巨网以提高这家上市公司的利润和价值&mdash;以支付宝为介质在O2O领域大举圈地，通过与巨头公司甚至与地方政府不断结盟来垒高&ldquo;护城河&rdquo;，通过投资机器人与智能时代接壤&hellip;&hellip;</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 无论上市前还是上市后，马云一直不忘打造百年阿里的，只是现在他所托负的，早已不是16年前的阿里。深耕于中国经济土壤，触角已伸向全球的阿里，已经变得无比庞大。巨人之舞，些许磕绊或带来致命影响。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 今年7月7日，马云在联想控股上市庆功宴上发表致辞，对&ldquo;功成名就&rdquo;的柳传志表达了无限敬佩与羡慕。&ldquo;等我有幸也能有这么一天，柳总也得来一趟。&rdquo;他说。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">上市一年：打假、结盟和扩张</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;自去年9月在纽交所完成创纪录IPO以来，马云和他的阿里收获了强大高效的融资渠道和红遍全球的知名度，但也备受网货售假、股价下挫、净利下滑的指责。</span></p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 上市一年里，阿里股价高曾达到120美元，这是在2014年&ldquo;双11&rdquo;后第三天，这个价格几近发行价68美元的两倍，但此后却一路下滑，今年8月24日甚至跌至58美元的低点。</span></p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 眼下，除了劝告投资者&ldquo;忘掉股价&rdquo;、回购价值40亿美元股票以鼓士气，在全球股灾和中国经济下滑的大势下，马云似乎很难驱走灰霾。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在过去一年里，马云和阿里主要做了三件事情：打假、结盟和扩张。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 假货一直是困扰阿里的一大难题，随着国家工商总局对淘宝的施压，京东、聚美优品等电商平台的日渐崛起，马云净化自家网购平台的压力也变得越来越大，他也亟须打消投资者的疑虑，但治本之策仍在寻觅之中。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &quot;阿里和莆田政府有过深入的沟通，他们期望阿里能给那里的产业、企业寻找出路。&rdquo;邵晓峰在此前接受时代周报记者采访时认为，&ldquo;如果这些问题不解决，光说哪些地方有假货，哪些地方要打（假），狠狠打，那还是治标不治本的。&rdquo;</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 过去两年，阿里投入了10亿元打假，自上市后，马云的&ldquo;神盾局&rdquo;也在探索打假新战略，目前以福建莆田作为首个试点，准备和地方政府一起帮扶当地制假产业升级迭代，争取把那些喜欢仿制大品牌的生产者转变为自有品牌生产商。在流量通道和品牌宣传等方面，这批生产商将获得阿里给出的政策倾斜。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 除了打假，为了破除外界对阿里网购平台的坏印象，马云和他的电商团队还不断补充着平台的优质货源，和100多个品牌签约，拉来美国、英国、德国、日本的巨头连锁超市、中国的苏宁甚至美国电商巨头亚马逊在天猫国际开旗舰店，上线了天猫韩国馆等。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 马云敏锐地抓住了经济增长和股市热火的时机将阿里推上市，当中国乃至全球经济步入低迷时，马云不至于陷入太过被动的地位。而在百货商店关店潮起的背景下，这批知名的巨头零售商甚至也希望借力马云，通过打造线上线下组合销售来消除部分危机感。对马云来说，这种结盟除了可以稳固自己的电商地位，也可轻松地让支付宝与庞大的线上线下客户往来，结盟海外商家还对自己发展跨境电商和向海外扩张是种助力。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 早在阿里上市前，马云就表达过大力拓展海外市场的心声。这一年来，马云在全球股价低迷的时候，招募来了熟悉全球市场的前高盛主席Michael Evans出任总裁，早些时候还任命了前通用电气高管Eric Pelletier出任副总裁兼国际政府事务部负责人。阿里旗下的速卖通在上市前已成了俄罗斯的头号购物网站，今年马云又分别投资了两家美国电商和零售商、两家印度电商和支付公司，并且还追投了新加坡邮政。马云甚至在中国投了一家翻译公司，期望帮助海内外中小企业者破除语言障碍，正如他自己受益于掌握了一口流利的、全球通行的英语。但在全球经济疲软、关税政策尚未完全放开、亚马逊中国与上海自贸区达成合作备忘等背景下，马云打的&ldquo;全球卖、全球买&rdquo;算盘似乎尚难如意。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 自阿里上市后，马云把更多精力花在了合纵连横上，依靠强大的现金流和流量资源，不断在O2O领域、农村电商、跨境电商圈地以扩大规模。</span></p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 蚂蚁聚宝蚂蚁产品经理刘乐君此前接受时代周报记者采访时表示，&ldquo;在竞争激烈的（互联网理财）市场，因为竞争对手太多，很难用一款产品打所有的点，这时，我们就通过产品组合的方式应对这样的竞争&rdquo; 。</span><br />
+	&nbsp;</p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在阿里集团内部，马云把在线医药业务整合至阿里健康，推出旅行平台去啊，成立阿里体育集团、音乐集团和汽车事业部，企图渗透进更多的产业链里以稳固自己的城市电商帝国。马云还在对手京东总裁刘强东擅长的物流领域加快了布局，投资了圆通，在西南和华东开通超市配送中心，推出当日达、三小时达服务。</span></p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 这一年，马云终于圆了23年的银行梦。他一边向大众倒着创业之初借贷难的苦水，一边拉着巨人集团董事长史玉柱、复兴集团董事长郭广昌、银泰集团董事长沈国军等江浙富商成立网商银行。他还将具想象力的业务板块蚂蚁金服独立了出来，以让这家互联网金融公司不再像阿里那样受到外资介入、控制权纷争的干扰。</span></p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo;阿里巴巴和阿里金融，未来本质上都是一个数据公司。&rdquo;在时代周报记者此前的采访中，马云希望建立一个囊括所有与消费相关的数据平台，再以这个平台为中心建立数据交易中心。</span></p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo;余额宝是针对草根群体碎片化的理财需求；阿里小贷则为满足小微企业快速便捷的融资需求；而天猫分期的目的在于降低消费门槛，迎合消费需求；所以一直以来，我们都是点对点地提供服务，而通过网商银行，我们希望为互联网商业提供完整的、系统化的服务方案。&rdquo;小微金服（蚂蚁金融前身）品牌与公众沟通部公关专家葛瑞超对时代周报记者说。</span></p>
+<p>
+	<span style="font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 易观国际分析师王小星对时代周报记者分析，阿里在金融领域的大手笔布局，一方面是为了补足产业链的不足处，另外也是基于一种金融大战略。&ldquo;但限制在于，阿里成立的蚂金服和网商银行，都不是传统的金融机构，这会导致它的业务受限。&rdquo;王小星道出了马云眼下的些许无奈。</span></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+ </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/news/info/8.html'>阿里刘辉：对“互联网＋”理念的深入思考</a> </li>
+
+        <li>下一篇：<a href='/news/info/19.html'>阿里携手丽江政府 共同打造无现金旅游城市</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

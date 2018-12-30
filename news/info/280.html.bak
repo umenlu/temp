@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>阿里云发布全球首个一站式大数据平台_企元</title>
+<meta name="location" content="province=天津;city=天津">
+<link rel="stylesheet" href="/templets/default/style/html5.css">
+<link rel="stylesheet" href="/templets/default/style/index.css">
+<link rel="stylesheet" href="/templets/default/style/Services.css">
+<script type="text/javascript" src="/templets/default/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/templets/default/js/nav.js"></script>
+<script>
+$(function(){		
+	//设计案例切换
+	$('.title-list li').mouseenter(function(){
+		var liindex = $('.title-list li').index(this);
+		//$(this).addClass('on').siblings().removeClass('on');
+		$('.product-wrap div.product').eq(liindex).fadeIn(116).siblings('div.product').hide();
+		var liWidth = $('.title-list li').width();
+		$('.lanrenzhijia .title-list p').stop(false,true).animate({'left' : liindex * liWidth + 'px'},400);
+	});
+	});
+</script>
+</head>
+<body>
+
+<!--导航-->
+<nav id="box" class="box">
+<div class="mohu">
+</div>
+<div class="nav_box1">	
+	<ul>
+    	<li onclick="window.location.href=''" class="logo" style=" width:170px;"><input type="image" src="/images/o.png" alt="天津阿里巴巴企元时代" title="天津阿里巴巴企元时代"/></li>
+		<li>
+			<img onclick="window.location.href=''" src="/images/01.jpg"/>
+			<a href="/">首页<br /><span>Home</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/about/'"  src="/images/02.jpg"/>
+			<a href="/about/">关于我们<br /><span>About Us</span></a>
+			<span class="bg"></span>
+		</li>
+		
+        <li>
+			<img onclick="window.location.href='/services/'"  src="/images/04.jpg"/>
+			<a href="/services/">服务项目<br /><span>Service Items</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/case/'"  src="/images/05.jpg"/>
+			<a href="/case/">成功案例<br /><span>Successful Case</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/news/'"  src="/images/03.jpg"/>
+			<a href="/news/">新闻中心<br /><span>News Center</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/muban/'"  src="/images/06.jpg"/>
+			<a href="/muban/">模板库<br /><span>Template library</span></a>
+			<span class="bg"></span>
+		</li>
+        <li>
+			<img onclick="window.location.href='/zhaopin/'"  src="/images/07.jpg" />
+			<a href="/zhaopin/">招贤纳士<br /><span>Recruitment</span></a>
+			<span class="bg"></span>
+		</li>
+		<li>
+			<img onclick="window.location.href='/contact/'"  src="/images/08.jpg"/>
+			<a href="/contact/">联系我们<br /><span>Contact us</span></a>
+			<span class="bg"></span>
+		</li>
+
+	</ul>
+</div>
+</nav>
+<!-- QQ客服 -->
+<div class="c"></div>
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　销前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售前客服</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=2598168557&Site=sc.chinaz.com&Menu=yes"><img src="http://www.qynet.cc/images/qq.png" align="absmiddle">　售后客服</a></li>
+    </ul>
+    <div class="floatDtxt">咨询电话</div>
+    <div class="floatDtel"><img src="http://www.qynet.cc/images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="http://www.qynet.cc/images/qiyuan.jpg" width="100%">关注微信</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script>
+$(function(){
+	var flag=0;
+	$('#rightArrow').click(function(){
+		if(flag==1){
+			$("#floatDivBoxs").animate({right: '0'},300);
+			$(this).animate({right: '170px'},300);
+			$(this).css('background-position','0px 0');
+			flag=0;
+		}else{
+			$("#floatDivBoxs").animate({right: '-175px'},300);
+			$(this).animate({right: '-5px'},300);
+			$(this).css('background-position','-50px 0');
+			flag=1;
+		}
+	});
+});
+</script>
+<!-- QQ客服end --> 
+<!--轮播-->
+<a href="#"><img style=" width:100%;" src="/images/gy.jpg"/></a>
+
+<div class="wenzhang1">
+<div class="title1">阿里云发布全球首个一站式大数据平台</div>
+<div class="content1"><span style="font-size:16px;">&nbsp; &nbsp; &nbsp;&nbsp; &ldquo;这是一个人人都在谈大数据的时代，但只有极少数人在用大数据。&rdquo;阿里云大数据事业部资深总监徐常亮说，2016年才是真正意义上的大数据元年。<br />
+<img alt="" src="/uploads/allimg/160120/1-160120134320N2.jpg" style="width: 600px; height: 409px;" /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1月20日，阿里云在2016云栖大会上海峰会上宣布开放<a href="http://www.qynet.cc/">阿里巴巴</a>十年的大数据能力，发布全球首个一站式大数据平台&ldquo;数加&rdquo;，首批亮相20款产品。这一平台承载了阿里云&ldquo;普惠大数据&rdquo;的理想，即让全球任何一个企业、个人都能用上大数据。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在输出自身大数据能力的同时，&ldquo;数加&rdquo;还向有数据开发能力的团队开放。这些团队可入驻&ldquo;数加&rdquo;，借助数加上的工具为各行各业提供数据服务。&ldquo;这就像在淘宝开店一样，只是他们售卖的是专业能力。&rdquo;徐常亮表示，阿里云计划用3年时间吸引1000家合作伙伴入驻，共同分享1万亿的大数据蛋糕。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 据IDC出版的数字世界研究报告显示，2013年人类产生、复制和消费的数据量达到4.4ZB。而到2020年，数据量将增长10倍，达到44ZB。大数据已经成为当下人类宝贵的财富。但全球真正享受大数据红利的公司不足千分之一，人类已挖掘的数据财富更是不到百万分之一。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在过去的5年里，全球大数据计算性能实现了超过20倍的增长，100TB数据排序时间由8274秒缩短到377秒。&ldquo;束缚大数据的技术瓶颈已经被完全打破，数据将从企业的成本中心转变为价值中心，2016年我们将迎来大数据应用的全面落地。&rdquo;徐常亮说，通过数加平台，我们希望所有企业都能像阿里巴巴一样更高效的使用大数据。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 借助大数据技术，阿里巴巴取得了巨大的商业成功。通过对电子商务平台上的客户行为进行分析，诞生了蚂蚁小贷、花呗、借呗；菜鸟网络通过电子面单、物流云、菜鸟天地等数据产品，为快递行业的升级提供技术方法。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在这些创新中，&ldquo;数加&rdquo;承载了阿里巴巴EB级别的数据加工计算，经历了上万名工程师的实战检验。大麦网是阿里云&ldquo;数加&rdquo;平台的尝鲜者。通过采用&ldquo;数加&rdquo;的推荐引擎，大麦网的研发成本从900人天降低到了30人天，效率提升了30倍。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 行业的健康发展，自律很重要。徐常亮强调，数据是客户的宝贵资产，任何云计算平台都不能移作它用。阿里云将严格遵守去年7月份发起的《数据保护倡议书》，也希望全行业能够自律，共同迎接大数据产业的爆发。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 此次，&ldquo;数加&rdquo;平台首批集中发布了20款产品，覆盖数据采集、计算引擎、数据加工、数据分析、机器学习、数据应用等数据生产全链条。&ldquo;这些技术至少领先业界三年&rdquo;，徐常亮说。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 大数据计算服务(MaxCompute)、分析型数据库（Analytic DB）、流计算（StreamCompute）共同组成了底层强大的计算引擎，速度更快，成本更低。经测算，自建Hadoop集群的成本是数加的1.5倍，国外计算厂商AWS 的EMR成本更是数加的5倍。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 计算引擎之上，&ldquo;数加&rdquo;提供了丰富的云端数据开发套件，包括数据集成、数据开发、调度系统、数据管理、运维视屏、数据质量、任务监控。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在数据分析方面，通过移动数据分析（Mobile Analytics）产品，开发者可快速搭建日志采集、分析系统；通过数加BI报表产品，3分钟即可完成海量数据的分析报告；通过数据可视化产品DataV，一星期就能做出双11同款大屏。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 同时，<a href="http://www.qynet.cc/">阿里巴巴</a>基于DataV，数加还发布了面向政府的行业应用产品&ldquo;郡县图治&rdquo;。通过这款产品，县长可以在一个屏幕下统览全县各项经济民生数据，为政府决策提供辅助。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 对于时下大热的机器学习，数加更是提供了全面支持。&ldquo;数加&rdquo;发布的机器学习工具，可基于海量数据实现对用户行为、行业走势、天气、交通等的预测。图形化编程让用户无需编码、只需用鼠标拖拽标准化组件即可完成开发。产品还集成了阿里巴巴核心算法库，包括特征工程、大规模机器学习、深度学习等。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 为了能够帮助开发者更快捷在应用中集成大数据功能，&ldquo;数加&rdquo;同时提供了规则引擎、推荐引擎、文字识别、智能语音交互等数据应用产品。 </span> </div>
+<div class="context1">
+ <ul>
+
+        <li>上一篇：<a href='/news/info/279.html'>虾米音乐创始人王皓加盟阿里钉钉</a> </li>
+
+        <li>下一篇：<a href='/news/info/281.html'>阿里未来3年为大数据平台招募1千名开发人员</a> </li>
+
+      </ul>
+
+    </div>
+</div>
+
+
+
+<!--返回顶部-->
+	<script type="text/javascript" src="/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+<!--外调底部-->
+<div class="clear"></div>
+<div class="footer">
+	<div class="footertop">
+    	<div class="footertopbox">
+            <div class="footertopbox_1">
+				<dl>
+                	<dd>关于企元</dd>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">公司介绍</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业文化</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">企业荣誉</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">发展历程</a></dt>
+                    
+                </dl>
+                
+                <dl>
+                	<dd>新闻中心</dd>
+                    <dt><a href="http://www.qynet.cc/news/info/" target="_blank">行业资讯</a></dt>
+                    <dt><a href="http://www.qynet.cc/news/gongsi/" target="_blank">公司动态</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>服务项目</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">诚信通</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">蚂蚁微贷</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">装修服务</a></dt>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">运营服务</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>成功案例</dd>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">装修案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/case/" target="_blank">运营案例</a></dt>
+                    <dt><a href="http://www.qynet.cc/muban/" target="_blank">模板库</a></dt>
+                </dl>
+                
+                <dl>
+                	<dd>其他服务</dd>
+                    <dt><a href="http://www.qynet.cc/services/" target="_blank">津橙商学院</a></dt>
+                    <dt><a href="http://www.qynet.cc/zhaopin/" target="_blank">招贤纳士</a></dt>
+                    <dt><a href="http://www.qynet.cc/about/" target="_blank">团队风采</a></dt>
+                    <dt><a href="http://www.qynet.cc/contact/" target="_blank">联系我们</a></dt>
+                </dl>
+            </div>
+            <div class="footertopbox_2">
+            	<img src="/images/qiyuan.jpg"/>
+                <p>微信扫一扫<br/>惊喜一扫而出</p>
+            </div>
+            <div class="footertopbox_3">
+            	<div>
+                	<img src="/images/j (1).png"/>
+                    <img src="/images/j (2).png"/>
+                    <img src="/images/j (3).png"/>
+                    <img src="/images/j (4).png"/>
+                </div>
+                <p>电话：022-58915999&nbsp;&nbsp;传真：022-58915998<br/>地址：天津市河东区津滨大道36号万达写字楼B座19层</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+    	<ul>
+        	<li>友情链接：</li>
+            <li><a href="http://www.cht360.com/" target="_blank">创天网络</a></li>
+            <li><a href="http://www.ateg365.com/" target="_blank">爱特易购</a></li>
+            <li><a href="http://www.1688.com/" target="_blank">阿里巴巴</a></li>
+        </ul>
+    </div>
+</div>
+
+	<script type="text/javascript" src="http://www.qynet.cc/templets/default/js/fanhuidingbu.js"></script>
+<!--返回顶部完-->
+
+</body>
+</html>

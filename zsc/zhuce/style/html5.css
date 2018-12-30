@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* common */
+html, body{max-width:1000px; width:100%; background: url(../images/bj.jpg) #f9e6e7; background-size:100%; background-repeat:no-repeat;-webkit-tap-highlight-color:rgba(0,0,0,0); margin-bottom:0.8em;
+}
+*{
+	
+	margin:0 auto; padding:0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	font-family:"Microsoft Yahei","Heiti SC","Arial","STHeiti";
+}
+dl, dt, dd, ul, ol, li, h1{
+	list-style:none;
+}
+img{
+	border:0;
+	vertical-align:middle;
+	max-width:100%;
+	height: auto;
+	display:block;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+a{
+	text-decoration:none;
+	cursor:pointer;
+	outline:none;
+}
+a:hover{
+	text-decoration:none;
+}
+a:active{
+	outline:none;
+	star:expression(this.onFocus=this.blur());
+}
+*:focus{
+	outline:none;
+}
+.zoom{
+	overflow:hidden;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+/* 适应窗口大小 */
+@media screen and (max-width: 374px) {
+	*{
+		font-size: 16px;
+		line-height: 16px;
+		
+	}
+}
+@media (min-width:375px) and (max-width: 413px) {
+	*{
+		font-size: 18px;
+		line-height: 18px;
+		
+	}
+}
+@media (min-width:414px) and (max-width: 479px) {
+	*{
+		font-size: 20px;
+		line-height: 20px;
+		
+		
+	}
+}
+@media (min-width:480px) and (max-width:639px){
+	*{
+		font-size: 24px;
+		line-height: 24px;
+		
+	}
+	
+}
+@media (min-width:640px) and (max-width:750px){
+	*{
+		font-size: 32px;
+		line-height: 32px;
+		
+	}
+}
+@media (min-width:750px) and (max-width:1000px){
+	*{
+		font-size: 36px;
+		line-height: 36px;
+		
+	}
+}
+/*section{  宽度百分之百！但最大宽度不超过1200
+	max-width:1200px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}*/

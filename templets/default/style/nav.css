@@ -1,0 +1,17 @@
+/*nav*/
+.logo input{ display:block; margin-top:25px; width:80%;}
+#box a { text-decoration: none; }
+#box ul { width: 1200px; height:100px;}
+#box li { width: 128px; height:100px; float: left; position: relative; }
+#box img { position: absolute; left: 53%; bottom: 0px; z-index: 3; width: 0; margin-left: 0; cursor:pointer;}
+#box li a { margin-top:20px; width: 124px; height:100px; padding-top:12px; text-align: center; font-size: 16px;color: #000; line-height: 24px; position: absolute;left: 4px; z-index: 2; }
+#box li a span { color: #000;  font-size: 14px; }
+#box .bg { width:124px; height: 0px; background: #fff; position: absolute; left: 4px; top:100px; z-index: 1; overflow:hidden; border-bottom:5px #ea5a01 solid;filter:Alpha(Opacity=92);opacity:0.92;-moz-opacity:0.92; }
+#box h1 { position: absolute; bottom: 0; left: 0; }
+#box h1 a { display: block; width: 160px; height:100px; background: url(images/footer.gif) no-repeat; }
+#box h1 a:hover { background: url(images/footer.gif) no-repeat 0 -57px; }
+#box h1 span { display: none; }
+.nav_box1{ width:100%;}
+.box{ width:100%; height:100px; position:absolute;z-index:2;}
+.float{ position:fixed; z-index:999999; top:0px;}
+.mohu{ width:100%; height:100px;position:absolute; background-color:#FFF;filter:Alpha(Opacity=92);opacity:0.92;-moz-opacity:0.92;}
